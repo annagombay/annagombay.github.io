@@ -1,4 +1,5 @@
 body {
+body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: flex;
@@ -45,8 +46,8 @@ h2 {
   }
 
   .navigation {
-    font-family: 'Beth Ellen', cursive;
-    font-size: 2.5vw;
+    font-family: 'Balthazar', serif;
+    font-size: 4.5vw;
     color: white;
 
   }
