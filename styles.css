@@ -1,4 +1,3 @@
-
 body {
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,10 +45,9 @@ h2 {
   }
 
   .navigation {
-    font-family: 'Balthazar', serif;
-    font-size: 4.5vw;
+    font-family: 'Beth Ellen', serif;
+    font-size: 3vw;
     color: white;
-
   }
 
 .problem {
@@ -69,17 +67,19 @@ h2 {
 }
 
 .paragraph {
-    font-family: 'Beth Ellen', cursive;
-    color: rgba(255,255,255,.7);
-    font-size: 1.7vw;
+    /* font-family: 'Beth Ellen', cursive; */
+    /* font-family: 'Vollkorn', serif; */
+    font-family: 'Muli', sans-serif;
+    color: rgba(255,255,255,1);
+    font-size: 1.5vw;
     padding: 5vw;
     max-width: 35vw;
 }
 
 .bigQuestion {
-    font-family: 'Beth Ellen', cursive;
+    font-family: 'Muli', sans-serif;
     font-size: 2.5vw;
-    color: white;
+    color: black;
 
 }
 
@@ -88,4 +88,25 @@ h2 {
     color: rgba(255,255,255,.7);
     font-size: 1.7vw;
     max-width: 35vw;
+}
+
+.littleBox {
+    height: 20vw;
+    width: 20vw;
+    border: .3vw solid white;
+    position: absolute;
+    z-index: 3;
+    border-radius: 1vw;
+}
+
+.littlePoints {
+    font-family: 'Muli', sans-serif;
+    color: rgba(255,255,255,1);
+    font-size: 1.8vw;
+    text-align: left;
+    padding: .1vw;
+    margin-left: 2vw
+    /* padding: 5vw; */
+    /* max-width: 35vw; */
+
 }
