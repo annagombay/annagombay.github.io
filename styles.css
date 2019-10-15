@@ -105,8 +105,16 @@ h2 {
     font-size: 1.8vw;
     text-align: left;
     padding: .1vw;
-    margin-left: 2vw
+    margin-left: 1vw
     /* padding: 5vw; */
     /* max-width: 35vw; */
+
+}
+
+.empathyMap {
+    font-family: 'Muli', sans-serif;
+    color: rgba(255,255,255,1);
+    font-size: 2vw;
+
 
 }
