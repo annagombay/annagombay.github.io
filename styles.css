@@ -1,9 +1,10 @@
+
 body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: flex;
     background-color: black;
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 
 img {
@@ -103,10 +104,10 @@ h2 {
 .littlePoints {
     font-family: 'Muli', sans-serif;
     color: rgba(255,255,255,1);
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     text-align: left;
-    padding: .1vw;
-    margin-left: 1vw
+    padding: .5 vw;
+    margin-left: 1vw;
     /* padding: 5vw; */
     /* max-width: 35vw; */
 
@@ -117,5 +118,13 @@ h2 {
     color: rgba(255,255,255,1);
     font-size: 2vw;
 
+
+}
+
+#noEmoji {
+ 
+        content: '\25B8';
+        display: inline;
+        text-decoration: none;
 
 }
