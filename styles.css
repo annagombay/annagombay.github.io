@@ -464,7 +464,7 @@ h2 {
 }
 
 .projectInfo {
-  height: 25vw; 
+  height: 26vw; 
   width: 70%;
   background-color: #10ac84;
   box-shadow: 0 5px 15px -5px #00000070;
@@ -536,4 +536,32 @@ h2 {
 
 
 
+}
+
+.shadowCircle {
+  height: 12vw; 
+  width: 12vw; 
+  background-color: white; 
+  margin-top: -12vw; 
+  margin-bottom: 1vw; 
+  border-radius: 50%; 
+  opacity: 20%;
+  margin-left: -1vw;
+
+}
+
+.circleIcons {
+  font-size: 6vw;
+  color: white;
+  margin-top: -13vw;
+  margin-left: 1vw;
+
+}
+
+.fixBox {
+  height: 20vw;
+  width: 47%;
+  position: absolute;
+  margin-left: 21vw;
+  margin-top: -4vw;
 }
