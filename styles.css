@@ -1,11 +1,14 @@
+/* 
+
 
 body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: flex;
     background-color: black;
-    -webkit-text-size-adjust: 100%
-}
+    -webkit-text-size-adjust: 100%;
+    
+} */
 
 img {
     display: flex;
@@ -25,7 +28,7 @@ h2 {
 }
 
 .neon {
-    color: #fff;
+    color: #f1f1f1;
     text-align: center;
     font-family: 'Beth Ellen', cursive;
     letter-spacing: 2px;
@@ -64,26 +67,43 @@ h2 {
     0 0 34px rgba(255, 255, 255, 0.78),
     0 0 54px rgba(255, 255, 255, 0.92);
     display: flex;
-    padding-left: 5vw;
-    padding-top: 2vw;
+    font-weight: 100;
+    z-index: 4;
+    margin-top: 2vw;
 }
 
 .paragraph {
     /* font-family: 'Beth Ellen', cursive; */
     /* font-family: 'Vollkorn', serif; */
-    font-family: 'Muli', sans-serif;
-    color: rgba(255,255,255,1);
+    font-family: 'Arapey', serif;
+
+    /* font-family: 'Muli', sans-serif; */
+    color: black;
     font-size: 1.5vw;
     padding: 5vw;
     max-width: 35vw;
 }
 
+.paragraphIntro {
+    font-family: 'Muli', sans-serif;
+    color: black;
+    font-size: 1.5vw;
+    margin-top: 3vw;
+  
+}
+
+
+
 .bigQuestion {
     font-family: 'Muli', sans-serif;
     font-size: 2.5vw;
-    color: black;
-
+    color: white;
+    padding: 2vw;
+    text-align: center;
+    
 }
+
+
 
 .lists {
     font-family: 'Beth Ellen', cursive;
@@ -92,17 +112,12 @@ h2 {
     max-width: 35vw;
 }
 
-.littleBox {
-    height: 20vw;
-    width: 20vw;
-    border: .3vw solid white;
-    position: absolute;
-    z-index: 3;
-    border-radius: 1vw;
-}
+
 
 .littlePoints {
-    font-family: 'Muli', sans-serif;
+    /* font-family: 'Muli', sans-serif; */
+    font-family: 'Arapey', serif;
+
     color: rgba(255,255,255,1);
     font-size: 1.6vw;
     text-align: left;
@@ -126,5 +141,399 @@ h2 {
         content: '\25B8';
         display: inline;
         text-decoration: none;
+
+}
+
+.card {
+    height: 50vw;
+    width: 41.3vw; 
+    box-shadow: 0 .33vw .66vw 0 rgba(255,255,255,.5);
+    transition: 0.3s; 
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 .66vw 1.33vw 0 rgba(255,255,255,0.5);
+  }
+
+  .container {
+    padding: .17vw 1.33vw;
+  }
+
+  .projectOverview {
+      background-color: rgba(96,189,233, 1);
+      background-color: rgba(255,255,255, .5);
+      height: 8vw;
+      width: 100%;
+      border: none;
+     font-family: 'Muli', serif;
+      color: white;
+      font-size: 4vw;
+]      
+  }
+
+
+
+  .theProblem {
+    background-color: #D4CE42;
+    background-color: rgba(255,255,255, .5);
+
+    height: 8vw;
+    width: 100%;
+    border: none;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-size: 4vw;
+
+  }
+
+  .theInspiration {
+    background-color: rgba(203,70,91,1);
+    background-color: rgba(255,255,255, .5);
+
+    height: 8vw;
+    width: 100%;
+    border: none;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-size: 4vw;
+
+  }
+
+  .theIdeation {
+    background-color: rgba(232,222,231, 1);
+    background-color: rgba(255,255,255, .5);
+
+    height: 8vw;
+    width: 100%;
+    border: none;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-size: 4vw;
+
+  }
+
+ .theProduct {
+    background-color: rgba(255, 255, 255, .5);
+    height: 8vw;
+    width: 100%;
+    border: none;
+    font-family: 'Muli', sans-serif;
+    color: black;
+    font-size: 4vw;
+
+   
+  }
+
+
+
+  .littlerCard {
+    width: 14vw;
+    height: 14vw;
+
+    /* background-color:gba(96,189,233, .5); */
+    /* border-radius: .5vw; */
+    margin-left: 2vw;
+    color: #60BDE9;
+
+}
+
+
+
+
+.boxNames {
+    /* font-family: 'Muli', sans-serif; */
+    font-family: 'Arapey', serif;
+    font-size: 1.5vw;
+    text-align: left ;
+    padding: 2vw;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 50%;
+
+}
+
+/* .bigCard {
+    height: 24vw;
+    width: 24vw;
+    margin-top: 2vw;
+    border: .1vw solid white ;
+    margin-bottom: 2vw;
+    background-color: black;
+    border-radius: 10vw 10vw 10vw 10vw; 
+   
+
+    
+} */
+
+.title {
+    /* font-family: 'Muli', sans-serif; */
+    font-family: 'Arapey', serif;
+
+    color: white;
+    font-size: 2vw;
+    text-align: left;
+    
+}
+
+.bigCircle {
+    height: 30vw;
+    width: 30vw;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 2vw;
+}
+
+
+/* .biggest {
+    height: 24vw;
+    width: 24vw;
+    margin: 3vw;
+    /* border: .3vw solid white; */
+
+/* .blurBox {
+    width: 30vw;
+    height: 30vw;
+    filter: blur(.1vw);
+    z-index: 0;
+    background-color: rgba(0,0,0, .5);
+    border-radius: 50%;
+} */
+
+.button {
+    position: absolute;
+    z-index: 4;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('images/alicewoods.jpg');
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .portrait {
+    height: 20%; 
+    width:20%;
+
+  }
+
+  .portrait2 {
+      height: 30%;
+      width: 30%;
+
+  }
+
+
+
+  /* ///// NEED TO CHANGE TO VW///// */
+
+ 
+  .socialButtons{
+    text-align: center;
+    display: flex;
+    background: rgba(255,255,255,.1);
+  }
+
+  .icon{
+    width: 70px;
+    height: 70px;
+    background: rgba(255,255,255,.1);
+    margin: 10px;
+    border-radius: 50%;
+    color: #10ac84;
+    box-shadow: 0 5px 15px -5px #00000070;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .icon i{
+    line-height: 70px;
+    font-size: 25px;
+    transition: 0.2s;
+  }
+
+  .icon:hover i{
+    transform: scale(1.3);
+    color: #f1f1f1;
+  }
+
+  .icon::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #10ac84;
+    left: -110%;
+    top: 90%;
+    transform: rotate(45deg);
+  }
+
+  .icon:hover::before{
+    animation: animation 0.7s 1 forwards;
+  }
+
+  @keyframes animation {
+    0%{
+      left: -110%;
+      top: 90%;
+    }50%{
+      left: 15%;
+      top: -30%;
+    }100%{
+      top: -10%;
+      left: -10%;
+    }
+  }
+  
+  .copyRight {
+      font-family: 'Muli', sans-serif;
+      color: #f1f1f1;
+      font-size: 1.5vw;
+      padding: 2vw;
+      position: absolute;
+      z-index: 4;
+
+  }
+
+  .aboutMe {
+    font-family: 'Muli', sans-serif;
+    color: #10ac84;
+    font-size: 4vw;
+    margin-top: 7vw;
+    margin-left: 12vw;
+    position: absolute;
+  }
+
+
+  .bio {
+      height: 12vw;
+      width: 12vw;
+      border-radius: 50%;
+      margin: 4vw 2vw 4vw 2vw;
+      box-shadow: 0 5px 15px -5px #00000070;
+      overflow: hidden;
+
+  }
+  
+  .bioBox {
+    height: 15vw;
+    width: 20vw;
+    margin: 2.5vw;
+    background-color: rgba(255,255,255,.1);    
+   
+  }
+
+  .bioParagraph {
+    font-family: 'Muli', "sans-serif"; 
+    color: white;
+    padding: 2vw; 
+    font-size: 1vw;
+  
+
+  }
+
+  .bio:hover {
+
+  }
+
+  .slideRight {
+      height: 20vw; 
+      width: 90%;
+      background-color: rgba(255,255,255,.1);
+      box-shadow: 0 5px 15px -5px #00000070;
+    
+     
+  }
+
+  .projectBox {
+    height: 10vw; 
+    width: 70%;
+    background-color: rgba(255,255,255,.1);
+    box-shadow: 0 5px 15px -5px #00000070;
+    margin: 2vw;
+    margin-right: 5vw;
+   
+}
+
+.projectInfo {
+  height: 25vw; 
+  width: 70%;
+  background-color: #10ac84;
+  box-shadow: 0 5px 15px -5px #00000070;
+  margin: 2vw;
+  margin-right: 5vw;
+  margin-top: -1vw;
+ 
+}
+
+  #demo {
+    background : "red";
+    height : "10vw";
+    width : "10vw";
+    border-radius : "50%";
+    margin-right: "5vw";
+  }
+
+  .numbers {
+    font-family: 'Muli', sans-serif;
+    color: #10ac84;
+    font-size: 4vw;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    position: absolute;
+  }
+
+  .selectedWork {
+    font-family: 'Muli', sans-serif;
+    color: white;
+    font-size: 2vw;
+    margin-left: 1vw;
+    position: absolute;
+    margin-top: 3vw;
+  }
+
+.projectDescription {
+  color: white;
+  font-family: 'Muli', sans serif;
+  font-size: 1.2vw;
+  margin-left: 3vw;
+  margin-top: -20vw;
+  height: 20vw;
+  width: 50vw;
+}
+
+.button {
+  height: 3vw;
+  width: 16vw;
+  background-color: #e5f6fe;
+  border-radius: .5vw;
+  margin-top: 1.5vw;
+  padding: 2vw;
+  font-family: 'Muli', sans serif;
+  color: black;
+  font-size: 1.5vw;
+}
+
+
+.buttonBlur {
+  height: 3vw;
+  width: 16vw;
+  background-color: black;
+  border-radius: .5vw;
+  margin-top: 1.9vw;
+  margin-left: .3vw;
+  padding: 2vw;
+  position: absolute;
+  filter: blur(.1vw);
+
+
 
 }
