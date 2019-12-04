@@ -413,11 +413,12 @@ h2 {
   }
 
 
+
   .bio {
       height: 12vw;
       width: 12vw;
       border-radius: 50%;
-      margin: 10vw 2vw 2vw 10vw;
+      margin: 9vw 2vw 2vw 10vw;
       box-shadow: 0 .4vw 1.2vw -.4px #00000070;
       overflow: hidden;
 
