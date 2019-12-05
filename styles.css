@@ -308,6 +308,7 @@ h2 {
 .parallax {
     /* The image used */
     background-image: url('images/alicewoods.jpg');
+
   
     /* Set a specific height */
     min-height: 41.7vw; 
