@@ -409,7 +409,7 @@ h2 {
     color: #10ac84;
     font-size: 4vw;
     margin-top: 2vw;
-    margin-left: 8vw;
+    margin-left: 7vw;
     position: absolute;
   }
 
@@ -425,8 +425,8 @@ h2 {
   }
   
   .bioBox {
-    height: 20vw;
-    width: 20vw;
+    height: 22vw;
+    width: 22vw;
     margin: 1vw;
     background-color: rgba(255,255,255,.1);   
     margin-top: 2vw; 
@@ -447,7 +447,7 @@ h2 {
   }
 
   .slideRight {
-      height: 24vw; 
+      height: 26vw; 
       width: 90%;
       background-color: rgba(255,255,255,.1);
       box-shadow: 0 .4vw 1.2vw -.4px #00000070;
