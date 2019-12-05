@@ -413,7 +413,6 @@ h2 {
   }
 
 
-
   .bio {
       height: 12vw;
       width: 12vw;
@@ -424,7 +423,7 @@ h2 {
 
   }
   
- .bioBox {
+  .bioBox {
     height: 20vw;
     width: 20vw;
     margin: 1vw;
@@ -436,7 +435,7 @@ h2 {
   .bioParagraph {
     font-family: 'Muli', "sans-serif"; 
     color: white;
-    padding: 2vw; 
+    padding: 1.5vw; 
     font-size: 1vw;
   
 
@@ -565,4 +564,9 @@ h2 {
   position: absolute;
   margin-left: 21vw;
   margin-top: -4vw;
+}
+
+.bold {
+  font-size: 1.2vw; 
+  font-weight: 1000;
 }
