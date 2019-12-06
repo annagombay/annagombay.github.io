@@ -1,14 +1,11 @@
-/* 
+
 
 
 body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: flex;
     background-color: black;
     -webkit-text-size-adjust: 100%;
     
-} */
+}
 
 img {
     display: flex;
@@ -16,16 +13,34 @@ img {
     z-index: 0;
     width: 100%;
 }
-h2 {
+/* h2 {
     color: rgba(207,236,232, 0.52);
     text-align: center;
     font-family: 'Balthazar', serif;
     letter-spacing: .25vw;
     z-index: 1;
     position: absolute;
-    top: 4.0vw;
-    left: 40vw;
+  
+} */
+
+.header {
+  height:10vw;
+  width: 100%;
+  background-color: black;
+  font-size: 3vw;
+  position: absolute;
 }
+
+.footer {
+  height:10vw;
+  width: 100%;
+  background-color: black;
+}
+
+
+
+
+
 
 .neon {
     color: #f1f1f1;
@@ -35,8 +50,7 @@ h2 {
     z-index: 1;
     display: flex;
     justify-content: center;
-    position: absolute;
-    top: 1.5vw;
+    margin-top: 1.5vw;
     left: 42vw;
     font-size: 2.2vw;
     text-shadow:
@@ -47,6 +61,17 @@ h2 {
     0 0 34px rgba(255, 255, 255, 0.78),
     0 0 54px rgba(255, 255, 255, 0.92);
     
+  }
+
+  .UX {
+    font-size: 4.2vw;
+    color: rgba(207,236,232, .52);
+    text-align: center;
+    font-family: 'Balthazar', serif;
+    letter-spacing: .25vw;
+    z-index:4;
+    display: flex;
+
   }
 
   .navigation {
@@ -311,7 +336,9 @@ h2 {
 
   
     /* Set a specific height */
-    min-height: 41.7vw; 
+    min-height: 35vw; 
+    width: 100%;
+   
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -408,9 +435,10 @@ h2 {
     font-family: 'Muli', sans-serif;
     color: #10ac84;
     font-size: 4vw;
-    margin-top: 2vw;
-    margin-left: 7vw;
+    margin-left: 2vw;
     position: absolute;
+    display: flex;
+    justify-content: center;
   }
 
 
@@ -418,7 +446,7 @@ h2 {
       height: 12vw;
       width: 12vw;
       border-radius: 50%;
-      margin: 9vw 2vw 2vw 10vw;
+      margin: 7.5vw 2vw 2vw 4vw;
       box-shadow: 0 .4vw 1.2vw -.4px #00000070;
       overflow: hidden;
 
@@ -429,8 +457,16 @@ h2 {
     width: 22vw;
     margin: 1vw;
     background-color: rgba(255,255,255,.1);   
-    margin-top: 2vw; 
+    margin-top: 2vw;
    
+  }
+
+  .picBorder {
+    height: 22vw;
+    width: 22vw;
+    margin: 1vw;
+    background-color: rgba(255,255,255,.1);   
+    margin-top: 2vw;
   }
 
   .bioParagraph {
@@ -438,7 +474,6 @@ h2 {
     color: white;
     padding: 1.5vw; 
     font-size: 1vw;
-  
 
   }
 
@@ -451,7 +486,8 @@ h2 {
       width: 90%;
       background-color: rgba(255,255,255,.1);
       box-shadow: 0 .4vw 1.2vw -.4px #00000070;
-    
+      display: flex;
+      margin-left: 5vw;     
      
   }
 
@@ -554,7 +590,7 @@ h2 {
 .circleIcons {
   font-size: 6vw;
   color: white;
-  margin-top: 9vw;
+  margin-top: 10vw;
   margin-left: .7vw;
 
 }
@@ -569,5 +605,109 @@ h2 {
 
 .bold {
   font-size: 1.2vw; 
-  font-weight: 1000;
+  font-weight: 900;
 }
+
+
+// MEDIA QUERIES
+
+@media only screen and (max-width: 600px) {
+  
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    
+    .parallax {
+      background-image: url('images/alicewoods.jpg');
+      background-position: fixed;
+      height: 180vw;
+      width: 100%;
+      margin-top: -4vw;
+      
+
+    }
+    .slideRight {
+      background-color: transparent;
+    }
+
+    .aboutMe {
+      font-family: 'Muli', sans-serif;
+      color: #10ac84;
+      font-size: 8vw;
+      margin-right: 8vw;
+      display: flex;
+      justify-content: center;
+    }
+
+    .bio {
+      height: 30vw;
+      width: 30vw;
+      border-radius: 50%;
+      box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+      overflow: hidden;
+    }
+
+    .bioBox1 {
+      height: 22vw;
+    width: 22vw;
+    margin: 1vw;
+    background-color: rgba(255,255,255,.1);   
+    margin-top: 2vw;
+      background-color: red;
+    }
+
+    .header {
+      height:30vw;
+      width: 100%;
+      background-color: black;
+      font-size: 3vw;
+      position: absolute;
+    }
+
+    .neon {
+
+      color: #f1f1f1;
+      font-family: 'Beth Ellen', cursive;
+      letter-spacing: .16vw;
+      z-index: 4;
+      display: flex;
+      position: absolute;
+      font-size: 8vw;
+      margin-left: -20%;
+      margin-top: 2vw;
+      text-shadow:
+      0 0 6px rgba(202,228,225,0.92),
+      0 0 30px rgba(202,228,225,0.34),
+      0 0 12px rgba(255, 255, 255, 0.52),
+      0 0 21px rgba(255, 255, 255, 0.92),
+      0 0 34px rgba(255, 255, 255, 0.78),
+      0 0 54px rgba(255, 255, 255, 0.92);
+      
+    }
+
+  .UX {
+    margin-top: 14vw; 
+    font-size: 11vw;
+    display: flex;
+  }
+
+  .footer {
+    height:25vw;
+    width: 100%;
+    background-color: black;
+    z-index:4;
+    margin-top: -20vw;
+
+  }
+  .bioBox {
+    display: none;
+  }
+
+ 
+  
+}
+
