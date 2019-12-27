@@ -13,6 +13,9 @@ img {
     z-index: 0;
     width: 100%;
 }
+<<<<<<< HEAD
+
+=======
 /* h2 {
     color: rgba(207,236,232, 0.52);
     text-align: center;
@@ -30,6 +33,7 @@ img {
   font-size: 3vw;
   position: absolute;
 }
+>>>>>>> 6f60d4fd36dea617d829d7748cb1d28cded47746
 
 .footer {
   height:10vw;
@@ -368,7 +372,10 @@ img {
     text-align: center;
     display: flex;
     background: rgba(255,255,255,.1);
+    width: 100%; 
+
   }
+
 
   .icon{
     width: 5vw;
@@ -402,6 +409,15 @@ img {
     left: -110%;
     top: 90%;
     transform: rotate(45deg);
+  }
+
+
+  .prototype {
+    width: 15vw; 
+    height: 35vw; 
+    margin-left: 5vw; 
+    margin-top: 3.2vw; 
+    position: absolute;
   }
 
   .icon:hover::before{
@@ -458,6 +474,11 @@ img {
     margin: 1vw;
     background-color: rgba(255,255,255,.1);   
     margin-top: 2vw;
+<<<<<<< HEAD
+    display: flex;
+    flex-direction: row;
+=======
+>>>>>>> 6f60d4fd36dea617d829d7748cb1d28cded47746
    
   }
 
@@ -485,9 +506,12 @@ img {
       height: 26vw; 
       width: 90%;
       background-color: rgba(255,255,255,.1);
-      box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+      box-shadow: 0 .4vw 1.2vw -.4vw #00000070;
       display: flex;
-      margin-left: 5vw;     
+      margin-left: 5vw;   
+      border-bottom: 3vw;
+      margin-top: 10vw;
+  
      
   }
 
@@ -611,7 +635,7 @@ img {
 
 // MEDIA QUERIES
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   
 }
 
@@ -620,44 +644,50 @@ img {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+
     
     .parallax {
       background-image: url('images/alicewoods.jpg');
-      background-attachment: fixed;
+      /* background-attachment: fixed; */
+      background-position: center;
       height: 180vw;
       width: 100%;
       margin-top: -4vw;
       
 
     }
+
     .slideRight {
-      background-color: transparent;
+      height: 90vw; 
+      width: 90%;
+      background-color: rgba(255,255,255,.1);
+      box-shadow: 0 .4vw 1.2vw -.4vw #00000070;
+      display: flex;
+      margin-left: 5vw;   
+      border-bottom: 3vw;
     }
+
 
     .aboutMe {
       font-family: 'Muli', sans-serif;
       color: #10ac84;
       font-size: 8vw;
-      margin-right: 8vw;
       display: flex;
       justify-content: center;
+      margin-left: 3.5vw;
+
+
     }
 
     .bio {
-      height: 30vw;
-      width: 30vw;
+      height: 50vw;
+      width: 50vw;
       border-radius: 50%;
-      box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+      box-shadow: 0 .4vw 1.2vw -.4vw #00000070;
       overflow: hidden;
-    }
-
-    .bioBox1 {
-      height: 22vw;
-    width: 22vw;
-    margin: 1vw;
-    background-color: rgba(255,255,255,.1);   
-    margin-top: 2vw;
-      background-color: red;
+      margin-top: 14vw;
+      margin-left: -4vw;
+      border: 1vw solid #10ac84;
     }
 
     .header {
@@ -695,19 +725,510 @@ img {
     display: flex;
   }
 
-  .footer {
-    height:25vw;
-    width: 100%;
-    background-color: black;
-    z-index:4;
-    margin-top: -20vw;
-
-  }
-  .bioBox {
-    display: none;
-  }
-
  
+
+  .bioBox{
+    height: 22vw;
+    width: 50vw;
+    margin: 1vw;
+    background-color: rgba(255,255,255,.1);   
+    margin-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .bioParagraph {
+    display: none;
+      
+    }
+  
+
+    .picBorder {
+display: none;    }
+  
+.prototype {
+  display: none;
+
+}
+
+.projectBox {
+  display: none;
+}
+
+.projectDescription {
+  display: none;
+}
+
+.projectInfo {
+  display: none;
+}
+
+.copyRight {
+  display: none;
+}
+
+.socialButtons {
+  display: none;
+}
+
+a {
+  display: none;
+}
+} */
+
+
+
+
+
+.didYou {
+  font-family: 'Muli', sans-serif; 
+  color: #10ac84;
+  font-size: 2vw;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  margin: 2vw;
+}
+
+.projectBoxLittle {
+  height: 6vw; 
+  width: 23%;
+  background-color: rgba(255,255,255,.1);
+  box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+  margin: .95vw;
+ 
+}
+
+.projectBoxLittler {
+  height: 55.5vw; 
+  width: 99.99%;
+  background-color: #ef537b;
+  box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+  margin-top: 6.8vw;
+}
+
+.projectInfoBox {
+  height: 25vw; 
+  width: 18vw;  
+  background-color: rgba(255,255,255,.1);
+  box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+  margin: 2vw;
+  margin-top: -6vw;
+  position: absolute;
+ 
+}
+
+.numbersLittle {
+  font-family: 'Muli', sans-serif;
+  color: #ef537b;
+  font-size: 3vw;
+  margin-top: -.05vw;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+.littleTitles {
+  font-family: 'Muli', sans serif; 
+  color: white; 
+  font-size: 2.5vw;
+  margin-top: 2.5vw;
+  width: 18vw;
+  text-align: center;
+
+}
+.projectDescriptionLittle {
+  color: white;
+  font-family: 'Muli', sans serif;
+  font-size: 1.2vw;
+  height: 20vw;
+  width: 18vw;
+  text-align: left;
+  margin: 1vw;
   
 }
 
+.projectDescriptionDiary {
+  color: black;
+  font-family: 'Muli', sans serif;
+  font-size: 1.2vw;
+  text-align: left;
+  display: flex;
+  flex-basis: 100%;
+  flex: 1;
+  width: 27vw;
+  flex-direction: row;
+  position: absolute;
+  z-index: 4;
+  margin-left: 12vw;
+  letter-spacing: .2vw;
+  margin-top: 15.5vw;
+}
+
+.diaryStudyLanding {
+  font-family: 'Muli', sans-serif;
+  color: #ef537b;
+  font-size: 4vw;
+  margin-top: 11vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rgba(255,255,255,.7);
+  height: 6vw;
+}
+
+.diaryInfo {
+  font-family: 'Muli', sans-serif;
+  color: black;
+  font-size: 4vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  height: 52.6vw;
+  background-color: rgba(255,255,255,.7);
+  margin-left: 19.9vw;
+  letter-spacing: .4vw
+
+}
+
+.longAndSpacey{
+  font-family: 'Muli', sans-serif;
+  color: white;
+  position: absolute;
+  width: 41vw;
+  height: 41vw;
+  overflow: hidden;
+  background-color: #ef537b;
+  font-size: 1.2vw;
+  letter-spacing: .2vw;
+  flex-basis: 100%;
+  flex-direction: column;
+  flex: 1;
+  z-index: 3;
+  display: block;
+  overflow: auto;
+  margin: 2vw;
+  border-top: 2vw solid rgba(255,255,255,.25);
+
+}
+
+.backgroundRec {
+
+  font-family: 'Muli', sans-serif;
+  color: black;
+  position: absolute;
+  width: 41vw;
+  height: 41vw;
+  background-color: #1A1A1A;
+  font-size: 1.2vw;
+  letter-spacing: .2vw;
+  flex-basis: 100%;
+  flex-direction: column;
+  flex: 1;
+  z-index: 3;
+  display: flex;
+  margin: 2vw;
+
+
+}
+
+.box1 {
+  margin-left: 6vw;
+  /* margin-top: 46.6vw; */
+  display: block;
+  overflow: auto;
+  
+
+}
+
+.box2 {
+  display: block;
+  height: 100%;
+  font-family: 'Muli', sans-serif;
+  color: white;
+  position: absolute;
+  width: 41vw;
+  overflow: hidden;
+  background-color: #ef537b;
+  font-size: 1.2vw;
+  letter-spacing: .2vw;
+  flex-basis: 100%;
+  flex-direction: column;
+  justify-content: end;
+  flex: 1;
+  z-index: 3;
+  overflow: auto;
+  margin: 2vw;
+  border-top: 2vw solid rgba(255,255,255,.25);
+
+  
+}
+
+.box3 {
+  margin-left: 6vw; 
+  margin-top: 43vw;
+  display: block;
+  overflow: auto;
+
+}
+
+.box4 {
+  margin-right: 10vw; 
+  margin-top: 0vw;
+  display: block;
+  overflow: auto;
+
+}
+
+.boxFont {
+  color: white;
+  font-family: 'Muli', sans serif;
+  font-size: 1.2vw;
+  text-align: left;
+  margin: 1vw;
+  display: flex;
+  flex-basis: 100%;
+  flex: 1;
+  width: 27vw;
+  flex-direction: row;
+  position: absolute;
+  z-index: 4;
+  margin-left: 7.1vw;
+
+}
+
+.indent {
+  color: white;
+  font-family: 'Muli', sans serif;
+  font-size: 1.2vw;
+  text-align: left;
+  margin: 1vw;
+  display: flex;
+  flex-basis: 100%;
+  flex: 1;
+  width: 27vw;
+  flex-direction: column;
+  position: block;
+  z-index: 4;
+
+}
+
+.longText{
+  font-family: 'Muli', sans-serif;
+  color: black;
+  position: absolute;
+  display: flex;
+  width: 68%;
+  margin-left: -.08vw;
+  margin-top: 2vw;
+  font-size: 1.2vw;
+  letter-spacing: .2vw;
+  background-color:  rgba(255,255,255,.7);
+
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  font-family: 'Muli', "sans-serif"; 
+  color: white;
+ 
+}
+
+.shadowCircleLittle {
+  height: 12vw; 
+  width: 12vw; 
+  background-color: rgba(255,255,255, .2); 
+  margin-top: 2vw;
+  margin-bottom: 1vw; 
+  border-radius: 50%; 
+  margin-left: 2vw;
+}
+
+.circleIconsLittle{
+  font-size: 6vw;
+  color: white;
+  margin: 3vw;
+}
+
+.bioParagraphLittle {
+  font-family: 'Muli', "sans-serif"; 
+  color: white;
+  padding: 1.5vw 1.5vw 1vw 0vw; 
+  font-size: 1vw;
+  align-content: center;
+  width: 100%;
+}
+
+.diaryPrompt {
+  font-family: 'Muli', "sans-serif"; 
+  color: #ef537b;
+  font-size: 4vw;
+  margin-top: 50vw;
+  margin-left: 4.5vw;
+}
+
+.promptQuote {
+  font-family: 'Muli', "sans-serif"; 
+  color: white;
+  font-size: 1.5vw;
+  margin-left: 4.5vw;
+  display: flex;
+  width: 30vw;
+  
+
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  padding-top: 10vw solid black;
+  position: block;
+}
+
+.leftBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 50vw;
+  background-color: pink;
+
+}
+
+.diaryDescription {
+  position: absolute; 
+  z-index: 4; 
+  color: black; 
+  margin-left: 57.5%; 
+  letter-spacing: .2vw; 
+
+}
+
+.shadowCircleBig {
+  background-color: #ef537b; 
+  opacity: 50%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  margin: 1vw;
+  margin-left: 21vw;
+  margin-top: 8vw;
+
+}
+
+.peeps {
+  color: black;
+  font-family: 'Muli', sans serif;
+  font-size: 1.2vw;
+  text-align: left;
+  margin: 1vw;
+  position: absolute;
+  z-index: 4;
+  letter-spacing: .2vw;
+
+  
+}
+
+table {
+  font-family: 'Muli', sans serif;
+  color: white;
+  display: absolute;
+  z-index: 5;
+  table-layout: fixed;
+ 
+}
+
+
+td {
+  border: .1vw solid white;
+  font-family: 'Muli', sans serif;
+  color: white;
+  padding: 2vw;
+  width: 14vw;
+
+}
+
+
+
+.tableHead {
+  display: flex;
+  border: .1vw solid white;
+  font-family: 'Muli', sans serif;
+  text-align: center;
+  color: white;
+  flex-direction: row;
+  z-index: 5;
+  padding: 2vw;
+  
+
+ 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.box {
+  float: left;
+  width: 45vw;
+  padding-left: 8.5vw;
+  padding-right: 8.5vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  color: white;
+  font-family: 'Muli', sans serif;
+  font-size: 1.2vw;
+  text-align: left;
+  letter-spacing: .2vw;
+
+}
+
+.affinityMap {
+  width: 90vw;
+  padding-left: 8.5vw;
+  padding-right: 8.5vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-color: rgba(255,255,255,.1);
+  font-family: 'Muli', sans serif;
+  font-size: 1.2vw;
+  text-align: left;
+  letter-spacing: .2vw;
+  margin-top: 2vw;
+  color: white;
+
+}
+
+/* Clear floats after the columns */
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .box {
+  
+  }
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+
+.thankYou {
+  font-family: "Muli", sans-serif;
+  font-size: 1.5vw;
+  display: flex;
+  color: white;
+  margin-top: 2vw;
+}
