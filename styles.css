@@ -13,27 +13,6 @@ img {
     z-index: 0;
     width: 100%;
 }
-<<<<<<< HEAD
-
-=======
-/* h2 {
-    color: rgba(207,236,232, 0.52);
-    text-align: center;
-    font-family: 'Balthazar', serif;
-    letter-spacing: .25vw;
-    z-index: 1;
-    position: absolute;
-  
-} */
-
-.header {
-  height:10vw;
-  width: 100%;
-  background-color: black;
-  font-size: 3vw;
-  position: absolute;
-}
->>>>>>> 6f60d4fd36dea617d829d7748cb1d28cded47746
 
 .footer {
   height:10vw;
@@ -474,11 +453,8 @@ img {
     margin: 1vw;
     background-color: rgba(255,255,255,.1);   
     margin-top: 2vw;
-<<<<<<< HEAD
     display: flex;
     flex-direction: row;
-=======
->>>>>>> 6f60d4fd36dea617d829d7748cb1d28cded47746
    
   }
 
@@ -646,16 +622,15 @@ img {
   and (orientation: portrait) {
 
     
-    .parallax {
+    /* .parallax {
       background-image: url('images/alicewoods.jpg');
-      /* background-attachment: fixed; */
+      /* background-attachment: fixed; 
       background-position: center;
       height: 180vw;
       width: 100%;
       margin-top: -4vw;
-      
-
     }
+      
 
     .slideRight {
       height: 90vw; 
@@ -719,12 +694,7 @@ img {
       
     }
 
-  .UX {
-    margin-top: 14vw; 
-    font-size: 11vw;
-    display: flex;
-  }
-
+ 
  
 
   .bioBox{
@@ -774,9 +744,9 @@ display: none;    }
 a {
   display: none;
 }
-} */
 
 
+ */
 
 
 
