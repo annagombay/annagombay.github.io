@@ -311,6 +311,7 @@ img {
 .button {
     position: absolute;
     z-index: 4;
+    text-align: center;
 }
 
 .parallax {
@@ -584,14 +585,14 @@ img {
   margin-bottom: 1vw; 
   border-radius: 50%; 
   margin-left: -1vw;
+  text-align: center;
 
 }
 
 .circleIcons {
   font-size: 6vw;
   color: white;
-  margin-top: 10vw;
-  margin-left: .7vw;
+  margin: 3vw;
 
 }
 
