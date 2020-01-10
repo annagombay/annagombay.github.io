@@ -36,64 +36,75 @@
         </div>
     
         <div style="margin-top: 4vw">
-            <div class="d-flex flex-row justify-content-end">
-                <img src= "images/audioExperiences.jpeg" style="position: absolute; border: 5vw solid black; z-index: 1; transform: scaleX(-1);">
-            </div>
-        </div>
-        
-        <div class="diaryStudyLanding d-flex flex-row justify-content-center" style="z-index:2; position: block">
-            <span style="font-size: 3vw; margin-left: -36vw; font-family: 'Beth Ellen', cursive; color: black">audio experiences
-            </span>    
-                
-            <div class="d-flex flex-row justify-content-start diaryInfo" >  
-                <span style="color: #ef537b;  position: absolute; margin-left: 2.5vw; margin-top: -.05vw">DIARY STUDY
-                </span> 
-
-                <div class="shadowCircleBig">
-                        <i class="circleIconsLittle fas fa-headphones" ></i>           
-                </div> 
-                
-                <div class="peeps d-flex flex-row justify-content-end" style="margin-top: 8vw; margin-left: 2vw">
-
-                    Date : 
-                    <br>
-                    <br>
-                    Role : 
-                    <br>
-                    <br>
-                    Team :
-                   
-                <div class="column d-flex" style="flex-direction: column; margin-left: 2vw; color: black"> 
-                    
-                    December 2019 
-                    <br>
-                    <br> 
-                    UX Researcher
-                    <br>
-                    <br>
-                    Anna Gombay
-                    <br>
-                    Mickey Xiong
-                    <br>
-                    Aporva Bhardwaj
-                    </div>  
-                     
-                <div class="projectDescriptionDiary d-flex flex-row justify-content-end">
-
-                    <div class="d-flex flex-row ">
-                    This one-month diary study was completed as part of an Empathic Research Frameworks course at Humber College. Our goal was to capture the thoughts, behaviours, and emotions of users as they engage in audio experiences.       
-                        <br>
-                        <br>
-                        Examples of an audio experience include time spent listening to music, podcasts, or audiobooks. For this particular project, our group chose to focus on the user experience of streaming music on a mobile phone. 
+                <div class="d-flex flex-row justify-content-end">
+                    <img src= "images/audioExperiences.jpeg" style="position: absolute; border: 5vw solid black; z-index: 1; transform: scaleX(-1);">
+                    <div class="diaryInfo">
+                        <div class="d-flex flex-row justify-content-center" style="color: #ef537b; width: 40vw; margin-top: 6vw">
+                            DIARY STUDY
+                        </div>
+                        
+                        <div class="peeps d-flex flex-row justify-content-end" style=" margin-left: 2vw">
+    
+                                Date : 
+                                <br>
+                                <br>
+                                Role : 
+                                <br>
+                                <br>
+                                Team :
+                                
+                            <div class="column d-flex" style="flex-direction: column; margin-left: 2vw; color: black"> 
+                                December 2019 
+                                <br>
+                                <br> 
+                                UX Researcher
+                                <br>
+                                <br>
+                                Anna Gombay
+                                <br>
+                                <br>
+                                UX Researcher
+                                <br>
+                                Mickey Xiong
+                                <br>
+                                Aporva Bhardwaj
+                                <br>
+                                <br>
+                                    <span style="margin-left: -2.5vw; max-width: 28vw">
+                                    This one-month diary study was completed as part of an Empathic Research Frameworks course at Humber College. Our goal was to capture the thoughts, behaviours, and emotions of users as they engage in audio experiences.
+                                    <br>
+                                    <br>
+                                    Examples of an audio experience include time spent listening to music, podcasts, or audiobooks. For this particular project, our group chose to focus on the user experience of streaming music on a mobile phone.                             
+                                    </span>
+                            </div>  
+                        </div>
+                        
+                        
+    
+                        <div class="shadowCircleBig d-flex flex-row justify-content-end" style="background-color: #ef537b">
+                                <i class="circleIconsLittle fas fa-headphones" ></i>           
+                        </div> 
+    
                     </div>
-
                 </div>
+            </div>
+            
+            
+            <div class="diaryStudyLanding d-flex flex-row justify-content-center" style="z-index:2; position: block">
+                <div class="subTitle" style="margin-right: 43%">
+                    audio experiences
                 </div>
-            </div>                  
-        </div>
+            </div>
+                   
+       
+                    </div>
+                    </div>
+                </div>                  
+            </div>
 
         <div class="d-flex flex-row justify-content-center" style="margin-top: 52vw;">
             <div class="box" style="background-color: #1A1A1A;">
+
                 <h2> 00. Introduction</h2>
                 
                 <br>
@@ -195,7 +206,7 @@
 
         <div class="d-flex flex-row justify-content-center">
             <div class="affinityMap d-flex flex-row justify-content-center" style="text-align: center">
-                <table style="text-align: center;  margin: 1vw;" id="table">
+                <table onmouseover="crossMe()" onmouseout="dontCrossMe()" style="text-align: center;  margin: 1vw;" id="crossMe">
                     <tr>
                         <td colspan="3">
                             User Responses to Initial Research Prompt
@@ -205,33 +216,33 @@
                         </td>
                     </tr>
                     <tr>   
-                        <td> Being able to identify music from around my surroundings.
+                        <td id="keep1"> Being able to identify music from around my surroundings.
                         </td>
-                        <td>The ability to find similar artists to the ones that I listen to.
+                        <td id="keep2">The ability to find similar artists to the ones that I listen to.
                         </td>
-                        <td>It provides the lyrics to the songs.
+                        <td id="keep3">It provides the lyrics to the songs.
                         </td>
                     </tr>
                     <tr>
-                        <td id="lineThrough">Shazam
+                        <td id="lineThrough1">Shazam
                         </td>
-                        <td>Recommend similar artists.
+                        <td id="lineThrough2">Recommend similar artists.
                         </td>
                         <td>
                         </td>
                     </tr>
                     <tr>
-                        <td>I used Shazam
+                        <td id="lineThrough3">I used Shazam
                         </td>
-                        <td>Recommended artists. Spotify.
+                        <td id="lineThrough4">Recommended artists. Spotify.
                         </td>
                         <td>
                         </td>
                     </tr>
                     <tr>
-                        <td>Shazam
+                        <td id="lineThrough5">Shazam
                         </td>
-                        <td>Daily music suggestions.
+                        <td id="lineThrough6">Daily music suggestions.
                         </td>
                         <td>
                         </td>
