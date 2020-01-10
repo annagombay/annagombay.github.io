@@ -21,7 +21,9 @@ img {
 }
 
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 
 
@@ -496,7 +498,7 @@ img {
     height: 10vw; 
     width: 70%;
     background-color: rgba(255,255,255,.1);
-    box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+    box-shadow: 0 .4vw 1.2vw -.4vw #00000070;
     margin: 2vw;
     margin-right: 5vw;
    
@@ -506,7 +508,7 @@ img {
   height: 26vw; 
   width: 70%;
   background-color: #10ac84;
-  box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+  box-shadow: 0 .4vw 1.2vw -.4vw #00000070;
   margin: 2vw;
   margin-right: 5vw;
   margin-top: -1vw;
@@ -766,7 +768,7 @@ a {
   height: 6vw; 
   width: 23%;
   background-color: rgba(255,255,255,.1);
-  box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+  box-shadow: 0 .4vw 1.2vw -.4vw #00000070;
   margin: .95vw;
  
 }
@@ -775,7 +777,7 @@ a {
   height: 55.5vw; 
   width: 99.99%;
   background-color: #ef537b;
-  box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+  box-shadow: 0 .4vw 1.2vw -.4vw #00000070;
   margin-top: 6.8vw;
 }
 
@@ -783,7 +785,7 @@ a {
   height: 25vw; 
   width: 18vw;  
   background-color: rgba(255,255,255,.1);
-  box-shadow: 0 .4vw 1.2vw -.4px #00000070;
+  box-shadow: 0 .4vw 1.2vw -.4vw #00000070;
   margin: 2vw;
   margin-top: -6vw;
   position: absolute;
@@ -826,13 +828,13 @@ a {
   font-size: 1.2vw;
   text-align: left;
   display: flex;
+  justify-content: start;
   flex-basis: 100%;
   flex: 1;
   width: 27vw;
   flex-direction: row;
-  position: absolute;
+  position: relative;
   z-index: 4;
-  margin-left: 12vw;
   letter-spacing: .2vw;
   margin-top: 15.5vw;
 }
@@ -846,8 +848,16 @@ a {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: rgba(255,255,255,.7);
+  background-color: rgba(255,255,255,.8);
   height: 6vw;
+}
+
+.subTitle {
+  font-size: 3vw; 
+  font-family: 'Beth Ellen', cursive; 
+  color: black;
+  z-index: 4;
+
 }
 
 .diaryInfo {
@@ -856,12 +866,14 @@ a {
   font-size: 4vw;
   position: absolute;
   display: flex;
-  justify-content: center;
-  width: 35%;
-  height: 52.6vw;
-  background-color: rgba(255,255,255,.7);
-  margin-left: 19.9vw;
-  letter-spacing: .4vw
+  flex-direction: row;
+  width: 40vw;
+  height: 58.5vw;
+  background-color: rgba(255,255,255,.8);
+  letter-spacing: .4vw;
+  z-index: 5;
+  margin-top: 5vw;
+  margin-left: -7.5vw;
 
 }
 
@@ -1087,9 +1099,10 @@ a {
   border-radius: 50%;
   position: absolute;
   z-index: 4;
-  margin: 1vw;
-  margin-left: 21vw;
-  margin-top: 8vw;
+  margin: 2vw;
+  margin-top: 15vw;
+  display: flex;
+  margin-left: 60%;
 
 }
 
@@ -1098,10 +1111,11 @@ a {
   font-family: 'Muli', sans serif;
   font-size: 1.2vw;
   text-align: left;
-  margin: 1vw;
+  margin-left: 2vw;
   position: absolute;
   z-index: 4;
   letter-spacing: .2vw;
+  margin-top: 15vw;
 
   
 }
@@ -1122,7 +1136,6 @@ td {
   color: white;
   padding: 2vw;
   width: 14vw;
-
 }
 
 
@@ -1167,7 +1180,7 @@ td {
   padding-right: 8.5vw;
   padding-top: 2vw;
   padding-bottom: 2vw;
-  background-color: rgba(255,255,255,.1);
+  background-color: #1A1A1A;
   font-family: 'Muli', sans serif;
   font-size: 1.2vw;
   text-align: left;
@@ -1191,10 +1204,6 @@ td {
   }
 }
 
-.lineThrough {
-  text-decoration: line-through;
-}
-
 
 .thankYou {
   font-family: "Muli", sans-serif;
@@ -1202,4 +1211,147 @@ td {
   display: flex;
   color: white;
   margin-top: 2vw;
+}
+
+.elevatorPitch {
+  width: 45vw; 
+}
+
+.sectionCounter {
+  height: 1vw; 
+  width: 1vw; 
+  border-radius: 50%; 
+  background-color: #ef537b;
+  border: .10vw solid #ef537b; 
+  margin-left: -7vw;
+  position: absolute;
+}
+
+.wrapperTable
+{
+    width: 100%;
+}
+
+.iphoneSE {
+  height: 36.5vw; 
+  width: 18.75vw; 
+  margin: 1vw;
+  text-align: left;
+}
+
+.medsBall {
+  height: 10vw; 
+  width: 10vw; 
+  border-radius: 50%; 
+  background-color: #3285D6;
+  margin: 1vw;
+}
+
+.medsBallEmpty {
+  height: 5vw; 
+  width: 10vw; 
+  background-color: transparent;
+  margin: 1vw;
+  color: white;
+  line-height: 1vw;
+  margin-top: 0vw;
+}
+
+.ballText {
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  margin-top: 43%;
+}
+
+.ballCard {
+  height: 10vw;
+  width: 20vw;
+  border: .5vw solid white;
+}
+
+.textBackground {
+  position: absolute; 
+  height: 30vw; 
+  width: 30vw; 
+  border-radius: 50%; 
+  background-color: #3285D6; 
+  z-index:1; 
+  margin: 3vw; 
+  margin-left: 1vw;
+}
+
+.dataDotsLabel {
+  height: 5vw; 
+  width: 7.5vw; 
+  border: .1vw solid white; 
+  font-size: 1vw;
+  padding: .2vw;
+  text-align: center;
+  margin-left: 1.4vw;
+  margin-top: .2vw;
+  padding: 1vw 0vw;
+}
+
+.dataDotsContainer {
+  height: auto;
+  width: 100%;
+  border: .1vw solid white;
+  margin-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+.dataDotsContainerHalf {
+  height: auto;
+  width: 50%;
+  border: 0vw solid transparent;
+  border-bottom: .1vw solid white;
+  border-top: .1vw solid white;
+  margin-top: 2vw;
+  padding-bottom: 2vw;
+}
+.legend {
+  margin: 2vw;
+  font-size: 1vw;
+
+}
+.legendLabel {
+  font-size: 1vw; 
+  text-transform: uppercase;
+  /* width: 4vw; */
+  margin: 0 .5vw 0 .5vw;
+  
+}
+
+.ring {
+  height: 3vw;
+  width: 3vw;
+  background-color: #1a1a1a;
+  border-radius: 50%;
+  border: .4vw solid #8dd052; 
+  margin: 1.5vw 4vw 1vw 0vw; 
+}
+
+.ringBig {
+  height: 9vw;
+  width: 9vw;
+  background-color: #1a1a1a;
+  border-radius: 50%;
+  border: .6vw solid #8dd052; 
+  margin: 2vw 1vw 2vw 1vw;
+}
+
+.ringContent {
+  height: 3vw;
+  width: 3vw;
+  background-color: white;
+  border-radius: 50%;
+  margin: 1.5vw 7.8vw 1vw 0vw;
+  border: .4vw solid #1a1a1a; 
+}
+
+.legendVars {
+  font-size: 1vw; 
+  text-transform: uppercase;
+  /* width: 4vw; */
+  margin: 0 6vw 0 .5vw;
 }
