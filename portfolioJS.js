@@ -1,348 +1,159 @@
-// VANILLA JS VERSION-- NO SLIDING ANIMATION
 
-// function overview() {
-//     var x = document.getElementById("displayRoles");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
-
-//   function problem() {
-//     var x = document.getElementById("displayProblem");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
-
-//   function inspire() {
-//     var x = document.getElementById("inspirationPhase");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
-
-//   function ideate() {
-//     var x = document.getElementById("ideatePhase");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
-
-//   function product() {
-//     var x = document.getElementById("finalProduct");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
-
-
-
-  $(document).ready(function(){
-    $("#flip").click(function(){
-      $("#panelProject").slideToggle("slow");
-    });
-  });
-
-  $(document).ready(function(){
-    $("#flipProblem").click(function(){
-      $("#panelProblem").slideToggle("slow");
-    });
-  });
-
-  $(document).ready(function(){
-    $("#flipInspire").click(function(){
-      $("#panelInspire").slideToggle("slow");
-    });
-  });
-
-  $(document).ready(function(){
-    $("#flipIdeate").click(function(){
-      $("#panelIdeate").slideToggle("slow");
-    });
-  });
-
-  $(document).ready(function(){
-    $("#flipProduct").click(function(){
-      $("#panelProduct").slideToggle("slow");
-    });
-  });
-
-  $(document).ready(function(){
-    $("#flipDiary").click(function(){
-      $("#panelDiary").slideToggle("slow");
-    });
-  });
-
-
-
-
-
-//   // CONFUCKINGFETTI
-//   class Progress {
-//     constructor(param = {}) {
-//       this.timestamp        = null;
-//       this.duration         = param.duration || Progress.CONST.DURATION;
-//       this.progress         = 0;
-//       this.delta            = 0;
-//       this.progress         = 0;
-//       this.isLoop           = !!param.isLoop;
+//MED CIRCLES
+function medHelper() {
+  document.getElementById('textBackground').style.backgroundColor = '#3285D6';
   
-//       this.reset();
-//     }
-  
-//     static get CONST() {
-//       return {
-//         DURATION : 1000
-//       };
-//     }
-  
-//     reset() {
-//       this.timestamp = null;
-//     }
-  
-//     start(now) {
-//       this.timestamp = now;
-//     }
-  
-//     tick(now) {
-//       if (this.timestamp) {
-//         this.delta    = now - this.timestamp;
-//         this.progress = Math.min(this.delta / this.duration, 1);
-  
-//         if (this.progress >= 1 && this.isLoop) {
-//           this.start(now);
-//         }
-  
-//         return this.progress;
-//       } else {
-//         return 0;
-//       }
-//     }
-//   }
-  
-//   class Confetti {
-//     constructor(param) {
-//       this.parent         = param.elm || document.body;
-//       this.canvas         = document.createElement("canvas");
-//       this.ctx            = this.canvas.getContext("2d");
-//       this.width          = param.width  || this.parent.offsetWidth;
-//       this.height         = param.height || this.parent.offsetHeight;
-//       this.length         = param.length || Confetti.CONST.PAPER_LENGTH;
-//       this.yRange         = param.yRange || this.height * 2;
-//       this.progress       = new Progress({
-//         duration : param.duration,
-//         isLoop   : true
-//       });
-//       this.rotationRange  = typeof param.rotationLength === "number" ? param.rotationRange
-//                                                                      : 10;
-//       this.speedRange     = typeof param.speedRange     === "number" ? param.speedRange
-//                                                                      : 10;
-//       this.sprites        = [];
-  
-//       this.canvas.style.cssText = [
-//         "display: block",
-//         "position: absolute",
-//         "top: 0",
-//         "left: 0",
-//         "pointer-events: none"
-//       ].join(";");
-  
-//       this.render = this.render.bind(this);
-  
-//       this.build();
-  
-//       this.parent.appendChild(this.canvas);
-//       this.progress.start(performance.now());
-  
-//       requestAnimationFrame(this.render);
-//     }
-  
-//     static get CONST() {
-//       return {
-//           SPRITE_WIDTH  : 9,
-//           SPRITE_HEIGHT : 16,
-//           PAPER_LENGTH  : 100,
-//           DURATION      : 8000,
-//           ROTATION_RATE : 50,
-//           COLORS        : [
-//             "#EF5350",
-//             "#EC407A",
-//             "#AB47BC",
-//             "#7E57C2",
-//             "#5C6BC0",
-//             "#42A5F5",
-//             "#29B6F6",
-//             "#26C6DA",
-//             "#26A69A",
-//             "#66BB6A",
-//             "#9CCC65",
-//             "#D4E157",
-//             "#FFEE58",
-//             "#FFCA28",
-//             "#FFA726",
-//             "#FF7043",
-//             "#8D6E63",
-//             "#BDBDBD",
-//             "#78909C"
-//           ]
-//       };
-//     }
-  
-//     build() {
-//       for (let i = 0; i < this.length; ++i) {
-//         let canvas = document.createElement("canvas"),
-//             ctx    = canvas.getContext("2d");
-  
-//         canvas.width  = Confetti.CONST.SPRITE_WIDTH;
-//         canvas.height = Confetti.CONST.SPRITE_HEIGHT;
-  
-//         canvas.position = {
-//           initX : Math.random() * this.width,
-//           initY : -canvas.height - Math.random() * this.yRange
-//         };
-  
-//         canvas.rotation = (this.rotationRange / 2) - Math.random() * this.rotationRange;
-//         canvas.speed    = (this.speedRange / 2) + Math.random() * (this.speedRange / 2);
-  
-//         ctx.save();
-//           ctx.fillStyle = Confetti.CONST.COLORS[(Math.random() * Confetti.CONST.COLORS.length) | 0];
-//           ctx.fillRect(0, 0, canvas.width, canvas.height);
-//         ctx.restore();
-  
-//         this.sprites.push(canvas);
-//       }
-//     }
-  
-//     render(now) {
-//       let progress = this.progress.tick(now);
-  
-//       this.canvas.width  = this.width;
-//       this.canvas.height = this.height;
-  
-//       for (let i = 0; i < this.length; ++i) {
-//         this.ctx.save();
-//           this.ctx.translate(
-//             this.sprites[i].position.initX + this.sprites[i].rotation * Confetti.CONST.ROTATION_RATE * progress,
-//             this.sprites[i].position.initY + progress * (this.height + this.yRange)
-//           );
-//           this.ctx.rotate(this.sprites[i].rotation);
-//           this.ctx.drawImage(
-//             this.sprites[i],
-//             -Confetti.CONST.SPRITE_WIDTH * Math.abs(Math.sin(progress * Math.PI * 2 * this.sprites[i].speed)) / 2,
-//             -Confetti.CONST.SPRITE_HEIGHT / 2,
-//             Confetti.CONST.SPRITE_WIDTH * Math.abs(Math.sin(progress * Math.PI * 2 * this.sprites[i].speed)),
-//             Confetti.CONST.SPRITE_HEIGHT
-//           );
-//         this.ctx.restore();
-//       }
-  
-//       requestAnimationFrame(this.render);
-//     }
-//   }
-  
-//   (() => {
-//     const DURATION = 8000,
-//           LENGTH   = 120;
-  
-//     new Confetti({
-//       width    : window.innerWidth,
-//       height   : window.innerHeight,
-//       length   : LENGTH,
-//       duration : DURATION
-//     });
-  
-//     setTimeout(() => {
-//       new Confetti({
-//         width    : window.innerWidth,
-//         height   : window.innerHeight,
-//         length   : LENGTH,
-//         duration : DURATION
-//       });
-//     }, DURATION / 2);
-//   })();
+  document.getElementById('appOverview').style.color = 'white';
+  document.getElementById('appOverview').innerHTML =
+  'App Overview <br> <br> MedHelper, promoted as a "personal healthcare assistant", is a mobile application designed to help prescription medication users stay on top of their treatment regimes. The app intends to encourage medication compliance and consistency.';
 
+  document.getElementById('appImage').innerHTML = '<img src="images/medhelperMain.png" style="height: 25vw; width: 13vw">';
 
-//   // Increments the delay on each item.
-// $('.rolldown-list li').each(function () {
-//     var delay = ($(this).index() / 4) + 's';
-//     $(this).css({
-//       webkitAnimationDelay: delay,
-//       mozAnimationDelay: delay,
-//       animationDelay: delay
-//     });
-//   });
-  
-//   $('#btnReload').click(function () {
-//     $('#myList').removeClass('rolldown-list');
-//     setTimeout(function () {
-//       $('#myList').addClass('rolldown-list');
-//     }, 1);
-//   });
-
-
-
-var parallaxElements = $('.parallax'),
-    parallaxQuantity = parallaxElements.length;
-
-$(window).on('scroll', function () {
-
-  window.requestAnimationFrame(function () {
-
-    for (var i = 0; i < parallaxQuantity; i++) {
-      var currentElement =  parallaxElements.eq(i);
-      var scrolled = $(window).scrollTop();
-          
-        currentElement.css({
-          'transform': 'translate3d(0,' + scrolled * -0.3 + 'px, 0)'
-        });
-
-    }
-  });
-
-});
-
-
-
-function mouseOver() {
-    document.getElementById("demo").style.background = "aliceblue";
-    document.getElementById("demo").style.height = "30vw";
-    document.getElementById("demo").style.width = "30vw";
-    document.getElementById("demo").style.borderRadius = "50%";
-    document.getElementById("demo").style.marginTop= "-30vw";
-    document.getElementById("demo").style.marginRight= "5vw";
-
-
-
-  }
-  
-  function mouseOut() {
-    document.getElementById("demo").style.height = "0vw";
-    
-  }
-
-
-  $("div").scroll(function(){
-    $("span").text(x += 1);
-  });
-  
-
-function crossOut() {
-  onscroll.consoleLog('hi');
-  document.getElementById('lineThrough').style.textDecoration = 'line-through';
+  document.getElementById('feedbackGrid').innerHTML = 
+  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Feedback Grid </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - Users are notified when they are running low on medication <br> <br> - User is able to input a lot of details about their medication (e.g. tRx number, why they are taking it, what they should take it with) <br> <br> - User can input details about their pharmacy and doctor </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- The design is very clinical; it feels like filling out paperwork at doctor’s office <br> <br>  - The user flow is not intuitive-- leads to a lot of jumping back anforth from the homepage <br> <br> - It feels as though the app lacks a functional home screen </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - How could a designer make filling out medication info feel like leswork? <br> <br> - Why is there so much whitespace within the application? <br> <br> - Which button should I press to begin using this app? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The home screen elements could be divided into meaningful chunks so thathe user doesn’t feel overwhelmed by options <br> <br> - Data entry could be more interactive <br> <br> - Icons and images could brighten up the design </td> </tr> </table> </div> </div>';
 }
 
-crossOut();  
+function round() {
+  document.getElementById('textBackground').style.backgroundColor = '#3285D6';
 
+  document.getElementById('appOverview').style.color = 'white';
+  document.getElementById('appOverview').innerHTML =
+  'App Overview <br> <br>Round is a mobile application that allows users to track their medications and make note of missed doses. By reminding users to remain disciplined in their medicine regime, Round helps individuals "worry less, live healthier, and be happier.'; 
+
+  document.getElementById('appImage').innerHTML = '<img src="images/RoundMain.png" style="height: 25vw; width: 13vw">';
+
+  document.getElementById('feedbackGrid').innerHTML = 
+  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Feedback Grid </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - The design is delicate and aesthetically pleasing-- includes colorful microinteractions <br> <br> - The app tracks whether or not users have taken their meds and indicates missed doses on a calendar <br> <br> - Users are able to “un-take” medication </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- The app asks for strength of dose but doesn’t provide a unit of measurement; this might confuse users  <br> <br>  - The app is almost too simple; the data collected is valuable but nothing is done with it <br> <br> - The app is pleasant but ultimately lacks meaningful and competitive features </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - What is the goal of this app? <br> <br> - How do users gain by using Round? <br> <br> - How might we broaden the depth of the app while maintaining a simplistic UI? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The data could be used to provide users with meaningful feedback <br> <br> - The app could allow users to keep track of their doctor’s information/pharmacy numbers <br> <br> - The app could indicate a percentage of miss doses per month </td> </tr> </table> </div> </div>'
+}
+
+function mediSafe() {
+  document.getElementById('textBackground').style.backgroundColor = '#3285D6';
+
+  document.getElementById('appOverview').style.color = 'white';
+  document.getElementById('appOverview').innerHTML =
+  'App Overview <br> <br> Medisafe is a HIPAA certified mobile application designed to help individuals consume their medication on time. The app delivers an innovative cloud-based platform that allows doctors and close others to monitor medication intake.';
+
+  document.getElementById('appImage').innerHTML = '<img src="images/mediSafeMain.png" style="height: 25vw; width: 13vw">';
+
+  document.getElementById('feedbackGrid').innerHTML = 
+  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Feedback Grid </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - The app allows users to sync health data via wearables <br> <br> - The app provides an educational feature that teaches users about their medication <br> <br> - The app includes a report page that communicates weekly medication adherence </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- There is a diary feature but no writing prompts are provided  <br> <br>  - There is a mood feature but it is a simple 1-10 scale <br> <br> - Users might be somewhat overwhelmed by the default notification settings </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - How come the inputted health data is not included in the report section? <br> <br> - Why isn’t the report delivered in a more concise manner? <br> <br> - What is the purpose of the dropdown icon on the homescreen? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The app could expand on their mood feature and include mood ratings in the report section <br> <br> - The report could be provided with multiple view options <br> <br> - Users might be overwhelmed by the app offerings; sections of the app could be grouped into meaningful chunks to simplify the design </td> </tr> </table> </div> </div>'
+}
+
+// MOOD CIRCLES
+function daylio() {
+  document.getElementById('textBackground').style.backgroundColor = 'white';
+
+  document.getElementById('appOverview').style.color = '#1A1A1A';
+  document.getElementById('appOverview').innerHTML =
+  'App Overview <br> <br>Daylio is a daily mood tracking app that offers a simple, two step entry creation process. The app allows users to review how their mood trends, and how they relate to common daily activiites.';
+
+  document.getElementById('appImage').innerHTML = '<img src="images/daylioMain.png" style="height: 25vw; width: 13vw">';
+
+  document.getElementById('feedbackGrid').innerHTML = 
+  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Feedback Grid </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - The app provides notifications for achievements <br> <br> - Statistics are displayed in an intuitive way and with many view options (e.g. in a line graph, on a calendar, average daily mood, average monthly mood) <br> <br> - The process of rating your mood is quick and simple-- not much effort is required from the user </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- Achievements feel almost too easy to accomplish  <br> <br>  - There are too many variables to choose from for activities-- it would take a lot of data to form meaningful correlations <br> <br> - Option to log previous days might backfire-- the passage of time affects one’s memory of previous mood states (it should be strict about habit forming) </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - Which demographic is this application designed for? <br> <br> - How did the designer go about choosing the variables of interest in the activities section? <br> <br> - How come the user can submit multiple entries per day? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - Language could be altered to fit a larger demographic (e.g. words like “rad” and “meh” seem to target younger users) <br> <br> - App could include a more in-depth journal option/prompts for writing (instead of the “add note” placeholder) <br> <br> - Why are users rewarded with badges for things like unstable mood patterns? </td> </tr> </table> </div> </div>';
+}
+
+function reflectly() {
+  document.getElementById('textBackground').style.backgroundColor = 'white';
+
+  document.getElementById('appOverview').style.color = '#1A1A1A';
+  document.getElementById('appOverview').innerHTML =
+  'App Overview <br> <br>Marketed as a "mental health companion", Reflectly is an intelligent journal that uses AI to help users reflect on their daily thoughts and problems. The app also provides a daily mood tracker.';
+
+  document.getElementById('appImage').innerHTML = '<img src="images/ReflectlyMain.png" style="height: 25vw; width: 13vw">';
+
+  document.getElementById('feedbackGrid').innerHTML = 
+  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Feedback Grid </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - A digital character walks you through the process of how to use the app <br> <br> - There are multiple levels of mood capturing (e.g. negative-positive valence, associated activities, feelings) <br> <br> - The app provides a filter to search how variables relate to each other (e.g. user can search “stories about friends where you felt angry”) </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- Too many variables to choose from on the mood rating pages-- makes app comprehensive but results in less meaningful data for the user  <br> <br>  - Too many prompts for the user to buy the full version <br> <br> - Some pages don’t have clear go-back/exit options </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - Why don’t edits to activities update when I change them on the journal page (i.e. can I change my response or do I have to start over?) <br> <br> - How did the designer choose the mood capturing adjectives? <br> <br> - What is the goal of the “questions of the day” feature? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The app could provide a more concise, objective measure of mood  <br> <br> - The app could ask user how they might improve their day if they provide a negative mood rating <br> <br> - The designer could reconsider advertising the product as a journal for “happiness”-- all moods are important  </td> </tr> </table> </div> </div>';
+}
+
+function eMoods() {
+  document.getElementById('textBackground').style.backgroundColor = 'white';
+
+  document.getElementById('appOverview').style.color = '#1A1A1A';
+  document.getElementById('appOverview').innerHTML =
+  'App Overview <br> <br>eMoods is a mobile application designed for indiviudals with Bipolar disorder. The app allows users to track the highs and lows of their moods, sleep habits, medication, and other relevant symptoms.'
+
+  document.getElementById('appImage').innerHTML = '<img src="images/emoodsMain.png" style="height: 25vw; width: 13vw">';
+
+  document.getElementById('feedbackGrid').innerHTML = 
+  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Feedback Grid </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - The app tracks users’ sleep schedule and weight <br> <br> - The app provides resources for emergency services (e.g. crisis hotline numbers, online therapy) <br> <br> - The app has a comprehensive mood rating scale that appears to mimic clinical tests </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- The app is designed specifically for individuals who have bipolar disorder, making the demographic of interest a very small percentage of the population (about 1%) <br> <br>  - How could the designer take advantage of colour to make viewing data more intuitive? <br> <br> - How could the UI have a less clinical feel? </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - Why don’t edits to activities update when I change them on the journal page (i.e. can I change my response or do I have to start over?) <br> <br> - How did the designer choose the mood capturing adjectives? <br> <br> - What is the goal of the “questions of the day” feature? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The designer could expand on the educational aspect of the app <br> <br> - App could show how specific medications are correlated with mood <br> <br> - If the user responds “severe” to every negative mood rating, a suggestion to call for help could pop up </td> </tr> </table> </div> </div>';
+}
+
+// JOURNAL CIRCLES
+
+function beingMe() {
+  document.getElementById('textBackground').style.backgroundColor = '#ef537b';
+  
+  document.getElementById('appOverview').style.color = 'white';
+  document.getElementById('appOverview').innerHTML =
+  'App Overview <br> <br>Being Me is a journaling application which aims to help users stay centered and maintain their mental health. Inspired by teachings of mindfulness, the app guides useres through meditations and exercises to imrpove well-being.';
+
+  document.getElementById('appImage').innerHTML = '<img src="images/beingMeMain.png" style="height: 25vw; width: 13vw">';
+
+  document.getElementById('feedbackGrid').innerHTML = 
+  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Feedback Grid </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - The journal asks users to rate their mood and provides emojis to represent each mood <br> <br> - The app allows users to set goals and productive habits <br> <br> - The app encourages users to journal more by providing a star rating of feedback depth </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- Home screen is too busy-- background image is distracting and elements are not clearly divided <br> <br>  - UI design is inconsistent across screens <br> <br> - User is required to read through a lot of text heavy sections </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - How come there are so many different options to choose from when choosing to record a journal entry? <br> <br> - Why doesn’t the home screen provide a summary of the user’s data? <br> <br> - How can we make the app interactive without taking navigation power away from the user? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The app could allow users to change the background image  <br> <br> - The app could compile the features into weekly progress reports <br> <br> - The app could  allow users to skip sections if they wish </td> </tr> </table> </div> </div>';
+}
+
+
+function diary() {
+  document.getElementById('textBackground').style.backgroundColor = '#ef537b';
+
+  document.getElementById('appOverview').style.color = 'white';
+  document.getElementById('appOverview').innerHTML =
+  'App Overview <br> <br>Diary is a minimalistic journaling application which encourages users to keep track of their life progress. The app is marketed as "simple and friendly".';
+
+  document.getElementById('appImage').innerHTML = '<img src="images/diaryMain.png" style="height: 25vw; width: 13vw">';
+
+  document.getElementById('feedbackGrid').innerHTML = 
+  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Feedback Grid </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - The app has a very attractive and minimalistic UI <br> <br> - Users can assign a password to protect their information <br> <br> - Blank spaces separate missed-entry days  </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- The majority of desirable features are only available through the premium version <br> <br>  - The hamburger menu contains a list of seemingly unrelated variables <br> <br> - User cannot exit out of a journal session </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - What is the purpose of the shuffle feature on the list of journal entries screen? <br> <br> - Why are weekends indicated in red? <br> <br> - Why can you add journal entries for the future? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - Journal prompts could be added to inspire the user to write <br> <br> - The home screen could indicate the user’s commitment to journalling in graph form <br> <br> - The designer could review click events to ensure that all buttons lead to desired screen </td> </tr> </table> </div> </div>';
+}
+
+function journey() {
+  document.getElementById('textBackground').style.backgroundColor = '#ef537b';
+
+  document.getElementById('appOverview').style.color = 'white';
+  document.getElementById('appOverview').innerHTML =
+  'App Overview <br> <br>Journey is a journaling application that features "motivational coaches" and "happiness trainers". Through the encouragement of daily discipline, it aims to create a healthier, happier mind for users.';
+
+  document.getElementById('appImage').innerHTML = '<img src="images/journeyMain.png" style="height: 25vw; width: 13vw">';
+
+   document.getElementById('feedbackGrid').innerHTML = 
+  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Feedback Grid </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - The app has a beautiful, immersive UI that captures the attention of users <br> <br> - The app provides journal coaches to help inspire users to write <br> <br> - Journal entries provide options to add other relevant data (e.g. mood, exercise, geotag) </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- The app allows users to add journal entries for the future <br> <br>  - You can only use one coach at a time <br> <br> - There are too many options to choose from on the landing screen </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - What is the purpose of the “throwback” feature? Do you lose access to notes after the month is up? <br> <br> - How did the designers come up with themes for the coaching sessions? <br> <br> - Which screen is the homescreen? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The designers might consider using cards to separate journal entries  <br> <br> - The app could allow users to receive guidance from multiple coaches throughout the day <br> <br> - The designers could consider removing a couple of icons from the landing screen </td> </tr> </table> </div> </div>';
+}
+ 
+function downSlash() {
+  document.getElementById("downSlash").scrollIntoView();
+
+}
+
+// diary table cross through
+
+function crossMe() {
+  document.getElementById('lineThrough1').style.textDecoration = 'line-through';
+  document.getElementById('lineThrough2').style.textDecoration = 'line-through';
+  document.getElementById('lineThrough3').style.textDecoration = 'line-through';
+  document.getElementById('lineThrough4').style.textDecoration = 'line-through';
+  document.getElementById('lineThrough5').style.textDecoration = 'line-through';
+  document.getElementById('lineThrough6').style.textDecoration = 'line-through';
+  
+  document.getElementById('keep1').style.backgroundColor = "#ef537b";
+  document.getElementById('keep2').style.backgroundColor = "#ef537b";
+  document.getElementById('keep3').style.backgroundColor = "#ef537b";
+
+}
+
+function dontCrossMe() {
+  document.getElementById('lineThrough1').style.textDecoration = 'none';
+  document.getElementById('lineThrough2').style.textDecoration = 'none';
+  document.getElementById('lineThrough3').style.textDecoration = 'none';
+  document.getElementById('lineThrough4').style.textDecoration = 'none';
+  document.getElementById('lineThrough5').style.textDecoration = 'none';
+  document.getElementById('lineThrough6').style.textDecoration = 'none';
+
+  document.getElementById('keep1').style.backgroundColor = "#1a1a1a";
+  document.getElementById('keep2').style.backgroundColor = "#1a1a1a";
+  document.getElementById('keep3').style.backgroundColor = "#1a1a1a";
+}
 
 function turnPink1 () {
   document.getElementById('col1').style.backgroundColor = "#ef537b";
@@ -398,9 +209,114 @@ function turnPink5 () {
 }
 
 
+// VANILLA JS VERSION-- NO SLIDING ANIMATION
 
-// function lineThrough() {
-//   document.getElementById('lineThrough').style.textDecoration = "line-through";
-// }
+// function overview() {
+//     var x = document.getElementById("displayRoles");
+//     if (x.style.display === "none") {
+//       x.style.display = "block";
+//     } else {
+//       x.style.display = "none";
+//     }
+//   }
+
+//   function problem() {
+//     var x = document.getElementById("displayProblem");
+//     if (x.style.display === "none") {
+//       x.style.display = "block";
+//     } else {
+//       x.style.display = "none";
+//     }
+//   }
+
+//   function inspire() {
+//     var x = document.getElementById("inspirationPhase");
+//     if (x.style.display === "none") {
+//       x.style.display = "block";
+//     } else {
+//       x.style.display = "none";
+//     }
+//   }
+
+//   function ideate() {
+//     var x = document.getElementById("ideatePhase");
+//     if (x.style.display === "none") {
+//       x.style.display = "block";
+//     } else {
+//       x.style.display = "none";
+//     }
+//   }
+
+//   function product() {
+//     var x = document.getElementById("finalProduct");
+//     if (x.style.display === "none") {
+//       x.style.display = "block";
+//     } else {
+//       x.style.display = "none";
+//     }
+//   }
+
+
+
+  // $(document).ready(function(){
+  //   $("#flip").click(function(){
+  //     $("#panelProject").slideToggle("slow");
+  //   });
+  // });
+
+  // $(document).ready(function(){
+  //   $("#flipProblem").click(function(){
+  //     $("#panelProblem").slideToggle("slow");
+  //   });
+  // });
+
+  // $(document).ready(function(){
+  //   $("#flipInspire").click(function(){
+  //     $("#panelInspire").slideToggle("slow");
+  //   });
+  // });
+
+  // $(document).ready(function(){
+  //   $("#flipIdeate").click(function(){
+  //     $("#panelIdeate").slideToggle("slow");
+  //   });
+  // });
+
+  // $(document).ready(function(){
+  //   $("#flipProduct").click(function(){
+  //     $("#panelProduct").slideToggle("slow");
+  //   });
+  // });
+
+  // $(document).ready(function(){
+  //   $("#flipDiary").click(function(){
+  //     $("#panelDiary").slideToggle("slow");
+  //   });
+  // });
+
+
+
+
+
+var parallaxElements = $('.parallax'),
+    parallaxQuantity = parallaxElements.length;
+
+$(window).on('scroll', function () {
+
+  window.requestAnimationFrame(function () {
+
+    for (var i = 0; i < parallaxQuantity; i++) {
+      var currentElement =  parallaxElements.eq(i);
+      var scrolled = $(window).scrollTop();
+          
+        currentElement.css({
+          'transform': 'translate3d(0,' + scrolled * -0.3 + 'px, 0)'
+        });
+
+    }
+  });
+
+});
+
 
 
