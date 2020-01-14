@@ -1,3 +1,18 @@
+// SOCIAL ICONS
+
+function newWindowLinked() {
+  window.open("https://www.linkedin.com/in/anna-gombay-a3b244131/");
+}
+
+function newWindowGit() {
+  window.open("https://github.com/annagombay");
+}
+
+function newWindowInsta() {
+  window.open("https://www.instagram.com/annagphoenix/");
+}
+
+
 
 //MED CIRCLES
 function medHelper() {
