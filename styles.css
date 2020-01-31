@@ -316,9 +316,11 @@ html {
     text-align: center;
 }
 
+
 .parallax {
     /* The image used */
     background-image: url('images/alicewoods.jpg');
+
 
   
     /* Set a specific height */
@@ -489,7 +491,7 @@ html {
       display: flex;
       margin-left: 5vw;   
       border-bottom: 3vw;
-      margin-top: 10vw;
+      margin-top: 2vw;
   
      
   }
@@ -1039,6 +1041,7 @@ a {
   font-size: 6vw;
   color: white;
   margin: 3vw;
+  text-align: center;
 }
 
 .bioParagraphLittle {
