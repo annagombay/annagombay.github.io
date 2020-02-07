@@ -5,12 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="/path/to/parallax.js"></script>
+    <script src="/path/to/parallax.js"></script>
 
+    
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
 
         <link href="https://fonts.googleapis.com/css?family=Balthazar&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap" rel="stylesheet">
@@ -32,6 +36,8 @@
 
         <script src="portfolioJS.js"></script>
 
+        <script src="jQuery.min.js"></script>  
+        <script src="jQuery.scrollSpeed.js"></script>
        
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -50,24 +56,49 @@
 
         <div class="parallax">
         </div>
-
-
-        <div class="d-flex flex-row justify-content-center">
-            <div class="neon">
-                <br>down the 
-                <br>rabbit hole
-                <br> 
-                &#8964; 
-                <br> 
-                &#8964;
-                <br>
-                &#8964;
+        <!-- <div style="margin-top: -5vw; position: absolute; width: 100%; height: 17vw; background-color: black; z-index: 4"> -->
+            <div class="d-flex flex-row justify-content-center">
+                <div onclick="goDown()" id="goDown" class="neon">
+                    <br>down the 
+                    <br>rabbit hole
+                    <br>
+                    
+                    <br>
+                </div>
             </div>
         </div>
+
+        <div style="position: absolute; width: 100%; height: 5vw; margin-top: 0vw; background-color: black; z-index: 4">
+        </div>
+
+        <div style="position: absolute; width: 100%; height: 20vw; margin-top: 20vw; background-color: black; z-index: 4;">
+           <div class="d-flex flex-row justify-content-center">
+                <div class="mad">
+                        we're all mad here
+                </div>
+           </div>
+        </div>
+
+
+        <div style="position: absolute; width: 100%; height: 20vw; margin-top: 60vw; background-color: black; z-index: 4">
+            <div class="d-flex flex-row justify-content-center">
+                <img src="images/aliceFalls.png" class="alice">
+            </div>
+        </div>
+
+    
+
+       <!-- <div style="position: absolute; z-index: 1; height: 20vw; width: 100%;"></div> -->
+        
+        
+        <div class="tenor-gif-embed" data-postid="15159406" data-share-method="host" data-width="100%" data-aspect-ratio="1.0" >
+
+        </div>  
+        
                 
-        <div class="slideRight d-flex flex-row justify-content-center">
+        <div id="rabbitHole" class="slideRight d-flex flex-row justify-content-center">
             <div class="bioBox" style="background-color: transparent" id="bio">
-                <div class="aboutMe" style=>
+                <div class="aboutMe">
                     about me
                 </div>
                 <img src="images/ya.jpg" class="bio" alt="pictureOfAnna" style="position: absolute;">
@@ -119,8 +150,8 @@
 
         
 
-            <div class="d-flex flex-row justify-content-start">
-                <img src="images/mindMapMain.png" class="prototype" style="height: 40w; width: 16vw">
+            <div class="d-flex flex-row justify-content-start" style="margin-top: 6vw">
+                <img src="images/mindMapMain.png" class="prototype" style="height: 40w; width: 16vw;">
             </div>
 
             <div class="d-flex flex-row justify-content-end"> 
@@ -385,4 +416,6 @@
 
 
     </body>
+
+
 </html>
