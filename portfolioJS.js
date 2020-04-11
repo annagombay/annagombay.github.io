@@ -1,4 +1,72 @@
 
+// HAMBURGER MENU ICON
+  // creating the rotating effect
+$(document).ready(function () {
+  $('.first-button').on('click', function () {
+    $('.animated-icon1').toggleClass('open');
+  });
+  $('.second-button').on('click', function () {
+    $('.animated-icon2').toggleClass('open');
+  });
+  $('.third-button').on('click', function () {
+    $('.animated-icon3').toggleClass('open');
+  });
+});
+$(document).ready(function () {
+// Bubbles exit on click
+    $("#liButton ").click(function(){
+    // $('.bubbleContainer').toggleClass('bubbleContainerExit');
+    $(console.log("hihihi"));
+  });
+});
+
+// Open navbar
+$(document).ready(function () {
+  $('.first-button').on('click', function () {
+    $('.navOpen').toggleClass('clicked');
+  });
+});
+
+$(document).ready(function () {
+  $('#contact').on('click', function () {
+    $('.contactBubble').toggleClass('clicked');
+  });
+});
+
+//Navbar 2020
+
+$(function () {
+  $(document).scroll(function(){
+    var $nav = $("#mainNavbar");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+  $(document).scroll(function(){
+    var $nav = $("#logo");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+  $(document).scroll(function(){
+    var $nav = $("li.nav-item");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+  $(document).scroll(function(){
+    var $nav = $("#animated-icon1 span");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  })
+})
+
+// Nav item scroll behaviour
+
+function about() {
+  document.getElementById("about").scrollIntoView();
+}
+
+function projects() {
+  document.getElementById("projects").scrollIntoView();
+}
+
+function contact() {
+  document.getElementById("footer").scrollIntoView();
+}
 
 // SOCIAL ICONS
 
@@ -13,15 +81,6 @@ function newWindowGit() {
 function newWindowInsta() {
   window.open("https://www.instagram.com/annagphoenix/");
 }
-
-
-// FEEDBACK GRID VARIABLES
-
-// function medUse() {
-//   document.getElementById('medUse').style.backgroundColor = "#3285D6";
-//   document.getElementById('moodTrack').style.backgroundColor = "transparent";
-//   document.getElementById('journaling').style.backgroundColor = "transparent";
-// }
 
 
 //MED CIRCLES
