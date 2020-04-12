@@ -725,6 +725,13 @@ height: 20vw;
 
 }
 
+/* .mdl-card__title .mdl-card--expand {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 80vw;
+
+} */
 .iAmA {
   display: none;
 }
@@ -768,6 +775,11 @@ height: 20vw;
 .allMobileCards {
   display: none;
 }
+
+#chaos_mobile {
+  display: none;
+}
+
 /* MEDIA QUERIES */
 
 
@@ -787,18 +799,22 @@ height: 20vw;
                                                               @media (max-width: 375px) { 
                                                                 .parallax {
                                                                   min-height: 155vw;
+                                                                  width: 100%;
                                                                 }
                                                                 .downArrow {
-                                                                  font-size: 15vw;
+                                                                  font-size: 16vw;
                                                                 }
                                                                 #mainNavbar {
                                                                   height: 14vw;
+                                                                }
+                                                                .navbar-expand-md, .navbar, .navbar-dark {
+                                                                  width: 375px;
                                                                 }
                                                                 #logo {
                                                                   font-size: 3.4vw;
                                                                 }
                                                                 .fade-up {
-                                                                  font-size: 6vw;
+                                                                  font-size: 8vw;
                                                                 }
                                                                 .bubbleContainer{
                                                                   margin: 6vw;
@@ -811,9 +827,12 @@ height: 20vw;
                                                                   padding: 0vw;
                                                                   text-align: center;
                                                                 }
-                                                                #chaos {
+                                                                #chaos_mobile {
                                                                 width: 100%;
                                                                 margin-left: -1vw;
+                                                                }
+                                                                .chaos {
+                                                                  display: none;
                                                                 }
                                                                 #mainNavbar.scrolled {
                                                                   height: 14vw;
@@ -821,11 +840,30 @@ height: 20vw;
                                                                 .iAmA {
                                                                   display: inline-block;
                                                                 }
+                                                                .intro_mobile {
+                                                                  font-size: 5vw;
+                                                                  color: #f1f1f1;
+                                                                  font-family: 'Muli', sans-serif;
+                                                                  letter-spacing: .5vw;
+                                                                  vertical-align: middle;
+                                                                  display: flex;
+                                                                  flex-direction: row;
+                                                                  justify-content: flex-start;
+                                                                  width: 90vw;
+                                                                  margin-left: 2.5vw;
+
+                                                                }
+                                                                .uxD {
+                                                                  font-size: 6vw;
+                                                                  letter-spacing: .5vw;
+                                                                  font-family: 'Muli', sans-serif;
+                                                                  display: flex;
+                                                                  flex-direction: row;
+                                                                  justify-content: flex-start;
+                                                                  margin-left: 6vw;
+                                                                }
                                                                 .blockA {
                                                                   display: none;
-                                                                }
-                                                                .blockB {
-                                                                  width: 100%;
                                                                 }
                                                                 .allCards {
                                                                   display: none;
@@ -844,10 +882,10 @@ height: 20vw;
                                                                   font-family: 'Muli', sans-serif;
                                                                   font-size: 1.2vw;
                                                                   letter-spacing: .2vw;
-                                                                  padding-bottom: 15vw;
+                                                                  padding-bottom: 110vw;
                                                                 }
                                                                 h2.mdl-card__title-text {
-                                                                  font-size: 2vw;
+                                                                  font-size: 5vw;
                                                                   font-family: 'Muli', sans-serif;
                                                                   text-align: center;
                                                                   padding-top: 1vw;
@@ -855,13 +893,15 @@ height: 20vw;
                                                                   background-color: rgba(0,0,0, .5);
                                                                   color: #f1f1f1;
                                                                   width: 80vw;
+                                                                  height: 8vw;
                                                                 }
-                                                                .mdl-card__supporting-text {
+                                                                #mdl-card__supporting-text {
                                                                   background-color: #f1f1f1;
-                                                                  height: fit-content;
-                                                                  padding: 2vw;
                                                                   width: 80vw;
-                                                                  margin-left: -25vw
+                                                                  margin-left: -25vw;
+                                                                  height: 20vw; 
+                                                                  font-size: 3vw; 
+                                                                  padding: 4vw;
                                                                 }
                                                                 .mdl-card__actions, .mdl-card--border {
                                                                   width: 80vw;
@@ -870,6 +910,48 @@ height: 20vw;
                                                                 .allMobileCards {
                                                                   display: inline-block;
                                                                 }
+                                                                .blockB {
+                                                                  display: none;
+                                                                }
+                                                                #chaos_mobile {
+                                                                  display: flex;
+                                                                  padding: 5vw;
+                                                                }
+                                                                #erase, #chaos {
+                                                                  display: none;
+                                                                  height: 0vw;
+                                                                }
+                                                               #mindMap {
+                                                                background: url(images/depressedMini.png); 
+                                                                background-position: center;
+                                                                background-repeat: no-repeat;
+                                                                background-size: cover; 
+                                                                width: 80vw;
+                                                                height: 80vw;
+                                                                margin-left: -25vw;
+                                                                }
+                                                                #diaryStudy {
+                                                                  background: url(images/audioExperiencesMini.png); 
+                                                                  background-position: center;
+                                                                  background-repeat: no-repeat;
+                                                                  background-size: cover; 
+                                                                  width: 80vw;
+                                                                  height: 80vw;
+                                                                  margin-left: -25vw;
+                                                                }
+                                                                #webRedesign {
+                                                                  background: url(images/yogaMainMini.png); 
+                                                                  background-position: center;
+                                                                  background-repeat: no-repeat;
+                                                                  background-size: cover; 
+                                                                  width: 80vw;
+                                                                  height: 80vw;
+                                                                  margin-left: -25vw;
+                                                                }
+                                                                #launchButton {
+                                                                  width: 80vw; height: 8vw; font-size: 3vw;
+                                                                }
+
                                                               }
                                                               
       /* Small devices (landscape phones, 576px and up) */
@@ -1259,6 +1341,7 @@ html {
     padding: .17vw 1.33vw;
   }
 
+
   .projectOverview {
       background-color: rgba(96,189,233, 1);
       background-color: rgba(255,255,255, .5);
@@ -1267,8 +1350,7 @@ html {
       border: none;
      font-family: 'Muli', serif;
       color: white;
-      font-size: 4vw;
-]      
+      font-size: 4vw;   
   }
 
 
@@ -1903,8 +1985,6 @@ html {
   margin-left: 4.5vw;
   display: flex;
   width: 30vw;
-  
-
 }
 
 
