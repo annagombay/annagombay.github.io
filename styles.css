@@ -780,6 +780,19 @@ height: 20vw;
   display: none;
 }
 
+#aboutBubble {
+  padding-left: .8vw;
+  margin-left: 1vw;
+}
+
+#projectsBubble {
+  padding-left: .1vw;
+  margin-left: .7vw;
+}
+#contactBubble {
+  padding-left: .2vw;
+  margin-left: .8vw;
+}
 /* MEDIA QUERIES */
 
 
@@ -802,7 +815,7 @@ height: 20vw;
                                                                   width: 100%;
                                                                 }
                                                                 .downArrow {
-                                                                  font-size: 16vw;
+                                                                  font-size: 12vw;
                                                                 }
                                                                 #mainNavbar {
                                                                   height: 14vw;
@@ -827,10 +840,6 @@ height: 20vw;
                                                                   padding: 0vw;
                                                                   text-align: center;
                                                                 }
-                                                                #chaos_mobile {
-                                                                width: 100%;
-                                                                margin-left: -1vw;
-                                                                }
                                                                 .chaos {
                                                                   display: none;
                                                                 }
@@ -851,7 +860,6 @@ height: 20vw;
                                                                   justify-content: flex-start;
                                                                   width: 90vw;
                                                                   margin-left: 2.5vw;
-
                                                                 }
                                                                 .uxD {
                                                                   font-size: 6vw;
@@ -882,7 +890,7 @@ height: 20vw;
                                                                   font-family: 'Muli', sans-serif;
                                                                   font-size: 1.2vw;
                                                                   letter-spacing: .2vw;
-                                                                  padding-bottom: 110vw;
+                                                                  padding-bottom: 116vw;
                                                                 }
                                                                 h2.mdl-card__title-text {
                                                                   font-size: 5vw;
@@ -893,7 +901,8 @@ height: 20vw;
                                                                   background-color: rgba(0,0,0, .5);
                                                                   color: #f1f1f1;
                                                                   width: 80vw;
-                                                                  height: 8vw;
+                                                                  height: 12vw;
+                                                                  line-height: 2;
                                                                 }
                                                                 #mdl-card__supporting-text {
                                                                   background-color: #f1f1f1;
@@ -915,20 +924,22 @@ height: 20vw;
                                                                 }
                                                                 #chaos_mobile {
                                                                   display: flex;
-                                                                  padding: 5vw;
+                                                                  width: 100%;
+                                                                  padding-left: 5vw;
+                                                                  padding-right: 5vw;
                                                                 }
                                                                 #erase, #chaos {
                                                                   display: none;
                                                                   height: 0vw;
                                                                 }
                                                                #mindMap {
-                                                                background: url(images/depressedMini.png); 
-                                                                background-position: center;
-                                                                background-repeat: no-repeat;
-                                                                background-size: cover; 
-                                                                width: 80vw;
-                                                                height: 80vw;
-                                                                margin-left: -25vw;
+                                                                  background: url(images/depressedMini.png); 
+                                                                  background-position: center;
+                                                                  background-repeat: no-repeat;
+                                                                  background-size: cover; 
+                                                                  width: 80vw;
+                                                                  height: 80vw;
+                                                                  margin-left: -25vw;
                                                                 }
                                                                 #diaryStudy {
                                                                   background: url(images/audioExperiencesMini.png); 
@@ -949,10 +960,71 @@ height: 20vw;
                                                                   margin-left: -25vw;
                                                                 }
                                                                 #launchButton {
-                                                                  width: 80vw; height: 8vw; font-size: 3vw;
+                                                                  width: 80vw; 
+                                                                  height: 12vw; 
+                                                                  font-size: 4vw;
+                                                                  line-height: 2;
                                                                 }
+                                                                .navBubbles {
+                                                                  height: 16vw; 
+                                                                  width: 16vw; 
+                                                                  background-color: rgba(239, 83, 123, .7);
+                                                                  border-radius: 50%; 
+                                                                  margin-top: 5vw;
+                                                                  display: flex;
+                                                                  border: .2vw solid pink;
+                                                                  font-family: 'Muli', sans-serif;
+                                                                  color: #f1f1f1;
+                                                                  font-size:  3.5vw;
+                                                                  text-decoration: none;
+                                                                  line-height: 16vw;
+                                                                  letter-spacing: .15vw;
+                                                                  margin-left: -4vw;
+                                                                }
+                                                                #aboutBubble {
+                                                                  padding-left: 1.5vw;
+
+                                                                }
+                                                                #projectsBubble {
+                                                                  padding-left: .5vw;
+                                                                }
+                                                                #contactBubble {
+                                                                  padding-left: .3vw;
+                                                                }
+                                                                #iconMobile{
+                                                                  width: 9vw;
+                                                                  height: 9vw;
+                                                                  background: rgba(255,255,255,.1);
+                                                                  margin: 2vw;
+                                                                  border-radius: 50%;
+                                                                  color: #10ac84;
+                                                                  box-shadow: 0vw .4vw 1.2vw -.4vw #00000070;
+                                                                  position: relative;
+                                                                  overflow: hidden;
+                                                              }
+                                                              i::before {
+                                                                font-size: 5vw;
+                                                              }
+                                                              i {
+                                                                padding: 2.3vw 1.6vw 2vw 2vw;
+                                                                align-items: center;
 
                                                               }
+                                                              #copyRight {
+                                                                height: fit-content;
+                                                                padding-top: 6vw;
+
+                                                              }
+                                                              div.socialButtons {
+                                                                margin-left: 8vw;
+                                                              }
+                                                              #ag2020 {
+                                                                margin-top: 2.5vw;
+                                                              }
+                                                            }
+
+                                                             
+
                                                               
       /* Small devices (landscape phones, 576px and up) */
       @media (min-width: 576px) { 
