@@ -923,9 +923,7 @@ height: 20vw;
                                                                 .blockB {
                                                                   display: none;
                                                                 }
-                                                                #chaos {
-                                                                  display: none;
-                                                                }
+                                                              
                                                                 #chaos_mobile {
                                                                   display: flex;
                                                                   width: 100%;
