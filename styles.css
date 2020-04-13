@@ -926,11 +926,12 @@ height: 20vw;
                                                               
                                                                 img #chaos_mobile {
                                                                   display: flex;
-                                                                  width: 100%;
                                                                   padding-left: 5vw;
                                                                   padding-right: 5vw;
                                                                   padding-top: 0vw;
                                                                   padding-bottom: 0vw;
+                                                                  height: 1591px;
+                                                                  width: 938px;
                                                                 }
                                                                 #erase, #chaos {
                                                                   display: none;
