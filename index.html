@@ -123,17 +123,17 @@
                     <div class="navbarNavOpen d-flex flex-row justify-content-center" id="nav-links">     
                         <div class="bubbleContainer">
                             <div class="navBubbles" id="bubble1">
-                                <a onclick="about()" class="bubble" style="margin-left: 1.7vw;"> 
+                                <a onclick="about()" id="aboutBubble" class="bubble"> 
                                 About 
                                 </a>
                             </div>
                             <div class="navBubbles" id="bubble2">
-                                <a onclick="projects()" class="bubble" style="margin-left: .7vw"> 
+                                <a onclick="projects()" id="projectsBubble" class="bubble"> 
                                 Projects 
                                 </a>
                             </div>
                             <div class="navBubbles" id="bubble3">
-                                <a onclick="contact()" class="bubble" style="margin-left: .8vw"> 
+                                <a onclick="contact()" id="contactBubble" class="bubble"> 
                                 Contact 
                                 </a>
                             </div>
@@ -316,59 +316,8 @@
                                     </div>
                                 </div>
                             </div>
-                    
-<!--                 
-                    <div class="d-flex flex-row justify-content-center">
-                        <div class="projectCards_mobile d-flex flex-row justify-content-center">
-                            <div class="demo-card-square mdl-card mdl-shadow--2dp">
-                                <div class="mdl-card__title mdl-card--expand" 
-                                        style=
-                                        "background: url(images/audioExperiencesMini.png); 
-                                        background-position: center;
-                                        background-repeat: no-repeat;
-                                        background-size: cover; 
-                                        width: 80vw;
-                                        margin-left: -25vw;">
-                                        <h2 class="mdl-card__title-text">Diary Study</h2>
-                                </div>
-                                <div class="mdl-card__supporting-text">
-                                    A one-month diary study capturing the thoughts, behaviours, and emotions of users as they engage in audio experiences.  
-                                </div>
-                                <div class="mdl-card__actions mdl-card--border">
-                                    <a href="DiaryProject.html" class="launchButton mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style= "width: 80vw">
-                                        Launch Project
-                                    </a>
-                                </div>
-                            </div>
                         </div>
                     </div>
-
-                    <div class="d-flex flex-row justify-content-center">
-                            <div class="projectCards_mobile d-flex flex-row justify-content-center">
-                                <div class="demo-card-square mdl-card mdl-shadow--2dp">
-                                    <div class="mdl-card__title mdl-card--expand" 
-                                            style=
-                                            "background: url(images/yogaMainMini.png); 
-                                            background-position: bottom;
-                                            background-repeat: no-repeat;
-                                            background-size: cover; 
-                                            width: 80vw;
-                                            margin-left: -25vw;">
-                                            <h2 class="mdl-card__title-text">Diary Study</h2>
-                                    </div>
-                                    <div class="mdl-card__supporting-text">
-                                        A complete re-structuring of the informational architechture and visual design of an existing website for a yoga studio.   
-                                    </div>
-                                    <div class="mdl-card__actions mdl-card--border">
-                                        <a href="BuddhaRedesignProject.html" class="launchButton mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style= "width: 80vw">
-                                            Launch Project
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
-                </div>
-            </div>
         <!-- /Project cards MOBILE -->
 
         <!-- Project cards -->
@@ -434,21 +383,23 @@
 
     
         <!-- Footer -->
-        <footer class="footer" id="footer">
-            <div class="copyRight d-flex flex-row justify-content-start">
-                        © 2020 Anna Gombay
+        <footer>
+            <div class="copyRight d-flex flex-row justify-content-start" id="copyRight">
+                      <span id="ag2020">
+                          © 2020 Anna Gombay
+                      </span>  
                 <div class="socialButtons">
-                    <div class="icon" style="margin-top: -1.2vw">
+                    <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
                         <i class="fab fa-linkedin" onclick="newWindowLinked()"></i>
                     </div>
-                    <div class="icon" style="margin-top: -1.2vw">
+                    <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
                         <i class="fab fa-github-square" onclick="newWindowGit()"></i>
                     </div>
-                    <div class="icon" style="margin-top: -1.2vw">
+                    <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
                         <i class="fab fa-instagram" onclick="newWindowInsta()"></i>      
                     </div>
-                    <a href="mailto:annaphoenixg@gmail.com" class="icon" style="margin-top: -1.2vw">
-                        <i class="fas fa-envelope-square" target="_blank"></i>
+                    <a href="mailto:annaphoenixg@gmail.com" id="iconMobile" class="icon" style="margin-top: -1.2vw">
+                        <i  class="fas fa-envelope-square" target="_blank"></i>
                     </a>
                 </div>
             </div>
