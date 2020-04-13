@@ -814,16 +814,9 @@ height: 20vw;
                                                                 .parallax {
                                                                   min-height: 155vw;
                                                                   width: 100%;
-                                                                  /* The image used */
-  background-image: url('images/alicewoods.jpg');
-  /* Set a specific height */
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  transform: scale(.5);
-  padding: 21.5vw;
+
+                                                                  transform: scale(.5);
+
                                                                 }
                                                                 .downArrow {
                                                                   font-size: 12vw;
