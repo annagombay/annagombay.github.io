@@ -923,6 +923,9 @@ height: 20vw;
                                                                 .blockB {
                                                                   display: none;
                                                                 }
+                                                                #chaos {
+                                                                  display: none;
+                                                                }
                                                                 #chaos_mobile {
                                                                   display: flex;
                                                                   width: 100%;
@@ -1026,9 +1029,6 @@ height: 20vw;
                                                                 margin-top: 1.5vw;
                                                                 letter-spacing: .12vw;
                                                                 margin-left: 8.1vw;
-                                                              }
-                                                               .animated-icon1 {
-                                                               margin-right: 16vw;
                                                               }
                                                             
                                                             }
