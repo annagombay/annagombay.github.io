@@ -821,7 +821,8 @@ height: 20vw;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  transform: scale(.5);
   padding: 21.5vw;
                                                                 }
                                                                 .downArrow {
