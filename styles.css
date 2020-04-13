@@ -814,6 +814,15 @@ height: 20vw;
                                                                 .parallax {
                                                                   min-height: 155vw;
                                                                   width: 100%;
+                                                                  /* The image used */
+  background-image: url('images/alicewoods.jpg');
+  /* Set a specific height */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding: 21.5vw;
                                                                 }
                                                                 .downArrow {
                                                                   font-size: 12vw;
@@ -924,14 +933,9 @@ height: 20vw;
                                                                   display: none;
                                                                 }
                                                               
-                                                                img #chaos_mobile {
+                                                                #chaos_mobile {
                                                                   display: flex;
-                                                                  padding-left: 5vw;
-                                                                  padding-right: 5vw;
-                                                                  padding-top: 0vw;
-                                                                  padding-bottom: 0vw;
-                                                                  height: 1591px;
-                                                                  width: 938px;
+                                                                  padding: 2vw;
                                                                 }
                                                                 #erase, #chaos {
                                                                   display: none;
