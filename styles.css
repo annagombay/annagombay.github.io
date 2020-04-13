@@ -793,6 +793,7 @@ height: 20vw;
   padding-left: .2vw;
   margin-left: .8vw;
 }
+
 /* MEDIA QUERIES */
 
 
@@ -927,6 +928,8 @@ height: 20vw;
                                                                   width: 100%;
                                                                   padding-left: 5vw;
                                                                   padding-right: 5vw;
+                                                                  padding-top: 0vw;
+                                                                  padding-bottom: 0vw;
                                                                 }
                                                                 #erase, #chaos {
                                                                   display: none;
@@ -1016,15 +1019,19 @@ height: 20vw;
 
                                                               }
                                                               div.socialButtons {
-                                                                margin-left: 8vw;
+                                                                margin-left: 7vw;
                                                               }
                                                               #ag2020 {
-                                                                margin-top: 2.5vw;
+                                                                font-size: 2vw;
+                                                                margin-top: 1.5vw;
+                                                                letter-spacing: .12vw;
+                                                                margin-left: 8.1vw;
                                                               }
+                                                               .animated-icon1 {
+                                                               margin-right: 16vw;
+                                                              }
+                                                            
                                                             }
-
-                                                             
-
                                                               
       /* Small devices (landscape phones, 576px and up) */
       @media (min-width: 576px) { 
