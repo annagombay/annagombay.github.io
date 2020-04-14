@@ -1040,16 +1040,9 @@ height: 20vw;
                                                             
                                                             }
                                                               
-      /* Small devices (landscape phones, 576px and up) */
-      @media (min-width: 576px) { 
-        .parallax {
-          min-height: 110vw;
-        }
-        .downArrow {
-          font-size: 10vw;
-        }
+     
         
-      }
+      
       /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
       @media (min-width: 768px) {  
         .parallax {
@@ -2378,3 +2371,6 @@ td {
   font-family: 'Muli', sans-serif; 
   font-size: 3vw;
 }
+
+
+
