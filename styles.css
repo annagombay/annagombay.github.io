@@ -794,7 +794,7 @@ height: 20vw;
   margin-left: .8vw;
 }
 
-.landing_mobile { 
+#landing_mobile { 
   display: none;
 }
 
@@ -803,16 +803,7 @@ height: 20vw;
 
   /* MOBILE PHONES */
 
-      /* iPhone SE */
-      @media (min-width: 320px) { 
-        .parallax {
-          min-height: 155vw;
-        }
-        .downArrow {
-          font-size: 18vw;
-          color: #f0f8ff;
-        }
-      }
+
                                                               /* iPhone 6/7/8 */
                                                               @media (max-width: 375px) { 
                                                                 #parallax {
