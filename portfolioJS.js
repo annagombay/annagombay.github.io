@@ -623,8 +623,13 @@ $(window).on('scroll', function () {
         currentElement.css({
           'transform': 'translate3d(0,' + scrolled * -0.3 + 'px, 0)'
         });
-
     }
   });
-
+  if (window_width > 375 ) {
+    $(".parallax").parallax("50%", 0.3);
 });
+
+};
+
+
+
