@@ -628,4 +628,3 @@ $(window).on('scroll', function () {
   });
 
 });
-
