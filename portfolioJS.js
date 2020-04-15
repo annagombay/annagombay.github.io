@@ -625,7 +625,7 @@ $(window).on('scroll', function () {
         });
     }
   });
-  if (window_width > 375 ) {
+  if (window_width > 376 ) {
     $(".parallax").parallax("50%", 0.3);
 });
 
