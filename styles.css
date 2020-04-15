@@ -806,10 +806,6 @@ height: 20vw;
                                                               /* iPhone 6/7/8 */
                                                               @media (max-width: 375px) { 
                                                                 #parallax {
-                                                                  display: none ;
-                                                                  
-                                                                }
-                                                                #landing_mobile {
                                                                   background-image: url('images/alicewoodsMobile.svg');
                                                                   height: 112vw;
                                                                   width: 100%;
@@ -818,6 +814,9 @@ height: 20vw;
                                                                   background-position: center;
                                                                   background-repeat: no-repeat;
                                                                   background-size: cover;
+                                                                }
+                                                                #landing_mobile {
+                                                                  
                                                                 }
                                                                 .downArrow {
                                                                   font-size: 12vw;
@@ -1029,7 +1028,7 @@ height: 20vw;
                                                                 margin-left: 8.1vw;
                                                               }
                                                               #animated-icon1 {
-                                                              margin-right: 15vw;
+                                                              margin-right: 16vw;
                                                               }
                                                             
                                                             
