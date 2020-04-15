@@ -812,7 +812,7 @@ height: 20vw;
                                                                 #landing_mobile {
                                                                   background-image: url('images/alicewoodsMobile.svg');
                                                                   height: 112vw;
-                                                                  width: 375vw;
+                                                                  width: 375px;
                                                                   padding: none;
                                                                   margin: none;
                                                                   display: flex;
