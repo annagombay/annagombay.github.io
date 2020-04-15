@@ -808,16 +808,12 @@ height: 20vw;
                                                                 #parallax {
                                                                   background-image: url('images/alicewoodsMobile.svg');
                                                                   height: 112vw;
-                                                                  width: 100%;
-                                                                  display: flex;
-                                                                  background-attachment: fixed;
-                                                                  background-position: center;
-                                                                  background-repeat: no-repeat;
-                                                                  background-size: cover;
+                                                                  background-attachment: scroll;
+                                                                  background-size: 100% 100%;
                                                                 }
-                                                                #landing_mobile {
+                                                                /* #landing_mobile {
                                                                   
-                                                                }
+                                                                } */
                                                                 .downArrow {
                                                                   font-size: 12vw;
                                                                 }
