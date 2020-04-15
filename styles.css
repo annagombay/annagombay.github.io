@@ -1036,7 +1036,7 @@ height: 20vw;
   }
                                                           /* iPhone 6/7/8 PLUS */
 
-                                                            @media (max-width: 414px) { 
+                                                            /* @media (max-width: 414px) { 
                                                               #parallax {
                                                                 display: none;
                                                               }
@@ -1266,7 +1266,7 @@ height: 20vw;
                                                               display: none;
                                                             }
 
-                                                            }
+                                                            } */
 
 .blockA {
   float: left;
