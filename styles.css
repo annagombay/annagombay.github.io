@@ -811,7 +811,7 @@ height: 20vw;
                                                                 }
                                                                 #landing_mobile {
                                                                   background-image: url('images/alicewoodsMobile.svg');
-                                                                  height: 160vw;
+                                                                  height: 112vw;
                                                                   width: 100%;
                                                                   display: flex;
                                                                   background-attachment: fixed;
@@ -838,6 +838,7 @@ height: 20vw;
                                                                   margin: 6vw;
                                                                   margin-top: 7vw;
                                                                 }
+
                                                                 #introLine {
                                                                   display: flex;
                                                                   justify-content: center;
@@ -929,6 +930,7 @@ height: 20vw;
                                                                 #chaos_mobile {
                                                                   display: flex;
                                                                   padding: 2vw;
+                                                                  height: 600px;
                                                                 }
                                                                 #erase, #chaos {
                                                                   display: none;
@@ -1026,6 +1028,10 @@ height: 20vw;
                                                                 letter-spacing: .12vw;
                                                                 margin-left: 8.1vw;
                                                               }
+                                                              #animated-icon1 {
+                                                              margin-right: 20vw;
+                                                              }
+                                                            
                                                             
                                                             }
 
