@@ -80,6 +80,7 @@ a.bubble:hover {
 .contactBubble {
   display: none;
   position: relative;
+  
 }
 
 .contactBubble.clicked {
@@ -398,7 +399,41 @@ margin-top: 14vw;
   0 0 9px rgba(255, 255, 255, 0.92),
   0 0 7px rgba(255, 255, 255, 0.78),
   0 0 2px rgba(255, 255, 255, 0.92);
+  
 }
+
+.container2 {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+
 
 
 .navClosed {
@@ -710,6 +745,7 @@ height: 20vw;
   font-size: 3vw;
   background-color: transparent;
   position: relative;
+  text-decoration: none;
 }
 
 .intro_mobile {
@@ -769,7 +805,7 @@ height: 20vw;
 }
 
 #chaos {
-  margin-left: -8vw;
+  margin-left: -4vw;
 }
 
 .allMobileCards {
@@ -997,6 +1033,8 @@ height: 20vw;
       #contactBubble {
         padding-left: .3vw;
       }
+      
+
       #iconMobile{
         width: 11vw;
         height: 11vw;
