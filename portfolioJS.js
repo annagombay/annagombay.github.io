@@ -35,6 +35,10 @@ $(document).ready(function () {
 
 //Navbar 2020
 
+function contact() {
+  document.getElementById('contactBubble').scrollTo(0,document.body.scrollHeight);
+}
+
 $(function () {
   $(document).scroll(function(){
     var $nav = $("#mainNavbar");
@@ -57,7 +61,7 @@ $(function () {
 // Nav item scroll behaviour
 
 function about() {
-  document.getElementById("about").scrollIntoView();
+  document.getElementById("downArrow").scrollIntoView();
 }
 
 function projects() {
@@ -65,7 +69,8 @@ function projects() {
 }
 
 function contact() {
-  document.getElementById("footer").scrollIntoView();
+  document.getElementById("theFOOT").scrollIntoView();
+  document.getElementById("theFOOT").scrollIntoView();
 }
 
 // SOCIAL ICONS
