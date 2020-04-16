@@ -998,8 +998,8 @@ height: 20vw;
         padding-left: .3vw;
       }
       #iconMobile{
-        width: 9vw;
-        height: 9vw;
+        width: 11vw;
+        height: 11vw;
         background: rgba(255,255,255,.1);
         margin: 2vw;
         border-radius: 50%;
@@ -1009,26 +1009,27 @@ height: 20vw;
         overflow: hidden;
     }
     i::before {
-      font-size: 5vw;
+      font-size: 7vw;
     }
+
     i {
-      padding: 2.3vw 1.6vw 2vw 2vw;
+      padding: 3vw 2vw 2vw 2vw;
       align-items: center;
 
     }
     #copyRight {
       height: fit-content;
-      padding-top: 6vw;
+      /* padding-top: 6vw; */
 
     }
     div.socialButtons {
-      margin-left: 7vw;
+      margin-left: 35vw;
     }
     #ag2020 {
-      font-size: 2vw;
-      margin-top: 1.5vw;
+      font-size: 3vw;
+      margin-top: 1.7vw;
       letter-spacing: .12vw;
-      margin-left: 8.1vw;
+      position: absolute;
     }
     .contactBubble.clicked {
       display: none;
