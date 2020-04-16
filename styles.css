@@ -1070,14 +1070,6 @@ height: 20vw;
       letter-spacing: .12vw;
       position: absolute;
     }
-
-  .icon:hover i{
-    display: none;
-  }
-
-  .icon::before{
-    display: none;
-  }
   }
                                                           /* iPhone 6/7/8 PLUS */
 
