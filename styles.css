@@ -1070,9 +1070,6 @@ height: 20vw;
       letter-spacing: .12vw;
       position: absolute;
     }
-    .contactBubble.clicked {
-      display: none;
-    }
 
   .icon:hover i{
     display: none;
