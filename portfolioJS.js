@@ -33,7 +33,7 @@ $(document).ready(function () {
   });
 });
 
-//Navbar 2020
+//Navbar 
 
 function contact() {
   document.getElementById('contactBubble').scrollTo(0,document.body.scrollHeight);
