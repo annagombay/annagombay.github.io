@@ -812,476 +812,505 @@ height: 20vw;
 }
 
 
+
 /* MEDIA QUERIES */
 
 
   /* MOBILE PHONES */
 
-    /* iPhone 6/7/8 */
-    @media (max-width: 375px) { 
-      #parallax {
-        display: none;
-      }
-      #landing_mobile {
-        padding: none;
-        margin: none;
-        display: flex;
-      }
-      #alice {
-        height: 126vw;
-        width: 375px;
-      }
-      .wrapper {
-        max-width: 375px;
-      }
-      .downArrow {
-        font-size: 12vw;
-      }
-      #mainNavbar {
-        height: 14vw;
-      }
-      .navbar-expand-md, .navbar, .navbar-dark {
-        width: 375px;
-      }
-      #logo {
-        font-size: 4vw;
-      }
-      .fade-up {
-        font-size: 8vw;
-      }
-      .bubbleContainer{
-        margin: 6vw;
-        margin-top: 7vw;
-      }
+                      /* iPhone 4/5/SE */
+                      @media (max-width: 320px) { 
+                        #hammy {
+                          margin-right: 15.5vw;
+                        }
+                        #alice {
+                          width: 320px;
+                          /* height: 40vw; */
+                        }
+                      }
 
-      #introLine {
-        display: flex;
-        justify-content: center;
-        width: fit-content;
-        padding: 0vw;
-        text-align: center;
-      }
-      #mainNavbar.scrolled {
-        height: 14vw;
-      }
-      .iAmA {
-        display: inline-block;
-      }
-      .intro_mobile {
-        font-size: 5vw;
-        color: #f1f1f1;
-        font-family: 'Muli', sans-serif;
-        letter-spacing: .5vw;
-        vertical-align: middle;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        width: 90vw;
-        margin-left: 2.5vw;
-      }
-      .uxD {
-        font-size: 6vw;
-        letter-spacing: .5vw;
-        font-family: 'Muli', sans-serif;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        margin-left: 6vw;
-      }
-      .blockA {
-        display: none;
-      }
-      .allCards {
-        display: none;
-      }
-      .allMobileCards {
-        width: 100%;
-      }
-      .projectCards_mobile {
-        width: 80vw; 
-        background: black; 
-        margin-left: 150px; 
-        height: 38vw;
-        margin: 2vw;
-        display: flex;
-        justify-content: center;
-        font-family: 'Muli', sans-serif;
-        font-size: 1.2vw;
-        letter-spacing: .2vw;
-        padding-bottom: 116vw;
-      }
-      h2.mdl-card__title-text {
-        font-size: 5vw;
-        font-family: 'Muli', sans-serif;
-        text-align: center;
-        padding-top: 1vw;
-        padding-bottom: 1vw;
-        background-color: rgba(0,0,0, .5);
-        color: #f1f1f1;
-        width: 80vw;
-        height: 12vw;
-        line-height: 2;
-      }
-      #mdl-card__supporting-text {
-        background-color: #f1f1f1;
-        width: 80vw;
-        margin-left: -25vw;
-        height: 20vw; 
-        font-size: 3vw; 
-        padding: 4vw;
-      }
-      .mdl-card__actions, .mdl-card--border {
-        width: 80vw;
-        margin-left: -25vw;
-      }
-      .allMobileCards {
-        display: inline-block;
-      }
-      .blockB {
-        display: none;
-        height: 0vw;
-      }
-    
-      #chaos_mobile {
-        display: flex;
-        padding: 2vw;
-        height: 600px;
-      }
-      #erase, #chaos {
-        display: none;
-        height: 0vw;
-      }
-      #mindMap {
-        background: url(images/depressedMini.png); 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        width: 80vw;
-        height: 80vw;
-        margin-left: -25vw;
-      }
-      #diaryStudy {
-        background: url(images/audioExperiencesMini.png); 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        width: 80vw;
-        height: 80vw;
-        margin-left: -25vw;
-      }
-      #webRedesign {
-        background: url(images/yogaMainMini.png); 
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        width: 80vw;
-        height: 80vw;
-        margin-left: -25vw;
-      }
-      #launchButton {
-        width: 80vw; 
-        height: 12vw; 
-        font-size: 4vw;
-        line-height: 2;
-      }
-      .navBubbles {
-        height: 16vw; 
-        width: 16vw; 
-        background-color: rgba(239, 83, 123, .7);
-        border-radius: 50%; 
-        margin-top: 5vw;
-        display: flex;
-        border: .2vw solid pink;
-        font-family: 'Muli', sans-serif;
-        color: #f1f1f1;
-        font-size:  3.5vw;
-        text-decoration: none;
-        line-height: 16vw;
-        letter-spacing: .15vw;
-        margin-left: -4vw;
-      }
-      #aboutBubble {
-        padding-left: 1.5vw;
+                     /* iPhone 6/7/8 */
 
-      }
-      #projectsBubble {
-        padding-left: .5vw;
-      }
-      #contactBubble {
-        padding-left: .3vw;
-      }
-      
+                      @media (max-width: 375px) { 
+                        #parallax {
+                          display: none;
+                        }
+                        #landing_mobile {
+                          padding: none;
+                          margin: none;
+                          display: flex;
+                        }
+                        #alice {
+                          height: 126vw;
+                          width: 375px;
+                        }
+                        .wrapper {
+                          max-width: 375px;
+                        }
+                        .downArrow {
+                          font-size: 12vw;
+                        }
+                        #mainNavbar {
+                          height: 14vw;
+                        }
+                        .navbar-expand-md, .navbar, .navbar-dark {
+                          width: 375px;
+                        }
+                        #logo {
+                          font-size: 4vw;
+                        }
+                        .fade-up {
+                          font-size: 8vw;
+                        }
+                        .bubbleContainer{
+                          margin: 6vw;
+                          margin-top: 7vw;
+                        }
 
-      #iconMobile{
-        width: 11vw;
-        height: 11vw;
-        background: rgba(255,255,255,.1);
-        margin: 2vw;
-        border-radius: 50%;
-        color: #10ac84;
-        box-shadow: 0vw .4vw 1.2vw -.4vw #00000070;
-        position: relative;
-        overflow: hidden;
-    }
-    i::before {
-      font-size: 7vw;
-    }
+                        #introLine {
+                          display: flex;
+                          justify-content: center;
+                          width: fit-content;
+                          padding: 0vw;
+                          text-align: center;
+                        }
+                        #mainNavbar.scrolled {
+                          height: 14vw;
+                        }
+                        .iAmA {
+                          display: inline-block;
+                        }
+                        .intro_mobile {
+                          font-size: 5vw;
+                          color: #f1f1f1;
+                          font-family: 'Muli', sans-serif;
+                          letter-spacing: .5vw;
+                          vertical-align: middle;
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: flex-start;
+                          width: 90vw;
+                          margin-left: 2.5vw;
+                        }
+                        .uxD {
+                          font-size: 6vw;
+                          letter-spacing: .5vw;
+                          font-family: 'Muli', sans-serif;
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: flex-start;
+                          margin-left: 6vw;
+                        }
+                        .blockA {
+                          display: none;
+                        }
+                        .allCards {
+                          display: none;
+                        }
+                        .allMobileCards {
+                          width: 100%;
+                        }
+                        .projectCards_mobile {
+                          width: 80vw; 
+                          background: black; 
+                          margin-left: 150px; 
+                          height: 38vw;
+                          margin: 2vw;
+                          display: flex;
+                          justify-content: center;
+                          font-family: 'Muli', sans-serif;
+                          font-size: 1.2vw;
+                          letter-spacing: .2vw;
+                          padding-bottom: 116vw;
+                        }
+                        h2.mdl-card__title-text {
+                          font-size: 5vw;
+                          font-family: 'Muli', sans-serif;
+                          text-align: center;
+                          padding-top: 1vw;
+                          padding-bottom: 1vw;
+                          background-color: rgba(0,0,0, .5);
+                          color: #f1f1f1;
+                          width: 80vw;
+                          height: 12vw;
+                          line-height: 2;
+                        }
+                        #mdl-card__supporting-text {
+                          background-color: #f1f1f1;
+                          width: 80vw;
+                          margin-left: -25vw;
+                          height: 20vw; 
+                          font-size: 3vw; 
+                          padding: 4vw;
+                        }
+                        .mdl-card__actions, .mdl-card--border {
+                          width: 80vw;
+                          margin-left: -25vw;
+                        }
+                        .allMobileCards {
+                          display: inline-block;
+                        }
+                        .blockB {
+                          display: none;
+                          height: 0vw;
+                        }
+                      
+                        #chaos_mobile {
+                          display: flex;
+                          padding: 2vw;
+                          height: 600px;
+                        }
+                        #erase, #chaos {
+                          display: none;
+                          height: 0vw;
+                        }
+                        #mindMap {
+                          background: url(images/depressedMini.png); 
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          background-size: cover; 
+                          width: 80vw;
+                          height: 80vw;
+                          margin-left: -25vw;
+                        }
+                        #diaryStudy {
+                          background: url(images/audioExperiencesMini.png); 
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          background-size: cover; 
+                          width: 80vw;
+                          height: 80vw;
+                          margin-left: -25vw;
+                        }
+                        #webRedesign {
+                          background: url(images/yogaMainMini.png); 
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          background-size: cover; 
+                          width: 80vw;
+                          height: 80vw;
+                          margin-left: -25vw;
+                        }
+                        #launchButton {
+                          width: 80vw; 
+                          height: 12vw; 
+                          font-size: 4vw;
+                          line-height: 2;
+                        }
+                        .navBubbles {
+                          height: 16vw; 
+                          width: 16vw; 
+                          background-color: rgba(239, 83, 123, .7);
+                          border-radius: 50%; 
+                          margin-top: 5vw;
+                          display: flex;
+                          border: .2vw solid pink;
+                          font-family: 'Muli', sans-serif;
+                          color: #f1f1f1;
+                          font-size:  3.5vw;
+                          text-decoration: none;
+                          line-height: 16vw;
+                          letter-spacing: .15vw;
+                          margin-left: -4vw;
+                        }
+                        #aboutBubble {
+                          padding-left: 1.5vw;
 
-    i {
-      padding: 3vw 2vw 2vw 2vw;
-      align-items: center;
+                        }
+                        #projectsBubble {
+                          padding-left: .5vw;
+                        }
+                        #contactBubble {
+                          padding-left: .3vw;
+                        }
+                        
 
-    }
-    #copyRight {
-      height: fit-content;
-      /* padding-top: 6vw; */
+                        #iconMobile{
+                          width: 11vw;
+                          height: 11vw;
+                          background: rgba(255,255,255,.1);
+                          margin: 2vw;
+                          border-radius: 50%;
+                          color: #10ac84;
+                          box-shadow: 0vw .4vw 1.2vw -.4vw #00000070;
+                          position: relative;
+                          overflow: hidden;
+                      }
+                      i::before {
+                        font-size: 7vw;
+                      }
 
-    }
-    div.socialButtons {
-      margin-left: 35vw;
-      margin-top: 2vw;
-    }
-    #ag2020 {
-      font-size: 3vw;
-      margin-top: 3.7vw;
-      letter-spacing: .12vw;
-      position: absolute;
-    }
-  }
-/* iPhone 6/7/8 PLUS */
+                      i {
+                        padding: 3vw 2vw 2vw 2vw;
+                        align-items: center;
 
-@media (min-width: 376px) and (max-width: 414px) { 
-  #parallax {
-    display: none;
-  }
-  
-  #landing_mobile {
-    padding: none;
-    margin: none;
-    display: flex;
-  } 
-  #alice {
-    width: 414px;
-    height: 126vw;
-  }
-  .wrapper {
-    max-width: 414px;
-  }
-  .downArrow {
-    font-size: 12vw;
-  }
-  #mainNavbar {
-    height: 14vw;
-  }
-  .navbar-expand-md, .navbar, .navbar-dark {
-    width: 414px;
-  }
-  #logo {
-    font-size: 4vw;
-  }
-  .fade-up {
-    font-size: 8vw;
-  }
-  .bubbleContainer{
-    margin: 6vw;
-    margin-top: 7vw;
-  }
+                      }
+                      #copyRight {
+                        height: fit-content;
+                        /* padding-top: 6vw; */
 
-  #introLine {
-    display: flex;
-    justify-content: center;
-    width: fit-content;
-    padding: 0vw;
-    text-align: center;
-  }
-  #mainNavbar.scrolled {
-    height: 14vw;
-  }
-  .iAmA {
-    display: inline-block;
-  }
-  .intro_mobile {
-    font-size: 5vw;
-    color: #f1f1f1;
-    font-family: 'Muli', sans-serif;
-    letter-spacing: .5vw;
-    vertical-align: middle;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 90vw;
-    margin-left: 2.5vw;
-  }
-  .uxD {
-    font-size: 6vw;
-    letter-spacing: .5vw;
-    font-family: 'Muli', sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 6vw;
-  }
-  .blockA {
-    display: none;
-  }
-  .allCards {
-    display: none;
-  }
-  .allMobileCards {
-    width: 100%;
-  }
-  .projectCards_mobile {
-    width: 80vw; 
-    background: black; 
-    margin-left: 150px; 
-    height: 38vw;
-    margin: 2vw;
-    display: flex;
-    justify-content: center;
-    font-family: 'Muli', sans-serif;
-    font-size: 1.2vw;
-    letter-spacing: .2vw;
-    padding-bottom: 116vw;
-  }
-  h2.mdl-card__title-text {
-    font-size: 5vw;
-    font-family: 'Muli', sans-serif;
-    text-align: center;
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    background-color: rgba(0,0,0, .5);
-    color: #f1f1f1;
-    width: 80vw;
-    height: 12vw;
-    line-height: 2;
-  }
-  #mdl-card__supporting-text {
-    background-color: #f1f1f1;
-    width: 80vw;
-    margin-left: -25vw;
-    height: 20vw; 
-    font-size: 3vw; 
-    padding: 4vw;
-  }
-  .mdl-card__actions, .mdl-card--border {
-    width: 80vw;
-    margin-left: -25vw;
-  }
-  .allMobileCards {
-    display: inline-block;
-  }
-  .blockB {
-    display: none;
-    height: 0vw;
-  }
+                      }
+                      div.socialButtons {
+                        margin-left: 35vw;
+                        margin-top: 2vw;
+                      }
+                      #ag2020 {
+                        font-size: 3vw;
+                        margin-top: 3.7vw;
+                        letter-spacing: .12vw;
+                        position: absolute;
+                      }
+                    }
+                  /* iPhone 6/7/8 PLUS */
 
-  #chaos_mobile {
-    display: flex;
-    padding: 2vw;
-    height: 600px;
-  }
-  #erase, #chaos {
-    display: none;
-    height: 0vw;
-  }
-  #mindMap {
-    background: url(images/depressedMini.png); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 80vw;
-    height: 80vw;
-    margin-left: -25vw;
-  }
-  #diaryStudy {
-    background: url(images/audioExperiencesMini.png); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 80vw;
-    height: 80vw;
-    margin-left: -25vw;
-  }
-  #webRedesign {
-    background: url(images/yogaMainMini.png); 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 80vw;
-    height: 80vw;
-    margin-left: -25vw;
-  }
-  #launchButton {
-    width: 80vw; 
-    height: 12vw; 
-    font-size: 4vw;
-    line-height: 2;
-  }
-  .navBubbles {
-    height: 16vw; 
-    width: 16vw; 
-    background-color: rgba(239, 83, 123, .7);
-    border-radius: 50%; 
-    margin-top: 5vw;
-    display: flex;
-    border: .2vw solid pink;
-    font-family: 'Muli', sans-serif;
-    color: #f1f1f1;
-    font-size:  3.5vw;
-    text-decoration: none;
-    line-height: 16vw;
-    letter-spacing: .15vw;
-    margin-left: -4vw;
-  }
-  #aboutBubble {
-    padding-left: 1.5vw;
+                  @media (min-width: 376px) and (max-width: 414px) { 
+                    #parallax {
+                      display: none;
+                    }
+                    
+                    #landing_mobile {
+                      padding: none;
+                      margin: none;
+                      display: flex;
+                    } 
+                    #alice {
+                      width: 414px;
+                      height: 126vw;
+                    }
+                    .wrapper {
+                      max-width: 414px;
+                    }
+                    .downArrow {
+                      font-size: 12vw;
+                    }
+                    #mainNavbar {
+                      height: 14vw;
+                    }
+                    .navbar-expand-md, .navbar, .navbar-dark {
+                      width: 414px;
+                    }
+                    #logo {
+                      font-size: 4vw;
+                    }
+                    .fade-up {
+                      font-size: 8vw;
+                    }
+                    .bubbleContainer{
+                      margin: 6vw;
+                      margin-top: 7vw;
+                    }
 
-  }
-  #projectsBubble {
-    padding-left: .5vw;
-  }
-  #contactBubble {
-    padding-left: .3vw;
-  }
-  #iconMobile{
-    width: 9vw;
-    height: 9vw;
-    background: rgba(255,255,255,.1);
-    margin: 2vw;
-    border-radius: 50%;
-    color: #10ac84;
-    box-shadow: 0vw .4vw 1.2vw -.4vw #00000070;
-    position: relative;
-    overflow: hidden;
-}
-i::before {
-  font-size: 5vw;
-}
-i {
-  padding: 2.3vw 1.6vw 2vw 2vw;
-  align-items: center;
+                    #introLine {
+                      display: flex;
+                      justify-content: center;
+                      width: fit-content;
+                      padding: 0vw;
+                      text-align: center;
+                    }
+                    #mainNavbar.scrolled {
+                      height: 14vw;
+                    }
+                    .iAmA {
+                      display: inline-block;
+                    }
+                    .intro_mobile {
+                      font-size: 5vw;
+                      color: #f1f1f1;
+                      font-family: 'Muli', sans-serif;
+                      letter-spacing: .5vw;
+                      vertical-align: middle;
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: flex-start;
+                      width: 90vw;
+                      margin-left: 2.5vw;
+                    }
+                    .uxD {
+                      font-size: 6vw;
+                      letter-spacing: .5vw;
+                      font-family: 'Muli', sans-serif;
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: flex-start;
+                      margin-left: 6vw;
+                    }
+                    .blockA {
+                      display: none;
+                    }
+                    .allCards {
+                      display: none;
+                    }
+                    .allMobileCards {
+                      width: 100%;
+                    }
+                    .projectCards_mobile {
+                      width: 80vw; 
+                      background: black; 
+                      margin-left: 150px; 
+                      height: 38vw;
+                      margin: 2vw;
+                      display: flex;
+                      justify-content: center;
+                      font-family: 'Muli', sans-serif;
+                      font-size: 1.2vw;
+                      letter-spacing: .2vw;
+                      padding-bottom: 116vw;
+                    }
+                    h2.mdl-card__title-text {
+                      font-size: 5vw;
+                      font-family: 'Muli', sans-serif;
+                      text-align: center;
+                      padding-top: 1vw;
+                      padding-bottom: 1vw;
+                      background-color: rgba(0,0,0, .5);
+                      color: #f1f1f1;
+                      width: 80vw;
+                      height: 12vw;
+                      line-height: 2;
+                    }
+                    #mdl-card__supporting-text {
+                      background-color: #f1f1f1;
+                      width: 80vw;
+                      margin-left: -25vw;
+                      height: 20vw; 
+                      font-size: 3vw; 
+                      padding: 4vw;
+                    }
+                    .mdl-card__actions, .mdl-card--border {
+                      width: 80vw;
+                      margin-left: -25vw;
+                    }
+                    .allMobileCards {
+                      display: inline-block;
+                    }
+                    .blockB {
+                      display: none;
+                      height: 0vw;
+                    }
 
-}
-#copyRight {
-  height: fit-content;
-  padding-top: 6vw;
+                    #chaos_mobile {
+                      display: flex;
+                      padding: 2vw;
+                      height: 600px;
+                    }
+                    #erase, #chaos {
+                      display: none;
+                      height: 0vw;
+                    }
+                    #mindMap {
+                      background: url(images/depressedMini.png); 
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      background-size: cover; 
+                      width: 80vw;
+                      height: 80vw;
+                      margin-left: -25vw;
+                    }
+                    #diaryStudy {
+                      background: url(images/audioExperiencesMini.png); 
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      background-size: cover; 
+                      width: 80vw;
+                      height: 80vw;
+                      margin-left: -25vw;
+                    }
+                    #webRedesign {
+                      background: url(images/yogaMainMini.png); 
+                      background-position: center;
+                      background-repeat: no-repeat;
+                      background-size: cover; 
+                      width: 80vw;
+                      height: 80vw;
+                      margin-left: -25vw;
+                    }
+                    #launchButton {
+                      width: 80vw; 
+                      height: 12vw; 
+                      font-size: 4vw;
+                      line-height: 2;
+                    }
+                    .navBubbles {
+                      height: 16vw; 
+                      width: 16vw; 
+                      background-color: rgba(239, 83, 123, .7);
+                      border-radius: 50%; 
+                      margin-top: 5vw;
+                      display: flex;
+                      border: .2vw solid pink;
+                      font-family: 'Muli', sans-serif;
+                      color: #f1f1f1;
+                      font-size:  3.5vw;
+                      text-decoration: none;
+                      line-height: 16vw;
+                      letter-spacing: .15vw;
+                      margin-left: -4vw;
+                    }
+                    #aboutBubble {
+                      padding-left: 1.5vw;
 
-}
-div.socialButtons {
-  margin-left: 7vw;
-}
-#ag2020 {
-  font-size: 2vw;
-  margin-top: 1.5vw;
-  letter-spacing: .12vw;
-  margin-left: 8.1vw;
-}
-.contactBubble.clicked {
-  display: none;
-}
-}
+                    }
+                    #projectsBubble {
+                      padding-left: .5vw;
+                    }
+                    #contactBubble {
+                      padding-left: .3vw;
+                    }
+                    #iconMobile{
+                      width: 9vw;
+                      height: 9vw;
+                      background: rgba(255,255,255,.1);
+                      margin: 2vw;
+                      border-radius: 50%;
+                      color: #10ac84;
+                      box-shadow: 0vw .4vw 1.2vw -.4vw #00000070;
+                      position: relative;
+                      overflow: hidden;
+                  }
+                  i::before {
+                    font-size: 5vw;
+                  }
+                  i {
+                    padding: 2.3vw 1.6vw 2vw 2vw;
+                    align-items: center;
 
-                                                             /* iPhone X */
+                  }
+                  #copyRight {
+                    height: fit-content;
+                    padding-top: 6vw;
+
+                  }
+                  div.socialButtons {
+                    margin-left: 7vw;
+                  }
+                  #ag2020 {
+                    font-size: 2vw;
+                    margin-top: 1.5vw;
+                    letter-spacing: .12vw;
+                    margin-left: 8.1vw;
+                  }
+                  .contactBubble.clicked {
+                    display: none;
+                  }
+                  }
+
+                                                            /* Galaxy S5/ Moto G4 */
+                                                            @media (min-width: 36px) and (max-width: 1021px) { 
+                                                              #parallax {
+                                                                  /* The image used */
+                                                                  background-image: url('images/alicewoods.jpg');
+                                                                  /* Set a specific height */
+                                                                  min-height: 120vw; 
+                                                              }
+                                                              .downArrow {
+                                                                font-size: 12vw;
+                                                              }
+                                                              li {
+                                                                display: none;
+                                                              }
+                                                            }
+
+                                                            /* iPhone X */
                                                             @media (min-width: 375px) and (max-width: 1021px) { 
                                                               #parallax {
                                                                   /* The image used */
@@ -1290,7 +1319,7 @@ div.socialButtons {
                                                                   min-height: 120vw; 
                                                               }
                                                               .downArrow {
-                                                                font-size: 9vw;
+                                                                font-size: 12vw;
                                                               }
                                                               li {
                                                                 display: none;
@@ -1298,6 +1327,36 @@ div.socialButtons {
                                                             }
 
                                                               /* iPad */
+                                                              @media (min-width: 768px) and (max-width: 1024px) { 
+                                                                #parallax {
+                                                                    /* The image used */
+                                                                    background-image: url('images/alicewoods.jpg');
+                                                                    /* Set a specific height */
+                                                                    min-height: 115vw; 
+                                                                }
+                                                                .downArrow {
+                                                                  font-size: 12vw;
+                                                                }
+                                                                li {
+                                                                  display: none;
+                                                                }
+                                                                #animated-icon1 {
+                                                                  display: flex;
+                                                                }
+                                                                #hammy {
+                                                                  display: flex;
+                                                                  flex-direction: row;
+                                                                  margin-left: 64.5vw;
+                                                                }
+                                                                /* #logo {
+                                                                  font-size: 2.5vw;
+                                                                } */
+                                                                div.bubbleContainer {
+                                                                  margin-top: 2vw;
+                                                                }
+                                                              }
+
+                                                              /* iPad Pro */
                                                               @media (min-width: 769px) and (max-width: 1024px) { 
                                                                 #parallax {
                                                                     /* The image used */
@@ -1311,21 +1370,12 @@ div.socialButtons {
                                                                 li {
                                                                   display: none;
                                                                 }
-                                                              }
-
-                                                              /* iPad Pro */
-                                                              @media (min-width: 769px) and (max-width: 1021px) { 
-                                                                #parallax {
-                                                                    /* The image used */
-                                                                    background-image: url('images/alicewoods.jpg');
-                                                                    /* Set a specific height */
-                                                                    min-height: 120vw; 
+                                                                #hammy {
+                                                                  display: absolute;
+                                                                  margin-left: 66.5vw;
                                                                 }
-                                                                .downArrow {
-                                                                  font-size: 9vw;
-                                                                }
-                                                                li {
-                                                                  display: none;
+                                                                div.bubbleContainer {
+                                                                  margin-top: 2vw;
                                                                 }
                                                               }
 
