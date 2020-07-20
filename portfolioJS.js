@@ -1,6 +1,1188 @@
+// nav color palette  (dark to light)
+
+// #ea1d52 
+// #ec2f5f
+// #ed416d
+// #ef537b
+// #f16589
+// #f16589
+// #f27797
+// #f489a4
+
+// Mind Map Case Nav
+
+function toIntro() {    
+    document.getElementById('chevvy').scrollIntoView();
+
+    document.getElementById('intro').style.display = 'inline';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('research2').style.display = 'none';
+    document.getElementById('define').style.display = 'none';
+    document.getElementById('ideate').style.display = 'none';
+    document.getElementById('prototype').style.display = 'none';
+    document.getElementById('test').style.display = 'none';
+    document.getElementById('finale').style.display = 'none';
+
+    document.getElementById('chevronToIntro').style.backgroundColor = '#ea1d52';
+    document.getElementById('chevronToResearch').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToDefine').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToIdeate').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToPrototype').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToTest').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
+
+}
+
+function toResearch() {
+
+    document.getElementById('chevvy').scrollIntoView();
+
+    document.getElementById('chevronToIntro').style.backgroundColor = '#ec2f5f';
+    document.getElementById('chevronToResearch').style.backgroundColor = '#ea1d52';
+    document.getElementById('chevronToDefine').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToIdeate').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToPrototype').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToTest').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
+
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('research').style.display = 'inline';
+    document.getElementById('research2').style.display = 'none';
+    document.getElementById('define').style.display = 'none';
+    document.getElementById('ideate').style.display = 'none';
+    document.getElementById('prototype').style.display = 'none';
+    document.getElementById('test').style.display = 'none';
+    document.getElementById('finale').style.display = 'none';
+
+  }
+
+function toResearch2 () {    
+    document.getElementById('chevvy').scrollIntoView();
+
+    document.getElementById('chevronToIntro').style.backgroundColor = '#ec2f5f';
+    document.getElementById('chevronToResearch').style.backgroundColor = '#ea1d52';
+    document.getElementById('chevronToDefine').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToIdeate').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToPrototype').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToTest').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
+
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('research2').style.display = 'inline';
+    document.getElementById('define').style.display = 'none';
+    document.getElementById('ideate').style.display = 'none';
+    document.getElementById('prototype').style.display = 'none';
+    document.getElementById('test').style.display = 'none';
+    document.getElementById('finale').style.display = 'none';
+  }
+
+  function toDefine() {
+    document.getElementById('chevvy').scrollIntoView();
+
+    document.getElementById('chevronToIntro').style.backgroundColor = '#ed416d';
+    document.getElementById('chevronToResearch').style.backgroundColor = '#ec2f5f';
+    document.getElementById('chevronToDefine').style.backgroundColor = '#ea1d52';
+    document.getElementById('chevronToIdeate').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToPrototype').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToTest').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
+
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('research2').style.display = 'none';
+    document.getElementById('define').style.display = 'inline';
+    document.getElementById('ideate').style.display = 'none';
+    document.getElementById('prototype').style.display = 'none';
+    document.getElementById('test').style.display = 'none';
+    document.getElementById('finale').style.display = 'none';
+  }
+
+  function toIdeate() {
+    document.getElementById('chevvy').scrollIntoView();
+   
+    document.getElementById('chevronToIntro').style.backgroundColor = '#ef537b';
+    document.getElementById('chevronToResearch').style.backgroundColor = '#ed416d';
+    document.getElementById('chevronToDefine').style.backgroundColor = '#ec2f5f';
+    document.getElementById('chevronToIdeate').style.backgroundColor = '#ea1d52';
+    document.getElementById('chevronToPrototype').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToTest').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
+
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('research2').style.display = 'none';
+    document.getElementById('define').style.display = 'none';
+    document.getElementById('ideate').style.display = 'inline';
+    document.getElementById('prototype').style.display = 'none';
+    document.getElementById('test').style.display = 'none';
+    document.getElementById('finale').style.display = 'none';
+  }
+
+  function toPrototype() {
+    document.getElementById('chevvy').scrollIntoView();
+     document.getElementById('prototype').style.display = 'inline';
+
+    document.getElementById('chevronToIntro').style.backgroundColor = '#f16589';
+    document.getElementById('chevronToResearch').style.backgroundColor = '#ef537b';
+    document.getElementById('chevronToDefine').style.backgroundColor = '#ed416d';
+    document.getElementById('chevronToIdeate').style.backgroundColor = '#ec2f5f';
+    document.getElementById('chevronToPrototype').style.backgroundColor = '#ea1d52';
+    document.getElementById('chevronToTest').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
+
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('research2').style.display = 'none';
+    document.getElementById('define').style.display = 'none';
+    document.getElementById('ideate').style.display = 'none';
+  
+    document.getElementById('test').style.display = 'none';
+    document.getElementById('finale').style.display = 'none';
+  }
+
+  function toTest() {
+    document.getElementById('chevvy').scrollIntoView();
+       document.getElementById('test').style.display = 'inline';
+
+    document.getElementById('chevronToIntro').style.backgroundColor = '#f27797';
+    document.getElementById('chevronToResearch').style.backgroundColor = '#f16589';
+    document.getElementById('chevronToDefine').style.backgroundColor = '#ef537b';
+    document.getElementById('chevronToIdeate').style.backgroundColor = '#ed416d';
+    document.getElementById('chevronToPrototype').style.backgroundColor = '#ec2f5f';
+    document.getElementById('chevronToTest').style.backgroundColor = '#ea1d52';
+    document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
+
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('research2').style.display = 'none';
+    document.getElementById('define').style.display = 'none';
+    document.getElementById('ideate').style.display = 'none';
+    document.getElementById('prototype').style.display = 'none';
+    document.getElementById('finale').style.display = 'none';
+  }
+
+  function toFinale() {
+    document.getElementById('chevvy').scrollIntoView();
+   document.getElementById('finale').style.display = 'inline';
+    document.getElementById('chevronToIntro').style.backgroundColor = '#f489a4';
+    document.getElementById('chevronToResearch').style.backgroundColor = '#f27797';
+    document.getElementById('chevronToDefine').style.backgroundColor = '#f16589';
+    document.getElementById('chevronToIdeate').style.backgroundColor = '#ef537b';
+    document.getElementById('chevronToPrototype').style.backgroundColor = '#ed416d';
+    document.getElementById('chevronToTest').style.backgroundColor = '#ec2f5f';
+    document.getElementById('chevronToFinale').style.backgroundColor = '#ea1d52';
+
+    document.getElementById('intro').style.display = 'none';
+    document.getElementById('research').style.display = 'none';
+    document.getElementById('research2').style.display = 'none';
+    document.getElementById('define').style.display = 'none';
+    document.getElementById('ideate').style.display = 'none';
+    document.getElementById('prototype').style.display = 'none';
+    document.getElementById('test').style.display = 'none';
+    
+  }
+
+  // Mind Map Case Nav Mobile
+
+function toIntroMob() {  
+  
+  document.getElementById('chevvyMob').scrollIntoView();
+
+  document.getElementById('finaleMob').style.display = 'none';
+
+
+  // Nav bar
+    document.getElementById('chevronToIntroMob').style.backgroundColor = '#ea1d52';
+    document.getElementById('chevronToResearchMob').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToDefineMob').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToIdeateMob').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToPrototypeMob').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToTestMob').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToFinaleMob').style.backgroundColor = '#1A1A1A';
+
+  // Intro
+    document.getElementById('introMob').style.display = 'inline';  
+    document.getElementById('dividerMobIntro').style.display = 'inline';
+  // Research
+    document.getElementById('researchMob').style.display = 'none';  
+    document.getElementById('shouldersMob').style.display = 'none';
+    document.getElementById('compMob').style.display = 'none';
+    document.getElementById('blurbsMob').style.display = 'none';
+    document.getElementById('logoTableMob').style.display = 'none';
+    document.getElementById('likesMob').style.display = 'none';
+    document.getElementById('critsMob').style.display = 'none';
+    document.getElementById('ideasMob').style.display = 'none';
+    document.getElementById('qsMob').style.display = 'none';  
+    document.getElementById('dividerMobResearch').style.display = 'none';
+  // Research 2
+    document.getElementById('research2Mob').style.display = 'none';
+    document.getElementById('dividerMobResearch2').style.display = 'none';
+    document.getElementById('affinityMob').style.display = 'none';
+    document.getElementById('graphMob1').style.display = 'none';
+    document.getElementById('graphMob2').style.display = 'none';
+    document.getElementById('dividerResearchMob3').style.display = 'none';
+  // Research 3
+    document.getElementById('userIntMob').style.display = 'none';
+    document.getElementById('objectiveMob').style.display = 'none';
+    document.getElementById('userQsMob').style.display = 'none';
+    document.getElementById('stringMob').style.display = 'none';
+    document.getElementById('personasMob').style.display = 'none';
+    document.getElementById('personButtonMob').style.display = 'none';
+    document.getElementById('dividerMobResearch3').style.display; 'none';
+  //  Define
+    document.getElementById('defineMob').style.display = 'none';
+    document.getElementById('ideateMob').style.display = 'none';
+    document.getElementById('prototypeMob').style.display = 'none';
+    document.getElementById('testMob').style.display = 'none';
+}
+
+
+function toResearchMob() {  
+  
+  document.getElementById('chevvyMob').scrollIntoView();
+  document.getElementById('finaleMob').style.display = 'none';
+
+
+  // Nav bar
+  document.getElementById('chevronToIntroMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToResearchMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDefineMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToIdeateMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToPrototypeMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToTestMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToFinaleMob').style.backgroundColor = '#1A1A1A';
+  // Intro
+    document.getElementById('introMob').style.display = 'none';  
+    document.getElementById('dividerMobIntro').style.display = 'none';
+  // Research
+    document.getElementById('researchMob').style.display = 'inline';  
+    document.getElementById('shouldersMob').style.display = 'inline';
+    document.getElementById('compMob').style.display = 'inline';
+    document.getElementById('blurbsMob').style.display = 'inline';
+    document.getElementById('logoTableMob').style.display = 'inline';
+    document.getElementById('likesMob').style.display = 'inline';
+    document.getElementById('critsMob').style.display = 'inline';
+    document.getElementById('ideasMob').style.display = 'inline';
+    document.getElementById('qsMob').style.display = 'inline';  
+    document.getElementById('dividerMobResearch').style.display = 'inline';
+  // Research 2
+    document.getElementById('research2Mob').style.display = 'none';
+    document.getElementById('dividerMobResearch2').style.display = 'none';
+    document.getElementById('affinityMob').style.display = 'none';
+    document.getElementById('graphMob1').style.display = 'none';
+    document.getElementById('graphMob2').style.display = 'none';
+    document.getElementById('dividerResearchMob3').style.display = 'none';
+  // Research 3
+    document.getElementById('userIntMob').style.display = 'none';
+    document.getElementById('objectiveMob').style.display = 'none';
+    document.getElementById('userQsMob').style.display = 'none';
+    document.getElementById('stringMob').style.display = 'none';
+    document.getElementById('personasMob').style.display = 'none';
+    document.getElementById('personButtonMob').style.display = 'none';
+    document.getElementById('dividerMobResearch3').style.display; 'none';
+  //  Define
+    document.getElementById('defineMob').style.display = 'none';
+    document.getElementById('ideateMob').style.display = 'none';
+    document.getElementById('prototypeMob').style.display = 'none';
+    document.getElementById('testMob').style.display = 'none';
+
+}
+
+function toResearch2Mob () {    
+  document.getElementById('chevvyMob').scrollIntoView();
+  document.getElementById('finaleMob').style.display = 'none';
+
+  // Nav bar
+  document.getElementById('chevronToIntroMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToResearchMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDefineMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToIdeateMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToPrototypeMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToTestMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToFinaleMob').style.backgroundColor = '#1A1A1A';
+  // Intro
+    document.getElementById('introMob').style.display = 'none';  
+    document.getElementById('dividerMobIntro').style.display = 'none';
+  // Research
+    document.getElementById('researchMob').style.display = 'none';  
+    document.getElementById('shouldersMob').style.display = 'none';
+    document.getElementById('compMob').style.display = 'none';
+    document.getElementById('blurbsMob').style.display = 'none';
+    document.getElementById('logoTableMob').style.display = 'none';
+    document.getElementById('likesMob').style.display = 'none';
+    document.getElementById('critsMob').style.display = 'none';
+    document.getElementById('ideasMob').style.display = 'none';
+    document.getElementById('qsMob').style.display = 'none';  
+    document.getElementById('dividerMobResearch').style.display = 'none';
+  // Research 2
+    document.getElementById('research2Mob').style.display = 'inline';
+    document.getElementById('dividerMobResearch2').style.display = 'inline';
+    document.getElementById('affinityMob').style.display = 'inline';
+    document.getElementById('graphMob1').style.display = 'inline';
+    document.getElementById('graphMob2').style.display = 'inline';
+    document.getElementById('dividerResearchMob3').style.display = 'inline';
+  // Research 3
+    document.getElementById('userIntMob').style.display = 'none';
+    document.getElementById('objectiveMob').style.display = 'none';
+    document.getElementById('userQsMob').style.display = 'none';
+    document.getElementById('stringMob').style.display = 'none';
+    document.getElementById('personasMob').style.display = 'none';
+    document.getElementById('personButtonMob').style.display = 'none';
+    document.getElementById('dividerMobResearch3').style.display; 'none';
+  //  Define
+    document.getElementById('defineMob').style.display = 'none';
+    document.getElementById('ideateMob').style.display = 'none';
+    document.getElementById('prototypeMob').style.display = 'none';
+    document.getElementById('testMob').style.display = 'none';
+}
+
+
+function toResearch3Mob () {    
+    document.getElementById('chevvyMob').scrollIntoView();
+    document.getElementById('finaleMob').style.display = 'none';
+
+  // Define
+    document.getElementById('chevronToIntroMob').style.backgroundColor = '#ec2f5f';
+    document.getElementById('chevronToResearchMob').style.backgroundColor = '#ea1d52';
+    document.getElementById('chevronToDefineMob').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToIdeateMob').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToPrototypeMob').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToTestMob').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToFinaleMob').style.backgroundColor = '#1A1A1A';
+  // Intro
+    document.getElementById('introMob').style.display = 'none';  
+    document.getElementById('dividerMobIntro').style.display = 'none';
+  // Research
+    document.getElementById('researchMob').style.display = 'none';  
+    document.getElementById('shouldersMob').style.display = 'none';
+    document.getElementById('compMob').style.display = 'none';
+    document.getElementById('blurbsMob').style.display = 'none';
+    document.getElementById('logoTableMob').style.display = 'none';
+    document.getElementById('likesMob').style.display = 'none';
+    document.getElementById('critsMob').style.display = 'none';
+    document.getElementById('ideasMob').style.display = 'none';
+    document.getElementById('qsMob').style.display = 'none';  
+    document.getElementById('dividerMobResearch').style.display = 'none';
+  // Research 2
+    document.getElementById('research2Mob').style.display = 'none';
+    document.getElementById('dividerMobResearch2').style.display = 'none';
+    document.getElementById('affinityMob').style.display = 'none';
+    document.getElementById('graphMob1').style.display = 'none';
+    document.getElementById('graphMob2').style.display = 'none';
+    document.getElementById('dividerResearchMob3').style.display = 'none';
+  // Research 3
+    document.getElementById('userIntMob').style.display = 'inline';
+    document.getElementById('objectiveMob').style.display = 'inline';
+    document.getElementById('userQsMob').style.display = 'inline';
+    document.getElementById('stringMob').style.display = 'inline';
+    document.getElementById('personasMob').style.display = 'inline';
+    document.getElementById('personButtonMob').style.display = 'inline';
+    document.getElementById('dividerMobResearch3').style.display; 'inline';
+  //  Define
+    document.getElementById('defineMob').style.display = 'none';
+    document.getElementById('ideateMob').style.display = 'none';
+    document.getElementById('prototypeMob').style.display = 'none';
+    document.getElementById('testMob').style.display = 'none';
+}
+
+function toDefineMob () {   
+
+  document.getElementById('chevvyMob').scrollIntoView();
+  document.getElementById('defineMob').style.display = 'inline';
+  document.getElementById('finaleMob').style.display = 'none';
+  document.getElementById('ideateMob').style.display = 'none';
+  document.getElementById('prototypeMob').style.display = 'none';
+  document.getElementById('testMob').style.display = 'none';
+
+  // Nav Bar
+  document.getElementById('chevronToIntroMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToResearchMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDefineMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToIdeateMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToPrototypeMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToTestMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToFinaleMob').style.backgroundColor = '#1A1A1A';
+
+  // Intro
+    document.getElementById('introMob').style.display = 'none';  
+    document.getElementById('dividerMobIntro').style.display = 'none';
+  // Research
+    document.getElementById('researchMob').style.display = 'none';  
+    document.getElementById('shouldersMob').style.display = 'none';
+    document.getElementById('compMob').style.display = 'none';
+    document.getElementById('blurbsMob').style.display = 'none';
+    document.getElementById('logoTableMob').style.display = 'none';
+    document.getElementById('likesMob').style.display = 'none';
+    document.getElementById('critsMob').style.display = 'none';
+    document.getElementById('ideasMob').style.display = 'none';
+    document.getElementById('qsMob').style.display = 'none';  
+    document.getElementById('dividerMobResearch').style.display = 'none';
+  // Research 2
+    document.getElementById('research2Mob').style.display = 'none';
+    document.getElementById('dividerMobResearch2').style.display = 'none';
+    document.getElementById('affinityMob').style.display = 'none';
+    document.getElementById('graphMob1').style.display = 'none';
+    document.getElementById('graphMob2').style.display = 'none';
+    document.getElementById('dividerResearchMob3').style.display = 'none';
+  // Research 3
+    document.getElementById('userIntMob').style.display = 'none';
+    document.getElementById('objectiveMob').style.display = 'none';
+    document.getElementById('userQsMob').style.display = 'none';
+    document.getElementById('stringMob').style.display = 'none';
+    document.getElementById('personasMob').style.display = 'none';
+    document.getElementById('personButtonMob').style.display = 'none';
+    document.getElementById('dividerMobResearch3').style.display; 'none';
+  //  Define
+
+}
+
+function toIdeateMob () {   
+
+  document.getElementById('chevvyMob').scrollIntoView();
+
+  document.getElementById('chevronToIntro').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToResearch').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToDefine').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToIdeate').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToPrototype').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToTest').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('defineMob').style.display = 'none';
+  document.getElementById('ideateMob').style.display = 'inline';
+  document.getElementById('finaleMob').style.display = 'none';
+  document.getElementById('prototypeMob').style.display = 'none';
+  document.getElementById('testMob').style.display = 'none';
+
+  // Nav bar
+  document.getElementById('chevronToIntroMob').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToResearchMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToDefineMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToIdeateMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToPrototypeMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToTestMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToFinaleMob').style.backgroundColor = '#1A1A1A';
+  // Intro
+    document.getElementById('introMob').style.display = 'none';  
+    document.getElementById('dividerMobIntro').style.display = 'none';
+  // Research
+    document.getElementById('researchMob').style.display = 'none';  
+    document.getElementById('shouldersMob').style.display = 'none';
+    document.getElementById('compMob').style.display = 'none';
+    document.getElementById('blurbsMob').style.display = 'none';
+    document.getElementById('logoTableMob').style.display = 'none';
+    document.getElementById('likesMob').style.display = 'none';
+    document.getElementById('critsMob').style.display = 'none';
+    document.getElementById('ideasMob').style.display = 'none';
+    document.getElementById('qsMob').style.display = 'none';  
+    document.getElementById('dividerMobResearch').style.display = 'none';
+  // Research 2
+    document.getElementById('research2Mob').style.display = 'none';
+    document.getElementById('dividerMobResearch2').style.display = 'none';
+    document.getElementById('affinityMob').style.display = 'none';
+    document.getElementById('graphMob1').style.display = 'none';
+    document.getElementById('graphMob2').style.display = 'none';
+    document.getElementById('dividerResearchMob3').style.display = 'none';
+  // Research 3
+    document.getElementById('userIntMob').style.display = 'none';
+    document.getElementById('objectiveMob').style.display = 'none';
+    document.getElementById('userQsMob').style.display = 'none';
+    document.getElementById('stringMob').style.display = 'none';
+    document.getElementById('personasMob').style.display = 'none';
+    document.getElementById('personButtonMob').style.display = 'none';
+    document.getElementById('dividerMobResearch3').style.display; 'none';
+  //  Define
+}
+
+function toPrototypeMob () {   
+
+    document.getElementById('chevvyMob').scrollIntoView();
+
+    document.getElementById('defineMob').style.display = 'none';
+    document.getElementById('ideateMob').style.display = 'none';
+    document.getElementById('prototypeMob').style.display = 'inline';
+    document.getElementById('finaleMob').style.display = 'none';
+    document.getElementById('testMob').style.display = 'none';
+
+    // Nav bar
+    document.getElementById('chevronToIntroMob').style.backgroundColor = '#f16589';
+    document.getElementById('chevronToResearchMob').style.backgroundColor = '#ef537b';
+    document.getElementById('chevronToDefineMob').style.backgroundColor = '#ed416d';
+    document.getElementById('chevronToIdeateMob').style.backgroundColor = '#ec2f5f';
+    document.getElementById('chevronToPrototypeMob').style.backgroundColor = '#ea1d52';
+    document.getElementById('chevronToTestMob').style.backgroundColor = '#1A1A1A';
+    document.getElementById('chevronToFinaleMob').style.backgroundColor = '#1A1A1A';
+
+  // Intro
+    document.getElementById('introMob').style.display = 'none';  
+    document.getElementById('dividerMobIntro').style.display = 'none';
+  // Research
+    document.getElementById('researchMob').style.display = 'none';  
+    document.getElementById('shouldersMob').style.display = 'none';
+    document.getElementById('compMob').style.display = 'none';
+    document.getElementById('blurbsMob').style.display = 'none';
+    document.getElementById('logoTableMob').style.display = 'none';
+    document.getElementById('likesMob').style.display = 'none';
+    document.getElementById('critsMob').style.display = 'none';
+    document.getElementById('ideasMob').style.display = 'none';
+    document.getElementById('qsMob').style.display = 'none';  
+    document.getElementById('dividerMobResearch').style.display = 'none';
+  // Research 2
+    document.getElementById('research2Mob').style.display = 'none';
+    document.getElementById('dividerMobResearch2').style.display = 'none';
+    document.getElementById('affinityMob').style.display = 'none';
+    document.getElementById('graphMob1').style.display = 'none';
+    document.getElementById('graphMob2').style.display = 'none';
+    document.getElementById('dividerResearchMob3').style.display = 'none';
+  // Research 3
+    document.getElementById('userIntMob').style.display = 'none';
+    document.getElementById('objectiveMob').style.display = 'none';
+    document.getElementById('userQsMob').style.display = 'none';
+    document.getElementById('stringMob').style.display = 'none';
+    document.getElementById('personasMob').style.display = 'none';
+    document.getElementById('personButtonMob').style.display = 'none';
+    document.getElementById('dividerMobResearch3').style.display; 'none';
+  //  Define
+
+}
+
+function toTestMob () {   
+
+  document.getElementById('chevronToIntro').style.backgroundColor = '#f27797';
+  document.getElementById('chevronToResearch').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToDefine').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToIdeate').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToPrototype').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToTest').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('chevvyMob').scrollIntoView();
+  document.getElementById('defineMob').style.display = 'none';
+  document.getElementById('ideateMob').style.display = 'none';
+  document.getElementById('prototypeMob').style.display = 'none';
+  document.getElementById('testMob').style.display = 'inline';
+  document.getElementById('finaleMob').style.display = 'none';
+
+
+  // Nav bar
+  document.getElementById('chevronToIntroMob').style.backgroundColor = '#f27797';
+  document.getElementById('chevronToResearchMob').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToDefineMob').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToIdeateMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToPrototypeMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToTestMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToFinaleMob').style.backgroundColor = '#1A1A1A';
+
+  // Intro
+    document.getElementById('introMob').style.display = 'none';  
+    document.getElementById('dividerMobIntro').style.display = 'none';
+  // Research
+    document.getElementById('researchMob').style.display = 'none';  
+    document.getElementById('shouldersMob').style.display = 'none';
+    document.getElementById('compMob').style.display = 'none';
+    document.getElementById('blurbsMob').style.display = 'none';
+    document.getElementById('logoTableMob').style.display = 'none';
+    document.getElementById('likesMob').style.display = 'none';
+    document.getElementById('critsMob').style.display = 'none';
+    document.getElementById('ideasMob').style.display = 'none';
+    document.getElementById('qsMob').style.display = 'none';  
+    document.getElementById('dividerMobResearch').style.display = 'none';
+  // Research 2
+    document.getElementById('research2Mob').style.display = 'none';
+    document.getElementById('dividerMobResearch2').style.display = 'none';
+    document.getElementById('affinityMob').style.display = 'none';
+    document.getElementById('graphMob1').style.display = 'none';
+    document.getElementById('graphMob2').style.display = 'none';
+    document.getElementById('dividerResearchMob3').style.display = 'none';
+  // Research 3
+    document.getElementById('userIntMob').style.display = 'none';
+    document.getElementById('objectiveMob').style.display = 'none';
+    document.getElementById('userQsMob').style.display = 'none';
+    document.getElementById('stringMob').style.display = 'none';
+    document.getElementById('personasMob').style.display = 'none';
+    document.getElementById('personButtonMob').style.display = 'none';
+    document.getElementById('dividerMobResearch3').style.display; 'none';
+  //  Define
+}
+
+function toFinaleMob () {   
+
+  document.getElementById('chevvyMob').scrollIntoView();
+
+  document.getElementById('defineMob').style.display = 'none';
+  document.getElementById('ideateMob').style.display = 'none';
+  document.getElementById('prototypeMob').style.display = 'none';
+  document.getElementById('testMob').style.display = 'none';
+  document.getElementById('finaleMob').style.display = 'inline';
+  // Navbar
+  document.getElementById('chevronToIntroMob').style.backgroundColor = '#f489a4';
+  document.getElementById('chevronToResearchMob').style.backgroundColor = '#f27797';
+  document.getElementById('chevronToDefineMob').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToIdeateMob').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToPrototypeMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToTestMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToFinaleMob').style.backgroundColor = '#ea1d52';
+
+  // Intro
+    document.getElementById('introMob').style.display = 'none';  
+    document.getElementById('dividerMobIntro').style.display = 'none';
+  // Research
+    document.getElementById('researchMob').style.display = 'none';  
+    document.getElementById('shouldersMob').style.display = 'none';
+    document.getElementById('compMob').style.display = 'none';
+    document.getElementById('blurbsMob').style.display = 'none';
+    document.getElementById('logoTableMob').style.display = 'none';
+    document.getElementById('likesMob').style.display = 'none';
+    document.getElementById('critsMob').style.display = 'none';
+    document.getElementById('ideasMob').style.display = 'none';
+    document.getElementById('qsMob').style.display = 'none';  
+    document.getElementById('dividerMobResearch').style.display = 'none';
+  // Research 2
+    document.getElementById('research2Mob').style.display = 'none';
+    document.getElementById('dividerMobResearch2').style.display = 'none';
+    document.getElementById('affinityMob').style.display = 'none';
+    document.getElementById('graphMob1').style.display = 'none';
+    document.getElementById('graphMob2').style.display = 'none';
+    document.getElementById('dividerResearchMob3').style.display = 'none';
+  // Research 3
+    document.getElementById('userIntMob').style.display = 'none';
+    document.getElementById('objectiveMob').style.display = 'none';
+    document.getElementById('userQsMob').style.display = 'none';
+    document.getElementById('stringMob').style.display = 'none';
+    document.getElementById('personasMob').style.display = 'none';
+    document.getElementById('personButtonMob').style.display = 'none';
+    document.getElementById('dividerMobResearch3').style.display; 'none';
+  //  Define
+}
+
+
+// DIARY STUDY MUSIC EXPERIENCES DESKTOP
+
+// nav color palette  (dark to light)
+
+// #ea1d52 
+// #ec2f5f
+// #ed416d
+// #ef537b
+// #f16589
+// #f27797
+// #f489a4
+
+function toIntroD() {
+  document.getElementById('chevvy').scrollIntoView();
+  document.getElementById('introD').style.display = "inline";
+ document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+  
+  document.getElementById('chevronToIntroD').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataSynthD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
+
+ 
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').style.display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+  
+}
+
+function toPlanningD() {
+  document.getElementById('chevvy').scrollIntoView();
+  document.getElementById('planningD').style.display = "inline";
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('chevronToIntroD').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataSynthD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
+  
+  document.getElementById('introD').style.display = "none";
+
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').style.display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+}
+
+function toDataCoD() {
+  document.getElementById('chevvy').scrollIntoView();
+  document.getElementById('dataCoD').style.display = "inline";
+
+  document.getElementById('chevronToIntroD').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataSynthD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
+  
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+  
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').style.display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+}
+
+function toDataAlD() {
+  document.getElementById('chevvy').scrollIntoView();
+  document.getElementById('dataAlD').style.display = "inline";
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#ea1d52';
+
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+
+  document.getElementById('chevronToIntroD').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDataSynthD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
+  
+ 
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').style.display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+}
+
+function toDataSynthD() {
+  document.getElementById('chevvy').scrollIntoView();
+  document.getElementById('dataSynthD').style.display = "inline";
+    document.getElementById('chevronToDataSynthD').style.backgroundColor = '#ea1d52';
+
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#ec2f5f';
+
+  document.getElementById('chevronToIntroD').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
+  
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').style.display = "none";
+
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+}
+
+function toExpandingD() {
+  document.getElementById('chevvy').scrollIntoView();
+  document.getElementById('expandingD').style.display = "inline";
+  document.getElementById('chevronToExpandingD').style.backgroundColor = '#ea1d52';
+
+  document.getElementById('chevronToIntroD').style.backgroundColor = '#f27797';
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToDataSynthD').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
+  
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').style.display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+}
+
+function toReflectionD() {
+  document.getElementById('chevvy').scrollIntoView();
+  document.getElementById('reflectionD').style.display = "inline";
+
+  document.getElementById('chevronToIntroD').style.backgroundColor = '#f489a4';
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#f27797';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToDataSynthD').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToExpandingD').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToReflectionD').style.backgroundColor = '#ea1d52';
+  
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').style.display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+}
+
+
+// DIARY STUDY MUSIC EXPERIENCES MOBILE
+
+// Dark to light chevrons
+// #ea1d52 
+// #ec2f5f
+// #ed416d
+// #ef537b
+// #f16589
+// #f27797
+// #f489a4
+
+
+
+function toIntroD() {
+  document.getElementById('chevvy').scrollIntoView();
+  document.getElementById('introD').style.display = "inline";
+
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dividerMobPlanningD').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+
+
+}
+
+function toIntroDMob() {
+  document.getElementById('chevvyMob').scrollIntoView();
+
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('introDMob').style.display = "inline";
+  document.getElementById('dataSynthDMob').display = "none";
+
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dividerMobPlanningD').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+}
+
+
+function toPlanningD() {
+  document.getElementById('chevvy').scrollIntoView();
+
+  document.getElementById('planningD').style.display = "inline";
+
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ea1d52';
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+
+
+
+}
+
+function toPlanningDMob() {
+  document.getElementById('chevvyMob').scrollIntoView();
+  document.getElementById('planningDMob').style.display = "inline";
+
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+
+}
+
+function toDataCoD() {
+  document.getElementById('chevvy').scrollIntoView();
+  document.getElementById('dataCoD').style.display = "inline";
+
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+
+  document.getElementById('chevronToIntroD').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+
+ 
+}
+
+function toDataCoDMob() {
+  document.getElementById('chevvyMob').scrollIntoView();
+
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "inline";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+}
+
+function toDataAlDMob() {
+  document.getElementById('chevvyMob').scrollIntoView();
+
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "inline";
+  document.getElementById('dataSynthDMob').display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+}
+
+function toDataSynthDMob() {  
+   document.getElementById('chevvyMob').scrollIntoView();
+
+  document.getElementById('dataSynthDMob').display = "inline";
+
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDataSynthDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
+
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+}
+
+function toExpandingDMob() {
+  document.getElementById('chevvyMob').scrollIntoView();
+
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
+
+  document.getElementById('dataSynthDMob').display = "none";
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('expandingDMob').style.display = "inline";
+  document.getElementById('reflectionDMob').style.display = "none";
+
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+}
+
+function toReflectionDMob() {
+  document.getElementById('chevvyMob').scrollIntoView();
+  document.getElementById('reflectionDMob').style.display = "inline";
+
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#f27797';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#ea1d52';
+
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
+}
+
+// Persona Display
+
+// function persona1() {
+//   document.getElementById('persona1').style.display = "inline";
+//   document.getElementById('persona1').scrollIntoView();
+
+// }
+
+function outie() {
+  document.getElementById('persona1').style.display = 'none';
+  document.getElementById('personaScroll').scrollIntoView();
+}
+
 
 // HAMBURGER MENU ICON
   // creating the rotating effect
+
 $(document).ready(function () {
   $('.first-button').on('click', function () {
     $('.animated-icon1').toggleClass('open');
@@ -87,230 +1269,68 @@ function newWindowInsta() {
   window.open("https://www.instagram.com/annagphoenix/");
 }
 
+// Feedback Grid (6 apps)
 
-//MED CIRCLES
-function medHelper() {  
-  document.getElementById('appOverview').innerHTML =
-  'App Overview <br> <br> MedHelper, promoted as a "personal healthcare assistant", is a mobile application designed to help prescription medication users stay on top of their treatment regimes. The app intends to encourage medication compliance and consistency.';
+function mediSafe() {
+  document.getElementById('mediSafeBlurb').style.backgroundImage = "url(images/mediSafeBlurb.png)";
+  document.getElementById('mediSafeBlurb').scrollIntoView();
+  document.getElementById('likes').style.backgroundImage = "url(images/LIKES.png)";
+  document.getElementById('crits').style.backgroundImage = "url(images/CRITS.png)";
+  document.getElementById('qs').style.backgroundImage = "url(images/QS.png)";
+  document.getElementById('ideas').style.backgroundImage = "url(images/IDEAS.png)";
 
-  document.getElementById('appImage').innerHTML = '<img src="images/medhelperMain.png" class="appImg">';
+}
 
-  document.getElementById('feedbackGrid').innerHTML = 
-  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> MedHelper </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - Users are notified when they are running low on medication <br> <br> - User is able to input a lot of details about their medication (e.g. tRx number, why they are taking it, what they should take it with) <br> <br> - User can input details about their pharmacy and doctor </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- The design is very clinical; it feels like filling out paperwork at doctor’s office <br> <br>  - The user flow is not intuitive-- leads to a lot of jumping back anforth from the homepage <br> <br> - It feels as though the app lacks a functional home screen </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - How could a designer make filling out medication info feel like leswork? <br> <br> - Why is there so much whitespace within the application? <br> <br> - Which button should I press to begin using this app? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The home screen elements could be divided into meaningful chunks so thathe user doesn’t feel overwhelmed by options <br> <br> - Data entry could be more interactive <br> <br> - Icons and images could brighten up the design </td> </tr> </table> </div> </div>';
-
-  document.getElementById('medHelper').style.backgroundColor = "#10ac84";
-  document.getElementById('round').style.backgroundColor = "transparent";
-  document.getElementById('mediSafe').style.backgroundColor = "transparent";
-
-  document.getElementById('daylio').style.backgroundColor = "transparent";
-  document.getElementById('reflectly').style.backgroundColor = "transparent";
-  document.getElementById('eMoods').style.backgroundColor = "transparent";
-
-  document.getElementById('beingMe').style.backgroundColor = "transparent";
-  document.getElementById('diary').style.backgroundColor = "transparent";
-  document.getElementById('journey').style.backgroundColor = "transparent";
+function daylio() {
+  document.getElementById('mediSafeBlurb').style.backgroundImage = "url(images/daylioBlurb.png)";
+  document.getElementById('mediSafeBlurb').scrollIntoView();
+  document.getElementById('likes').style.backgroundImage = "url(images/daylioLikes.png)";
+  document.getElementById('crits').style.backgroundImage = "url(images/daylioCrits.png)";
+  document.getElementById('qs').style.backgroundImage = "url(images/daylioQs.png)";
+  document.getElementById('ideas').style.backgroundImage = "url(images/daylioIdeas.png)";
 }
 
 function round() {
-  document.getElementById('appOverview').innerHTML =
-  'App Overview <br> <br>Round is a mobile application that allows users to track their medications and make note of missed doses. By reminding users to remain disciplined in their medicine regime, Round helps individuals "worry less, live healthier, and <br> be happier.'; 
-
-  document.getElementById('appImage').innerHTML = '<img src="images/roundMain.png" class="appImg">';
-
-  document.getElementById('feedbackGrid').innerHTML = 
-  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Round </td> </tr> <tr> <td style="width:50%; vertical-align: text-top;"> Likes <br> <br> - The design is delicate and aesthetically pleasing-- includes colorful microinteractions <br> <br> - The app tracks whether or not users have taken their meds and indicates missed doses on a calendar <br> <br> - Users are able to “un-take” medication </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- The app asks for strength of dose but doesn’t provide a unit of measurement; this might confuse users  <br> <br>  - The app is almost too simple; the data collected is valuable but nothing is done with it <br> <br> - The app is pleasant but ultimately lacks meaningful and competitive features </td> </tr> <tr> <td style="width:50%; vertical-align: text-top; "> Questions <br> <br> - What is the goal of this app? <br> <br> - How do users gain by using Round? <br> <br> - How might we broaden the depth of the app while maintaining a simplistic UI? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The data could be used to provide users with meaningful feedback <br> <br> - The app could allow users to keep track of their doctor’s information/pharmacy numbers <br> <br> - The app could indicate a percentage of miss doses per month </td> </tr> </table> </div> </div>';
-
-  document.getElementById('medHelper').style.backgroundColor = "transparent";
-  document.getElementById('round').style.backgroundColor = "#10ac84";
-  document.getElementById('mediSafe').style.backgroundColor = "transparent";
-
-  document.getElementById('daylio').style.backgroundColor = "transparent";
-  document.getElementById('reflectly').style.backgroundColor = "transparent";
-  document.getElementById('eMoods').style.backgroundColor = "transparent";
-
-  document.getElementById('beingMe').style.backgroundColor = "transparent";
-  document.getElementById('diary').style.backgroundColor = "transparent";
-  document.getElementById('journey').style.backgroundColor = "transparent";
-}
-
-function mediSafe() {
-  document.getElementById('appOverview').innerHTML =
-  'App Overview <br> <br> Medisafe is a HIPAA certified mobile application designed to help individuals consume their medication on time. The app delivers an innovative cloud-based platform that allows doctors and close others to monitor medication intake.';
-
-  document.getElementById('appImage').innerHTML = '<img src="images/MediSafeMain.png" class="appImg">';
-
-  document.getElementById('feedbackGrid').innerHTML = 
-  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Medisafe</td> </tr> <tr> <td style="width:50%; vertical-align: text-top;"> Likes <br> <br> - The app allows users to sync health data via wearables <br> <br> - The app provides an educational feature that teaches users about their medication <br> <br> - The app includes a report page that communicates weekly medication adherence </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- There is a diary feature but no writing prompts are provided  <br> <br>  - There is a mood feature but it is a simple 1-10 scale <br> <br> - Users might be somewhat overwhelmed by the default notification settings </td> </tr> <tr> <td style="width:50%; vertical-align: text-top; "> Questions <br> <br> - How come the inputted health data is not included in the report section? <br> <br> - Why isn’t the report delivered in a more concise manner? <br> <br> - What is the purpose of the dropdown icon on the homescreen? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The app could expand on their mood feature and include mood ratings in the report section <br> <br> - The report could be provided with multiple view options <br> <br> - Users might be overwhelmed by the app offerings; sections of the app could be grouped into meaningful chunks to simplify the design </td> </tr> </table> </div> </div>';
-
-  document.getElementById('medHelper').style.backgroundColor = "transparent";
-  document.getElementById('round').style.backgroundColor = "transparent";
-  document.getElementById('mediSafe').style.backgroundColor = "#10ac84";
-
-  document.getElementById('daylio').style.backgroundColor = "transparent";
-  document.getElementById('reflectly').style.backgroundColor = "transparent";
-  document.getElementById('eMoods').style.backgroundColor = "transparent";
-
-  document.getElementById('beingMe').style.backgroundColor = "transparent";
-  document.getElementById('diary').style.backgroundColor = "transparent";
-  document.getElementById('journey').style.backgroundColor = "transparent";
-}
-
-// MOOD CIRCLES
-function daylio() {
-
-  document.getElementById('appOverview').innerHTML =
-  'App Overview <br> <br>Daylio is a daily mood tracking app that offers a simple, two step entry creation process. The app allows users to review how their mood trends, and how they relate to common daily activiites.';
-
-  document.getElementById('appImage').innerHTML = '<img src="images/daylioMain.png" class="appImg">';
-
-  document.getElementById('feedbackGrid').innerHTML = 
-  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Daylio </td> </tr> <tr> <td style="width:50%; vertical-align: text-top;"> Likes <br> <br> - The app provides notifications for achievements <br> <br> - Statistics are displayed in an intuitive way and with many view options (e.g. in a line graph, on a calendar, average daily mood, average monthly mood) <br> <br> - The process of rating your mood is quick and simple-- not much effort is required from the user </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- Achievements feel almost too easy to accomplish  <br> <br>  - There are too many variables to choose from for activities-- it would take a lot of data to form meaningful correlations <br> <br> - Option to log previous days might backfire-- the passage of time affects one’s memory of previous mood states (it should be strict about habit forming) </td> </tr> <tr> <td style="width:50%; vertical-align: text-top;"> Questions <br> <br> - Which demographic is this application designed for? <br> <br> - How did the designer go about choosing the variables of interest in the activities section? <br> <br> - How come the user can submit multiple entries per day? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - Language could be altered to fit a larger demographic (e.g. words like “rad” and “meh” seem to target younger users) <br> <br> - App could include a more in-depth journal option/prompts for writing (instead of the “add note” placeholder) <br> <br> - Why are users rewarded with badges for things like unstable mood patterns? </td> </tr> </table> </div> </div>';
-
-  document.getElementById('medHelper').style.backgroundColor = "transparent";
-  document.getElementById('round').style.backgroundColor = "transparent";
-  document.getElementById('mediSafe').style.backgroundColor = "transparent";
-
-  document.getElementById('daylio').style.backgroundColor = "#10ac84";
-  document.getElementById('reflectly').style.backgroundColor = "transparent";
-  document.getElementById('eMoods').style.backgroundColor = "transparent";
-
-  document.getElementById('beingMe').style.backgroundColor = "transparent";
-  document.getElementById('diary').style.backgroundColor = "transparent";
-  document.getElementById('journey').style.backgroundColor = "transparent";
+  document.getElementById('mediSafeBlurb').style.backgroundImage = "url(images/roundBlurb.png)";
+  document.getElementById('mediSafeBlurb').scrollIntoView();
+  document.getElementById('likes').style.backgroundImage = "url(images/roundLikes.png)";
+  document.getElementById('crits').style.backgroundImage = "url(images/roundCrits.png)";
+  document.getElementById('qs').style.backgroundImage = "url(images/roundQs.png)";
+  document.getElementById('ideas').style.backgroundImage = "url(images/roundIdeas.png)";
 }
 
 function reflectly() {
-  document.getElementById('appOverview').innerHTML =
-  'App Overview <br> <br>Marketed as a "mental health companion", Reflectly is an intelligent journal that uses AI to help users reflect on their daily thoughts and problems. The app also provides a daily mood tracker.';
+  document.getElementById('mediSafeBlurb').style.backgroundImage = "url(images/reflectlyBlurb.png)";
+  document.getElementById('mediSafeBlurb').scrollIntoView();
+  document.getElementById('likes').style.backgroundImage = "url(images/reflectlyLikes.png)";
+  document.getElementById('crits').style.backgroundImage = "url(images/reflectlyCrits.png)";
+  document.getElementById('qs').style.backgroundImage = "url(images/reflectlyQs.png)";
+  document.getElementById('ideas').style.backgroundImage = "url(images/reflectlyIdeas.png)";
+}
 
-  document.getElementById('appImage').innerHTML = '<img src="images/ReflectlyMain.png" class="appImg">';
-
-  document.getElementById('feedbackGrid').innerHTML = 
-  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Reflectly </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - A digital character walks you through the process of how to use the app <br> <br> - There are multiple levels of mood capturing (e.g. negative-positive valence, associated activities, feelings) <br> <br> - The app provides a filter to search how variables relate to each other (e.g. user can search “stories about friends where you felt angry”) </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- Too many variables to choose from on the mood rating pages-- makes app comprehensive but results in less meaningful data for the user  <br> <br>  - Too many prompts for the user to buy the full version <br> <br> - Some pages don’t have clear go-back/exit options </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - Why don’t edits to activities update when I change them on the journal page (i.e. can I change my response or do I have to start over?) <br> <br> - How did the designer choose the mood capturing adjectives? <br> <br> - What is the goal of the “questions of the day” feature? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The app could provide a more concise, objective measure of mood  <br> <br> - The app could ask user how they might improve their day if they provide a negative mood rating <br> <br> - The designer could reconsider advertising the product as a journal for “happiness”-- all moods are important  </td> </tr> </table> </div> </div>';
-
-  document.getElementById('medHelper').style.backgroundColor = "transparent";
-  document.getElementById('round').style.backgroundColor = "transparent";
-  document.getElementById('mediSafe').style.backgroundColor = "transparent";
-
-  document.getElementById('daylio').style.backgroundColor = "transparent";
-  document.getElementById('reflectly').style.backgroundColor = "#10ac84";
-  document.getElementById('eMoods').style.backgroundColor = "transparent";
-
-  document.getElementById('beingMe').style.backgroundColor = "transparent";
-  document.getElementById('diary').style.backgroundColor = "transparent";
-  document.getElementById('journey').style.backgroundColor = "transparent";
+function medHelper() {
+  document.getElementById('mediSafeBlurb').style.backgroundImage = "url(images/medHelperBlurb.png)";
+  document.getElementById('mediSafeBlurb').scrollIntoView();
+  document.getElementById('likes').style.backgroundImage = "url(images/medHelperLikes.png)";
+  document.getElementById('crits').style.backgroundImage = "url(images/medHelperCrits.png)";
+  document.getElementById('qs').style.backgroundImage = "url(images/medHelperQs.png)";
+  document.getElementById('ideas').style.backgroundImage = "url(images/medHelperIdeas.png)";
 }
 
 function eMoods() {
-  document.getElementById('appOverview').innerHTML =
-  'App Overview <br> <br>eMoods is a mobile application designed for indiviudals with Bipolar disorder. The app allows users to track the highs and lows of their moods, sleep habits, medication, and other relevant symptoms.';
-
-  document.getElementById('appImage').innerHTML = '<img src="images/eMoodsMain.png" class="appImg">';
-
-  document.getElementById('feedbackGrid').innerHTML = 
-  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> eMoods </td> </tr> <tr> <td style="width:50%; vertical-align: text-top;"> Likes <br> <br> - The app tracks users’ sleep schedule and weight <br> <br> - The app provides resources for emergency services (e.g. crisis hotline numbers, online therapy) <br> <br> - The app has a comprehensive mood rating scale that appears to mimic clinical tests </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- The app is designed specifically for individuals who have bipolar disorder, making the demographic of interest a very small percentage of the population (about 1%) <br> <br>  - How could the designer take advantage of colour to make viewing data more intuitive? <br> <br> - How could the UI have a less clinical feel? </td> </tr> <tr> <td style="width:50%; vertical-align: text-top; "> Questions <br> <br> - Why don’t edits to activities update when I change them on the journal page (i.e. can I change my response or do I have to start over?) <br> <br> - How did the designer choose the mood capturing adjectives? <br> <br> - What is the goal of the “questions of the day” feature? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The designer could expand on the educational aspect of the app <br> <br> - App could show how specific medications are correlated with mood <br> <br> - If the user responds “severe” to every negative mood rating, a suggestion to call for help could pop up </td> </tr> </table> </div> </div>';
-
-  document.getElementById('medHelper').style.backgroundColor = "transparent";
-  document.getElementById('round').style.backgroundColor = "transparent";
-  document.getElementById('mediSafe').style.backgroundColor = "transparent";
-
-  document.getElementById('daylio').style.backgroundColor = "transparent";
-  document.getElementById('reflectly').style.backgroundColor = "transparent";
-  document.getElementById('eMoods').style.backgroundColor = "#10ac84";
-
-  document.getElementById('beingMe').style.backgroundColor = "transparent";
-  document.getElementById('diary').style.backgroundColor = "transparent";
-  document.getElementById('journey').style.backgroundColor = "transparent";
-
-  
+  document.getElementById('mediSafeBlurb').style.backgroundImage = "url(images/eMoodsBlurb.png)";
+  document.getElementById('mediSafeBlurb').scrollIntoView();
+  document.getElementById('likes').style.backgroundImage = "url(images/eMoodsLikes.png)";
+  document.getElementById('crits').style.backgroundImage = "url(images/eMoodsCrits.png)";
+  document.getElementById('qs').style.backgroundImage = "url(images/eMoodsQs.png)";
+  document.getElementById('ideas').style.backgroundImage = "url(images/eMoodsIdeas.png)";
 }
 
-// JOURNAL CIRCLES
-
-function beingMe() {
-  document.getElementById('appOverview').innerHTML =
-  'App Overview <br> <br>Being Me is a journaling application which aims to help users stay centered and maintain their mental health. Inspired by teachings of mindfulness, the app guides useres through meditations and exercises to imrpove well-being.';
-
-  document.getElementById('appImage').innerHTML = '<img src="images/beingMeMain.png" class="appImg">';
-
-  document.getElementById('feedbackGrid').innerHTML = 
-  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Being Me </td> </tr> <tr> <td style="width:50%;"> Likes <br> <br> - The journal asks users to rate their mood and provides emojis to represent each mood <br> <br> - The app allows users to set goals and productive habits <br> <br> - The app encourages users to journal more by providing a star rating of feedback depth </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- Home screen is too busy-- background image is distracting and elements are not clearly divided <br> <br>  - UI design is inconsistent across screens <br> <br> - User is required to read through a lot of text heavy sections </td> </tr> <tr> <td style="width:50%; "> Questions <br> <br> - How come there are so many different options to choose from when choosing to record a journal entry? <br> <br> - Why doesn’t the home screen provide a summary of the user’s data? <br> <br> - How can we make the app interactive without taking navigation power away from the user? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The app could allow users to change the background image  <br> <br> - The app could compile the features into weekly progress reports <br> <br> - The app could  allow users to skip sections if they wish </td> </tr> </table> </div> </div>';
-
-  document.getElementById('medHelper').style.backgroundColor = "transparent";
-  document.getElementById('round').style.backgroundColor = "transparent";
-  document.getElementById('mediSafe').style.backgroundColor = "transparent";
-
-  document.getElementById('daylio').style.backgroundColor = "transparent";
-  document.getElementById('reflectly').style.backgroundColor = "transparent";
-  document.getElementById('eMoods').style.backgroundColor = "transparent";
-
-  document.getElementById('beingMe').style.backgroundColor = "#10ac84";
-  document.getElementById('diary').style.backgroundColor = "transparent";
-  document.getElementById('journey').style.backgroundColor = "transparent";
-}
-
-
-function diary() {
-
-  document.getElementById('appOverview').innerHTML =
-  'App Overview <br> <br>Diary is a minimalistic journaling application which encourages users to keep track of their life progress. The app is marketed as "simple and friendly".';
-
-  document.getElementById('appImage').innerHTML = '<img src="images/diaryMain.png" class="appImg">';
-
-  document.getElementById('feedbackGrid').innerHTML = 
-  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Diary </td> </tr> <tr> <td style="width:50%; vertical-align: text-top;"> Likes <br> <br> - The app has a very attractive and minimalistic UI <br> <br> - Users can assign a password to protect their information <br> <br> - Blank spaces separate missed-entry days  </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- The majority of desirable features are only available through the premium version <br> <br>  - The hamburger menu contains a list of seemingly unrelated variables <br> <br> - User cannot exit out of a journal session </td> </tr> <tr> <td style="width:50%; vertical-align: text-top; "> Questions <br> <br> - What is the purpose of the shuffle feature on the list of journal entries screen? <br> <br> - Why are weekends indicated in red? <br> <br> - Why can you add journal entries for the future? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - Journal prompts could be added to inspire the user to write <br> <br> - The home screen could indicate the user’s commitment to journalling in graph form <br> <br> - The designer could review click events to ensure that all buttons lead to desired screen </td> </tr> </table> </div> </div>';
-
-  document.getElementById('medHelper').style.backgroundColor = "transparent";
-  document.getElementById('round').style.backgroundColor = "transparent";
-  document.getElementById('mediSafe').style.backgroundColor = "transparent";
-
-  document.getElementById('daylio').style.backgroundColor = "transparent";
-  document.getElementById('reflectly').style.backgroundColor = "transparent";
-  document.getElementById('eMoods').style.backgroundColor = "transparent";
-
-  document.getElementById('beingMe').style.backgroundColor = "transparent";
-  document.getElementById('diary').style.backgroundColor = "#10ac84";
-  document.getElementById('journey').style.backgroundColor = "transparent";
-}
-
-function journey() {
-  document.getElementById('appOverview').innerHTML =
-  'App Overview <br> <br>Journey is a journaling application that features "motivational coaches" and "happiness trainers". Through the encouragement of daily discipline, it aims to create a healthier, happier mind for users.';
-
-  document.getElementById('appImage').innerHTML = '<img src="images/journeyMain.png" class="appImg">';
-
-   document.getElementById('feedbackGrid').innerHTML = 
-  '<table id="feedbackGrid" style="text-align: left; margin: 0vw; vertical-align: text-top; font-size: 1vw"> <tr> <td colspan="2" style="text-align: center"> Journey </td> </tr> <tr> <td style="width:50%; vertical-align: text-top;"> Likes <br> <br> - The app has a beautiful, immersive UI that captures the attention of users <br> <br> - The app provides journal coaches to help inspire users to write <br> <br> - Journal entries provide options to add other relevant data (e.g. mood, exercise, geotag) </td> <td style="width:50%; vertical-align: text-top"> Criticisms <br> <br>- The app allows users to add journal entries for the future <br> <br>  - You can only use one coach at a time <br> <br> - There are too many options to choose from on the landing screen </td> </tr> <tr> <td style="width:50%; vertical-align: text-top;"> Questions <br> <br> - What is the purpose of the “throwback” feature? Do you lose access to notes after the month is up? <br> <br> - How did the designers come up with themes for the coaching sessions? <br> <br> - Which screen is the homescreen? </td>  <td style="width:50%; vertical-align: text-top"> Ideas <br> <br> - The designers might consider using cards to separate journal entries  <br> <br> - The app could allow users to receive guidance from multiple coaches throughout the day <br> <br> - The designers could consider removing a couple of icons from the landing screen </td> </tr> </table> </div> </div>';
-
-  document.getElementById('medHelper').style.backgroundColor = "transparent";
-  document.getElementById('round').style.backgroundColor = "transparent";
-  document.getElementById('mediSafe').style.backgroundColor = "transparent";
-
-  document.getElementById('daylio').style.backgroundColor = "transparent";
-  document.getElementById('reflectly').style.backgroundColor = "transparent";
-  document.getElementById('eMoods').style.backgroundColor = "transparent";
-
-  document.getElementById('beingMe').style.backgroundColor = "transparent";
-  document.getElementById('diary').style.backgroundColor = "transparent";
-  document.getElementById('journey').style.backgroundColor = "#10ac84";
-}
- 
-function downSlash() {
-  document.getElementById("downSlash").scrollIntoView();
-
-}
-
-function upSlash() {
-  document.getElementById('feedBackGrids').scrollIntoView(); 
-}
-
-function goDown() {
-  document.getElementById('rabbitHole').scrollIntoView();
-}
 
 // GRID DATA SWITCH
 
-function usability() {
+function usability() {  
+  document.getElementById('gridFeedback').scrollIntoView();
   document.getElementById('usability').style.backgroundColor = "#10ac84";
   document.getElementById('aesthetics').style.backgroundColor = "transparent";
   document.getElementById('helpFeatures').style.backgroundColor = "transparent";
@@ -319,11 +1339,14 @@ function usability() {
   document.getElementById('joyfulUX').style.backgroundColor = "transparent";
   document.getElementById('medAdherence').style.backgroundColor = "transparent";
   document.getElementById('demographics').style.backgroundColor = "transparent";
+  document.getElementById('gridFeedback').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
 
-  document.getElementById('gridFeedback').innerHTML = "<!-- likes --> Apps that featured positive usability gave power to the user; these designs afforded users with the opportunity to correct mistakes (e.g. accidental button presses) and were laid out in an intuitive, efficient manner. <br> <br> <!-- criticisms -->  My data, however, reveals a relatively high proportion of usability issues in contrast to positive user experiences. The most notable criticism that emerged during my analysis was the amount of time and effort it took to use certain apps (particularly those involving medication). Whether it was due to poor structural design, vague instructions, or non-skippable animations, these applications seemed to risk leaving users frustrated during the navigation process. <br> <br> <!-- questions --> Expanding on the notion of poor structural design-- many questions arose regarding the layout and function of app elements. For instance, some applications featured an overwhelming number of home screen buttons, potentially leaving users uncertain of which option to prioritize. Further, certain elements did not carry out their tagged functions (e.g. edit feature on journal does not work > user must re-submit entire entry to include missed data), signalling questions surrounding the usability of the written code.  <br> <br> <!-- ideas --> In terms of fixing usability errors, several ideas come to mind: designers can ensure that homescreens are evident and accessible to the user by chunking priority items into 3-4 categories, developers can make data entry more interactive so that users don't feel as though they are filling out paperwork in a clinic, and--importantly-- always give the user power to skip through undesired sections of text or animation. Time is precious; designers must respect this.  ";
+
+  // document.getElementById('gridFeedback').innerHTML = "<!-- likes --> Apps that featured positive usability gave power to the user; these designs afforded users with the opportunity to correct mistakes (e.g. accidental button presses) and were laid out in an intuitive, efficient manner. <br> <br> <!-- criticisms -->  My data, however, reveals a relatively high proportion of usability issues in contrast to positive user experiences. The most notable criticism that emerged during my analysis was the amount of time and effort it took to use certain apps (particularly those involving medication). Whether it was due to poor structural design, vague instructions, or non-skippable animations, these applications seemed to risk leaving users frustrated during the navigation process. <br> <br> <!-- questions --> Expanding on the notion of poor structural design-- many questions arose regarding the layout and function of app elements. For instance, some applications featured an overwhelming number of home screen buttons, potentially leaving users uncertain of which option to prioritize. Further, certain elements did not carry out their tagged functions (e.g. edit feature on journal does not work > user must re-submit entire entry to include missed data), signalling questions surrounding the usability of the written code.  <br> <br> <!-- ideas --> In terms of fixing usability errors, several ideas come to mind: designers can ensure that homescreens are evident and accessible to the user by chunking priority items into 3-4 categories, developers can make data entry more interactive so that users don't feel as though they are filling out paperwork in a clinic, and--importantly-- always give the user power to skip through undesired sections of text or animation. Time is precious; designers must respect this.  ";
 }
 
 function aesthetics() {
+  document.getElementById('gridFeedback').scrollIntoView();
   document.getElementById('usability').style.backgroundColor = "transparent";
   document.getElementById('aesthetics').style.backgroundColor = "#10ac84";
   document.getElementById('helpFeatures').style.backgroundColor = "transparent";
@@ -332,12 +1355,14 @@ function aesthetics() {
   document.getElementById('joyfulUX').style.backgroundColor = "transparent";
   document.getElementById('medAdherence').style.backgroundColor = "transparent";
   document.getElementById('demographics').style.backgroundColor = "transparent";
+  document.getElementById('gridFeedback').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
 
-  document.getElementById('gridFeedback').innerHTML = "<!-- likes --> My collective data indicates that app aesthetics were generally pleasant. Applications varied in visual design, but those that were most memorable used playful microinteractions, intuitive graphs, and minimalistic yet attention-capturing user interfaces.   <br> <br> <!-- criticisms -->  Naturally, some applications were not as immaculate as others. Criticisms arose as I noted evidence of inconsistent and lacklustre user interfaces. For example, certain apps failed to maintain consistent styling across pages, and others left large containers of white space in lieu of playful designs.  <br> <br> <!-- questions --> After reviewing my data related to aesthetics, I wondered how designers could use colour to make viewing data more intuitive. Several apps featured graphs on their homescreens, but some seemed to feature too many colours without an accessible legend, and others used single colour themes, dividing data into separate categories (and thus, many graphs to evaluate). How might designers use colour to signal meaning to users in a cohesive way?  <br> <br> <!-- ideas --> In order to maintain high level aesthetics, designers might consider the following: instead of using white space, design HTML cards with subtle border outlines to separate user entries, use icons and images to brighten up the user interface, keep the style of each screen relatively the same. ";
+
+  // document.getElementById('gridFeedback').innerHTML = "<!-- likes --> My collective data indicates that app aesthetics were generally pleasant. Applications varied in visual design, but those that were most memorable used playful microinteractions, intuitive graphs, and minimalistic yet attention-capturing user interfaces.   <br> <br> <!-- criticisms -->  Naturally, some applications were not as immaculate as others. Criticisms arose as I noted evidence of inconsistent and lacklustre user interfaces. For example, certain apps failed to maintain consistent styling across pages, and others left large containers of white space in lieu of playful designs.  <br> <br> <!-- questions --> After reviewing my data related to aesthetics, I wondered how designers could use colour to make viewing data more intuitive. Several apps featured graphs on their homescreens, but some seemed to feature too many colours without an accessible legend, and others used single colour themes, dividing data into separate categories (and thus, many graphs to evaluate). How might designers use colour to signal meaning to users in a cohesive way?  <br> <br> <!-- ideas --> In order to maintain high level aesthetics, designers might consider the following: instead of using white space, design HTML cards with subtle border outlines to separate user entries, use icons and images to brighten up the user interface, keep the style of each screen relatively the same. ";
 }
 
-
 function helpFeatures() {
+  document.getElementById('gridFeedback').scrollIntoView();
   document.getElementById('usability').style.backgroundColor = "transparent";
   document.getElementById('aesthetics').style.backgroundColor = "transparent";
   document.getElementById('helpFeatures').style.backgroundColor = "#10ac84";
@@ -346,11 +1371,13 @@ function helpFeatures() {
   document.getElementById('joyfulUX').style.backgroundColor = "transparent";
   document.getElementById('medAdherence').style.backgroundColor = "transparent";
   document.getElementById('demographics').style.backgroundColor = "transparent";
+  document.getElementById('gridFeedback').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
 
- document.getElementById('gridFeedback').innerHTML = "<!-- likes --> I was happy to see that many of my research notes fell under the category of “helpful features”. Most notably, I admired how comprehensive some of the applications' tracking systems were; certain apps allowed users to submit health data related to mood, exercise, sleep, medication, and more. Advanced applications even provided users with the opportunity to sync their physiological data using wearable technology. Other helpful features included search filters that outputted correlations between variables of interest (e.g. how mood relates to spending time with friends), customizable goal setting and habit tracking, as well as educational resources. <br> <br> <!-- ideas --> As you can see based on the distrubution of variables above, these positive features inspired an even larger number of ideas. Designers may consider the following: expanding and improving the design of the filter search (e.g. revealing correlations between mood, medication, and activity level, crafting a comprehensive and empirically based mood rating system, creating smart algorithms that alert the user when their mood reveals concerning patterns, providing meaningful journal prompts, providing users with weekly wellness reports, and educating users about mood, medication and more). ";
+//  document.getElementById('gridFeedback').innerHTML = "<!-- likes --> I was happy to see that many of my research notes fell under the category of “helpful features”. Most notably, I admired how comprehensive some of the applications' tracking systems were; certain apps allowed users to submit health data related to mood, exercise, sleep, medication, and more. Advanced applications even provided users with the opportunity to sync their physiological data using wearable technology. Other helpful features included search filters that outputted correlations between variables of interest (e.g. how mood relates to spending time with friends), customizable goal setting and habit tracking, as well as educational resources. <br> <br> <!-- ideas --> As you can see based on the distrubution of variables above, these positive features inspired an even larger number of ideas. Designers may consider the following: expanding and improving the design of the filter search (e.g. revealing correlations between mood, medication, and activity level, crafting a comprehensive and empirically based mood rating system, creating smart algorithms that alert the user when their mood reveals concerning patterns, providing meaningful journal prompts, providing users with weekly wellness reports, and educating users about mood, medication and more). ";
 }
 
 function purposeDesign() {
+  document.getElementById('gridFeedback').scrollIntoView();
   document.getElementById('usability').style.backgroundColor = "transparent";
   document.getElementById('aesthetics').style.backgroundColor = "transparent";
   document.getElementById('helpFeatures').style.backgroundColor = "transparent";
@@ -364,6 +1391,7 @@ function purposeDesign() {
 }
 
 function aversiveUX() {
+  document.getElementById('gridFeedback').scrollIntoView();
   document.getElementById('usability').style.backgroundColor = "transparent";
   document.getElementById('aesthetics').style.backgroundColor = "transparent";
   document.getElementById('helpFeatures').style.backgroundColor = "transparent";
@@ -377,6 +1405,7 @@ function aversiveUX() {
 }
 
 function joyfulUX() {
+  document.getElementById('gridFeedback').scrollIntoView();
   document.getElementById('usability').style.backgroundColor = "transparent";
   document.getElementById('aesthetics').style.backgroundColor = "transparent";
   document.getElementById('helpFeatures').style.backgroundColor = "transparent";
@@ -390,6 +1419,7 @@ function joyfulUX() {
 }
 
 function medAdherence() {
+  document.getElementById('gridFeedback').scrollIntoView();
   document.getElementById('usability').style.backgroundColor = "transparent";
   document.getElementById('aesthetics').style.backgroundColor = "transparent";
   document.getElementById('helpFeatures').style.backgroundColor = "transparent";
@@ -403,6 +1433,7 @@ function medAdherence() {
 }
 
 function demographics() {
+  document.getElementById('gridFeedback').scrollIntoView();
   document.getElementById('usability').style.backgroundColor = "transparent";
   document.getElementById('aesthetics').style.backgroundColor = "transparent";
   document.getElementById('helpFeatures').style.backgroundColor = "transparent";
@@ -413,6 +1444,125 @@ function demographics() {
   document.getElementById('demographics').style.backgroundColor = "#10ac84";
 
   document.getElementById('gridFeedback').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
+}
+
+// Grid Diary Switch Mobile
+
+function usabilityMob() {  
+  document.getElementById('gridFeedbackMob').scrollIntoView();
+  document.getElementById('usabilityMob').style.backgroundColor = "#10ac84";
+  document.getElementById('aestheticsMob').style.backgroundColor = "transparent";
+  document.getElementById('helpFeaturesMob').style.backgroundColor = "transparent";
+  document.getElementById('purposeDesignMob').style.backgroundColor = "transparent";
+  document.getElementById('aversiveUXMob').style.backgroundColor = "transparent";
+  document.getElementById('joyfulUXMob').style.backgroundColor = "transparent";
+  document.getElementById('medAdherenceMob').style.backgroundColor = "transparent";
+  document.getElementById('demographicsMob').style.backgroundColor = "transparent";
+  document.getElementById('gridFeedbackMob').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
+
+
+  // document.getElementById('gridFeedback').innerHTML = "<!-- likes --> Apps that featured positive usability gave power to the user; these designs afforded users with the opportunity to correct mistakes (e.g. accidental button presses) and were laid out in an intuitive, efficient manner. <br> <br> <!-- criticisms -->  My data, however, reveals a relatively high proportion of usability issues in contrast to positive user experiences. The most notable criticism that emerged during my analysis was the amount of time and effort it took to use certain apps (particularly those involving medication). Whether it was due to poor structural design, vague instructions, or non-skippable animations, these applications seemed to risk leaving users frustrated during the navigation process. <br> <br> <!-- questions --> Expanding on the notion of poor structural design-- many questions arose regarding the layout and function of app elements. For instance, some applications featured an overwhelming number of home screen buttons, potentially leaving users uncertain of which option to prioritize. Further, certain elements did not carry out their tagged functions (e.g. edit feature on journal does not work > user must re-submit entire entry to include missed data), signalling questions surrounding the usability of the written code.  <br> <br> <!-- ideas --> In terms of fixing usability errors, several ideas come to mind: designers can ensure that homescreens are evident and accessible to the user by chunking priority items into 3-4 categories, developers can make data entry more interactive so that users don't feel as though they are filling out paperwork in a clinic, and--importantly-- always give the user power to skip through undesired sections of text or animation. Time is precious; designers must respect this.  ";
+}
+
+function aestheticsMob() {
+  document.getElementById('gridFeedbackMob').scrollIntoView();
+  document.getElementById('usabilityMob').style.backgroundColor = "transparent";
+  document.getElementById('aestheticsMob').style.backgroundColor = "#10ac84";
+  document.getElementById('helpFeaturesMob').style.backgroundColor = "transparent";
+  document.getElementById('purposeDesignMob').style.backgroundColor = "transparent";
+  document.getElementById('aversiveUXMob').style.backgroundColor = "transparent";
+  document.getElementById('joyfulUXMob').style.backgroundColor = "transparent";
+  document.getElementById('medAdherenceMob').style.backgroundColor = "transparent";
+  document.getElementById('demographicsMob').style.backgroundColor = "transparent";
+  document.getElementById('gridFeedbackMob').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
+
+
+  // document.getElementById('gridFeedback').innerHTML = "<!-- likes --> My collective data indicates that app aesthetics were generally pleasant. Applications varied in visual design, but those that were most memorable used playful microinteractions, intuitive graphs, and minimalistic yet attention-capturing user interfaces.   <br> <br> <!-- criticisms -->  Naturally, some applications were not as immaculate as others. Criticisms arose as I noted evidence of inconsistent and lacklustre user interfaces. For example, certain apps failed to maintain consistent styling across pages, and others left large containers of white space in lieu of playful designs.  <br> <br> <!-- questions --> After reviewing my data related to aesthetics, I wondered how designers could use colour to make viewing data more intuitive. Several apps featured graphs on their homescreens, but some seemed to feature too many colours without an accessible legend, and others used single colour themes, dividing data into separate categories (and thus, many graphs to evaluate). How might designers use colour to signal meaning to users in a cohesive way?  <br> <br> <!-- ideas --> In order to maintain high level aesthetics, designers might consider the following: instead of using white space, design HTML cards with subtle border outlines to separate user entries, use icons and images to brighten up the user interface, keep the style of each screen relatively the same. ";
+}
+
+function helpFeaturesMob() {
+  document.getElementById('gridFeedbackMob').scrollIntoView();
+  document.getElementById('usabilityMob').style.backgroundColor = "transparent";
+  document.getElementById('aestheticsMob').style.backgroundColor = "transparent";
+  document.getElementById('helpFeaturesMob').style.backgroundColor = "#10ac84";
+  document.getElementById('purposeDesignMob').style.backgroundColor = "transparent";
+  document.getElementById('aversiveUXMob').style.backgroundColor = "transparent";
+  document.getElementById('joyfulUXMob').style.backgroundColor = "transparent";
+  document.getElementById('medAdherenceMob').style.backgroundColor = "transparent";
+  document.getElementById('demographicsMob').style.backgroundColor = "transparent";
+  document.getElementById('gridFeedbackMob').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
+
+//  document.getElementById('gridFeedback').innerHTML = "<!-- likes --> I was happy to see that many of my research notes fell under the category of “helpful features”. Most notably, I admired how comprehensive some of the applications' tracking systems were; certain apps allowed users to submit health data related to mood, exercise, sleep, medication, and more. Advanced applications even provided users with the opportunity to sync their physiological data using wearable technology. Other helpful features included search filters that outputted correlations between variables of interest (e.g. how mood relates to spending time with friends), customizable goal setting and habit tracking, as well as educational resources. <br> <br> <!-- ideas --> As you can see based on the distrubution of variables above, these positive features inspired an even larger number of ideas. Designers may consider the following: expanding and improving the design of the filter search (e.g. revealing correlations between mood, medication, and activity level, crafting a comprehensive and empirically based mood rating system, creating smart algorithms that alert the user when their mood reveals concerning patterns, providing meaningful journal prompts, providing users with weekly wellness reports, and educating users about mood, medication and more). ";
+}
+
+function purposeDesignMob() {
+  document.getElementById('gridFeedbackMob').scrollIntoView();
+  document.getElementById('usabilityMob').style.backgroundColor = "transparent";
+  document.getElementById('aestheticsMob').style.backgroundColor = "transparent";
+  document.getElementById('helpFeaturesMob').style.backgroundColor = "transparent";
+  document.getElementById('purposeDesignMob').style.backgroundColor = "#10ac84";
+  document.getElementById('aversiveUXMob').style.backgroundColor = "transparent";
+  document.getElementById('joyfulUXMob').style.backgroundColor = "transparent";
+  document.getElementById('medAdherenceMob').style.backgroundColor = "transparent";
+  document.getElementById('demographicsMob').style.backgroundColor = "transparent";
+
+  document.getElementById('gridFeedbackMob').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
+}
+
+function aversiveUXMob() {
+  document.getElementById('gridFeedbackMob').scrollIntoView();
+  document.getElementById('usabilityMob').style.backgroundColor = "transparent";
+  document.getElementById('aestheticsMob').style.backgroundColor = "transparent";
+  document.getElementById('helpFeaturesMob').style.backgroundColor = "transparent";
+  document.getElementById('purposeDesignMob').style.backgroundColor = "transparent";
+  document.getElementById('aversiveUXMob').style.backgroundColor = "#10ac84";
+  document.getElementById('joyfulUXMob').style.backgroundColor = "transparent";
+  document.getElementById('medAdherenceMob').style.backgroundColor = "transparent";
+  document.getElementById('dempgraphicsMob').style.backgroundColor = "transparent";
+
+  document.getElementById('gridFeedbackMob').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
+}
+
+function joyfulUXMob() {
+  document.getElementById('gridFeedbackMob').scrollIntoView();
+  document.getElementById('usabilityMob').style.backgroundColor = "transparent";
+  document.getElementById('aestheticsMob').style.backgroundColor = "transparent";
+  document.getElementById('helpFeaturesMob').style.backgroundColor = "transparent";
+  document.getElementById('purposeDesignMob').style.backgroundColor = "transparent";
+  document.getElementById('aversiveUXMob').style.backgroundColor = "transparent";
+  document.getElementById('joyfulUXMob').style.backgroundColor = "#10ac84";
+  document.getElementById('medAdherenceMob').style.backgroundColor = "transparent";
+  document.getElementById('dempgraphicsMob').style.backgroundColor = "transparent";
+
+  document.getElementById('gridFeedbackMob').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
+}
+
+function medAdherenceMob() {
+  document.getElementById('gridFeedbackMob').scrollIntoView();
+  document.getElementById('usabilityMob').style.backgroundColor = "transparent";
+  document.getElementById('aestheticsMob').style.backgroundColor = "transparent";
+  document.getElementById('helpFeaturesMob').style.backgroundColor = "transparent";
+  document.getElementById('purposeDesignMob').style.backgroundColor = "transparent";
+  document.getElementById('aversiveUXMob').style.backgroundColor = "transparent";
+  document.getElementById('joyfulUXMob').style.backgroundColor = "transparent";
+  document.getElementById('medAdherenceMob').style.backgroundColor = "#10ac84";
+  document.getElementById('dempgraphicsMob').style.backgroundColor = "transparent";
+
+  document.getElementById('gridFeedbackMob').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
+}
+
+function demographicsMob() {
+  document.getElementById('gridFeedbackMob').scrollIntoView();
+  document.getElementById('usabilityMob').style.backgroundColor = "transparent";
+  document.getElementById('aestheticsMob').style.backgroundColor = "transparent";
+  document.getElementById('helpFeaturesMob').style.backgroundColor = "transparent";
+  document.getElementById('purposeDesignMob').style.backgroundColor = "transparent";
+  document.getElementById('aversiveUXMob').style.backgroundColor = "transparent";
+  document.getElementById('joyfulUXMob').style.backgroundColor = "transparent";
+  document.getElementById('medAdherenceMob').style.backgroundColor = "transparent";
+  document.getElementById('demographicsMob').style.backgroundColor = "#10ac84";
+
+  document.getElementById('gridFeedbackMob').innerHTML = "<!-- likes --> Text Here  <br> <br> <!-- criticisms -->   Text Here. <br> <br> <!-- questions --> Text here.  <br> <br> <!-- ideas --> Text Here. ";
 }
 
 
@@ -431,6 +1581,18 @@ function crossMe() {
   document.getElementById('keep2').style.backgroundColor = "#ef537b";
   document.getElementById('keep3').style.backgroundColor = "#ef537b";
 
+}
+
+$(document.body).on('chevvyMob', onScroll); // for mobile
+$(window).on('scroll', onScroll); 
+
+// callback
+function onScroll(){ 
+    if( $(window).scrollTop() + window.innerHeight >= document.body.scrollHeight ) { 
+        track_page++; 
+        load_contents(track_page);
+
+    } 
 }
 
 function dontCrossMe() {
@@ -456,6 +1618,15 @@ function turnPink1 () {
   document.getElementById('paragraph').innerHTML = '<br> Many of our participants voiced a predilection for applications that compute music suggestions based on existing libraries. Such a feature could save time for users wanting to access familiar music without mental exertion. Companies thus may benefit from strengthening the scope and validity of their suggestive algorithms.';
   }
 
+  function turnPink1Mob () {
+    document.getElementById('col1Mob').style.backgroundColor = "#ef537b";
+    document.getElementById('col2Mob').style.backgroundColor = "transparent";
+    document.getElementById('col3Mob').style.backgroundColor = "transparent";
+    document.getElementById('col4Mob').style.backgroundColor = "transparent";
+    document.getElementById('col5Mob').style.backgroundColor = "transparent";
+  
+    document.getElementById('paragraphMob').innerHTML = '<br> Many of our participants voiced a predilection for applications that compute music suggestions based on existing libraries. Such a feature could save time for users wanting to access familiar music without mental exertion. Companies thus may benefit from strengthening the scope and validity of their suggestive algorithms.';
+    }
 
 function turnPink2 () {
   document.getElementById('col2').style.backgroundColor = "#ef537b";
@@ -464,9 +1635,18 @@ function turnPink2 () {
   document.getElementById('col4').style.backgroundColor = "transparent";
   document.getElementById('col5').style.backgroundColor = "transparent";
 
-  document.getElementById('paragraph').innerHTML = '<br> Popular streaming services such as Spotify and Apple Music make accessing music a breeze; with a simple click, users can add an unlimited number of songs and playlists to their device. The trouble comes, however, when music-goers attempt to access their libraries offline. Many of our participants expressed displeasure with the amount of data required to download and stream music, which is understandable given that access to streaming services alone comes at a price. Moreover, users commented that even after downloading songs, they became unavailable once outside of internet range. Given that we live in a digital era, companies might consider making their libraries’ accessibility more reliable. ';
+  document.getElementById('paragraph').innerHTML = '<br> Our participants repeatedly expressed displeasure with the amount of data required to download and stream music. They also commented that after downloading songs, they were disappointed to see that their music was unavailable once outside of internet range. To meet modern user needs, streaming services might consider designing a more data-friendly offline experience.';
+}
 
-  
+
+function turnPink2Mob () {
+  document.getElementById('col2Mob').style.backgroundColor = "#ef537b";
+  document.getElementById('col1Mob').style.backgroundColor = "transparent";
+  document.getElementById('col3Mob').style.backgroundColor = "transparent";
+  document.getElementById('col4Mob').style.backgroundColor = "transparent";
+  document.getElementById('col5Mob').style.backgroundColor = "transparent";
+
+  document.getElementById('paragraphMob').innerHTML = '<br> Our participants repeatedly expressed displeasure with the amount of data required to download and stream music. They also commented that after downloading songs, they were disappointed to see that their music was unavailable once outside of internet range. To meet modern user needs, streaming services might consider designing a more data-friendly offline experience.';
 }
 
 function turnPink3 () {
@@ -476,7 +1656,17 @@ function turnPink3 () {
   document.getElementById('col4').style.backgroundColor = "transparent";
   document.getElementById('col5').style.backgroundColor = "transparent";
 
-  document.getElementById('paragraph').innerHTML = '<br> A simple finding-- there was a relatively equal division of time spent listening to music in the morning and at night. 44.4% of our participants reported being morning listeners, while 55.6% listened to music at night time. Interestingly, not one participant chose the third option we provided--listening in the afternoon. Under the assumption that our users follow relatively conventional lifestyles (i.e. they face obligations from approximately 9:00 am - 5:00 pm), this finding might be reflective of a tendency for users to listen to music when they have alone time.  ';
+  document.getElementById('paragraph').innerHTML = '<br> There was a relatively equal division of time spent listening to music in the morning and at night (44.4% and 55.6%, respectively). Interestingly, not one participant chose the third option we provided--listening in the afternoon. Under the assumption that our users follow relatively conventional lifestyles (i.e. they face obligations from approximately 9:00 am - 5:00 pm), this finding might be reflective of a tendency for users to listen to music when they have alone time.  ';
+}
+
+function turnPink3Mob () {
+  document.getElementById('col3Mob').style.backgroundColor = "#ef537b";
+  document.getElementById('col1Mob').style.backgroundColor = "transparent";
+  document.getElementById('col2Mob').style.backgroundColor = "transparent";
+  document.getElementById('col4Mob').style.backgroundColor = "transparent";
+  document.getElementById('col5Mob').style.backgroundColor = "transparent";
+
+  document.getElementById('paragraphMob').innerHTML = '<br> There was a relatively equal division of time spent listening to music in the morning and at night (44.4% and 55.6%, respectively). Interestingly, not one participant chose the third option we provided--listening in the afternoon. Under the assumption that our users follow relatively conventional lifestyles (i.e. they face obligations from approximately 9:00 am - 5:00 pm), this finding might be reflective of a tendency for users to listen to music when they have alone time.  ';
 }
 
 function turnPink4 () {
@@ -489,6 +1679,16 @@ function turnPink4 () {
   document.getElementById('paragraph').innerHTML = '<br> When asked whether our users’ preferred music streaming features affected their mood, 88.9% of respondents answered “yes”. Of this cohort, 77.8% of users reported improvements in mood, while the remaining 11.1% said that their mood had changed for the worse. It’s difficult to know whether the participant whose mood declined was affected by the music itself, or some sort of technical failure on part of their preferred feature. One thing that is clear, however, is that music streaming applications generally serve as a mood booster.   ';
 }
 
+function turnPink4Mob () {
+  document.getElementById('col4Mob').style.backgroundColor = "#ef537b";
+  document.getElementById('col1Mob').style.backgroundColor = "transparent";
+  document.getElementById('col2Mob').style.backgroundColor = "transparent";
+  document.getElementById('col3Mob').style.backgroundColor = "transparent";
+  document.getElementById('col5Mob').style.backgroundColor = "transparent";
+
+  document.getElementById('paragraphMob').innerHTML = '<br> When asked whether our users’ preferred music streaming features affected their mood, 88.9% of respondents answered “yes”. Of this cohort, 77.8% of users reported improvements in mood, while the remaining 11.1% said that their mood had changed for the worse. It’s difficult to know whether the participant whose mood declined was affected by the music itself, or some sort of technical failure on part of their preferred feature. One thing that is clear, however, is that music streaming applications generally serve as a mood booster.   ';
+}
+
 function turnPink5 () {
   document.getElementById('col5').style.backgroundColor = "#ef537b";
   document.getElementById('col1').style.backgroundColor = "transparent";
@@ -496,7 +1696,18 @@ function turnPink5 () {
   document.getElementById('col3').style.backgroundColor = "transparent";
   document.getElementById('col4').style.backgroundColor = "transparent";
   
-  document.getElementById('paragraph').innerHTML = '<br> Users want a feature that quickly recognizes music in their surroundings. <br><br>While applications with this technology surely exist, the feature itself is not typically integrated into popular music streaming services. Perhaps it is not every day that a pleasant song captures our attention, but when the time comes, the ability to quickly access its title and artist appears to be a user need. Imagine if your favourite streaming application was able to accurately decipher, locate and download an outside music source in seconds!<br><br>Users want access to lyrics<br><br>Whether it is to settle a dispute about a line in a song, to sing along, or simply to appreciate the writing of talented artists, some of our users desired access to lyrics as they used their music streaming services. In a generation where rapid access to information has become the norm, it is not surprising to receive such feedback . Music streaming platforms might even benefit from gamifying the process by turning lyrics into an opportunity for mobile karaoke! ';
+  document.getElementById('paragraph').innerHTML = '<br> Users want a feature that quickly recognizes music in their surroundings. <br><br>While applications with this technology surely exist, the feature itself is not typically integrated into popular music streaming services. Perhaps it is not every day that a pleasant song captures our attention, but when the time comes, the ability to quickly access its title and artist appears to be a user need. Imagine if your favourite streaming application was able to accurately decipher, locate and download an outside music source in seconds.<br><br>Users want access to lyrics<br><br>Whether it is to settle a dispute about a line in a song, to sing along, or simply to appreciate the writing of talented artists, some of our users desired access to lyrics as they used their music streaming services. In a generation where rapid access to information has become the norm, it is not surprising to receive such feedback . Music streaming platforms might even benefit from gamifying the process by turning lyrics into an opportunity for mobile karaoke. ';
+}
+
+
+function turnPink5Mob () {
+  document.getElementById('col5Mob').style.backgroundColor = "#ef537b";
+  document.getElementById('col1Mob').style.backgroundColor = "transparent";
+  document.getElementById('col2Mob').style.backgroundColor = "transparent";
+  document.getElementById('col3Mob').style.backgroundColor = "transparent";
+  document.getElementById('col4Mob').style.backgroundColor = "transparent";
+  
+  document.getElementById('paragraphMob').innerHTML = '<br> Users want a feature that quickly recognizes music in their surroundings. <br><br>While applications with this technology surely exist, the feature itself is not typically integrated into popular music streaming services. Perhaps it is not every day that a pleasant song captures our attention, but when the time comes, the ability to quickly access its title and artist appears to be a user need. Imagine if your favourite streaming application was able to accurately decipher, locate and download an outside music source in seconds.<br><br>Users want access to lyrics<br><br>Whether it is to settle a dispute about a line in a song, to sing along, or simply to appreciate the writing of talented artists, some of our users desired access to lyrics as they used their music streaming services. In a generation where rapid access to information has become the norm, it is not surprising to receive such feedback . Music streaming platforms might even benefit from gamifying the process by turning lyrics into an opportunity for mobile karaoke. ';
 }
 
 function turnGreen1() {
