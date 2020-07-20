@@ -440,6 +440,8 @@ function toDefineMob () {
 function toIdeateMob () {   
 
   document.getElementById('chevvyMob').scrollIntoView();
+  document.getElementById('ideateMob').style.display = 'inline';
+  document.getElementById('defineMob').style.display = 'none';
 
   document.getElementById('chevronToIntro').style.backgroundColor = '#ef537b';
   document.getElementById('chevronToResearch').style.backgroundColor = '#ed416d';
@@ -449,8 +451,6 @@ function toIdeateMob () {
   document.getElementById('chevronToTest').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
 
-  document.getElementById('defineMob').style.display = 'none';
-  document.getElementById('ideateMob').style.display = 'inline';
   document.getElementById('finaleMob').style.display = 'none';
   document.getElementById('prototypeMob').style.display = 'none';
   document.getElementById('testMob').style.display = 'none';
@@ -498,10 +498,10 @@ function toIdeateMob () {
 function toPrototypeMob () {   
 
     document.getElementById('chevvyMob').scrollIntoView();
+    document.getElementById('prototypeMob').style.display = 'inline';
 
     document.getElementById('defineMob').style.display = 'none';
     document.getElementById('ideateMob').style.display = 'none';
-    document.getElementById('prototypeMob').style.display = 'inline';
     document.getElementById('finaleMob').style.display = 'none';
     document.getElementById('testMob').style.display = 'none';
 
@@ -547,7 +547,9 @@ function toPrototypeMob () {
 
 }
 
-function toTestMob () {   
+function toTestMob() {   
+  document.getElementById('chevvyMob').scrollIntoView();
+  document.getElementById('testMob').style.display = 'inline';
 
   document.getElementById('chevronToIntro').style.backgroundColor = '#f27797';
   document.getElementById('chevronToResearch').style.backgroundColor = '#f16589';
@@ -557,11 +559,9 @@ function toTestMob () {
   document.getElementById('chevronToTest').style.backgroundColor = '#ea1d52';
   document.getElementById('chevronToFinale').style.backgroundColor = '#1A1A1A';
 
-  document.getElementById('chevvyMob').scrollIntoView();
   document.getElementById('defineMob').style.display = 'none';
   document.getElementById('ideateMob').style.display = 'none';
   document.getElementById('prototypeMob').style.display = 'none';
-  document.getElementById('testMob').style.display = 'inline';
   document.getElementById('finaleMob').style.display = 'none';
 
 
@@ -606,15 +606,15 @@ function toTestMob () {
   //  Define
 }
 
-function toFinaleMob () {   
+function toFinaleMob() {   
 
   document.getElementById('chevvyMob').scrollIntoView();
+  document.getElementById('finaleMob').style.display = 'inline';
 
   document.getElementById('defineMob').style.display = 'none';
   document.getElementById('ideateMob').style.display = 'none';
   document.getElementById('prototypeMob').style.display = 'none';
   document.getElementById('testMob').style.display = 'none';
-  document.getElementById('finaleMob').style.display = 'inline';
   // Navbar
   document.getElementById('chevronToIntroMob').style.backgroundColor = '#f489a4';
   document.getElementById('chevronToResearchMob').style.backgroundColor = '#f27797';
@@ -671,66 +671,71 @@ function toFinaleMob () {
 
 function toIntroD() {
   document.getElementById('chevvy').scrollIntoView();
+
   document.getElementById('introD').style.display = "inline";
- document.getElementById('planningD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
   document.getElementById('dataCoD').style.display = "none";
   document.getElementById('dataAlD').style.display = "none";
   document.getElementById('dataSynthD').style.display = "none";
   document.getElementById('expandingD').style.display = "none";
   document.getElementById('reflectionD').style.display = "none";
-  
-  document.getElementById('chevronToIntroD').style.backgroundColor = '#ea1d52';
-  document.getElementById('chevronToPlanningD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToDataCoD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToDataAlD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToDataSynthD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
 
- 
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataSynthDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
 
   document.getElementById('introDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').display = "none";
   document.getElementById('planningDMob').style.display = "none";
   document.getElementById('dataCoDMob').style.display = "none";
   document.getElementById('dataAlDMob').style.display = "none";
-  document.getElementById('dataSynthDMob').style.display = "none";
   document.getElementById('expandingDMob').style.display = "none";
   document.getElementById('reflectionDMob').style.display = "none";
-  
 }
 
 function toPlanningD() {
   document.getElementById('chevvy').scrollIntoView();
+
   document.getElementById('planningD').style.display = "inline";
-  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ea1d52';
-  document.getElementById('chevronToDataCoD').style.backgroundColor = '#1A1A1A';
-
-  document.getElementById('chevronToIntroD').style.backgroundColor = '#ec2f5f';
-  document.getElementById('chevronToDataAlD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToDataSynthD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
-  
   document.getElementById('introD').style.display = "none";
-
   document.getElementById('dataCoD').style.display = "none";
   document.getElementById('dataAlD').style.display = "none";
   document.getElementById('dataSynthD').style.display = "none";
   document.getElementById('expandingD').style.display = "none";
   document.getElementById('reflectionD').style.display = "none";
+  
+  document.getElementById('chevronToIntroD').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataSynthDb').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
 
-  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('introDMob').style.display = "none";  
   document.getElementById('planningDMob').style.display = "none";
   document.getElementById('dataCoDMob').style.display = "none";
-  document.getElementById('dataAlDMob').style.display = "none";
-  document.getElementById('dataSynthDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";  
+  document.getElementById('dataSynthDMob').display = "none";
   document.getElementById('expandingDMob').style.display = "none";
   document.getElementById('reflectionDMob').style.display = "none";
 }
 
+
 function toDataCoD() {
   document.getElementById('chevvy').scrollIntoView();
+
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
   document.getElementById('dataCoD').style.display = "inline";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
 
   document.getElementById('chevronToIntroD').style.backgroundColor = '#ed416d';
   document.getElementById('chevronToPlanningD').style.backgroundColor = '#ec2f5f';
@@ -739,13 +744,6 @@ function toDataCoD() {
   document.getElementById('chevronToDataSynthD').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
-  
-  document.getElementById('introD').style.display = "none";
-  document.getElementById('planningD').style.display = "none";
-  document.getElementById('dataAlD').style.display = "none";
-  document.getElementById('expandingD').style.display = "none";
-  document.getElementById('dataSynthD').style.display = "none";
-  document.getElementById('reflectionD').style.display = "none";
   
   document.getElementById('introDMob').style.display = "none";
   document.getElementById('planningDMob').style.display = "none";
@@ -759,7 +757,6 @@ function toDataCoD() {
 function toDataAlD() {
   document.getElementById('chevvy').scrollIntoView();
   document.getElementById('dataAlD').style.display = "inline";
-  document.getElementById('chevronToDataAlD').style.backgroundColor = '#ea1d52';
 
   document.getElementById('introD').style.display = "none";
   document.getElementById('planningD').style.display = "none";
@@ -770,12 +767,12 @@ function toDataAlD() {
 
   document.getElementById('chevronToIntroD').style.backgroundColor = '#ef537b';
   document.getElementById('chevronToPlanningD').style.backgroundColor = '#ed416d';
-  document.getElementById('chevronToDataCoD').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#ec2f5f';  
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#ea1d52';
   document.getElementById('chevronToDataSynthD').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
   
- 
   document.getElementById('introDMob').style.display = "none";
   document.getElementById('planningDMob').style.display = "none";
   document.getElementById('dataCoDMob').style.display = "none";
@@ -787,38 +784,44 @@ function toDataAlD() {
 
 function toDataSynthD() {
   document.getElementById('chevvy').scrollIntoView();
+
   document.getElementById('dataSynthD').style.display = "inline";
-    document.getElementById('chevronToDataSynthD').style.backgroundColor = '#ea1d52';
-
-  document.getElementById('chevronToDataAlD').style.backgroundColor = '#ec2f5f';
-
-  document.getElementById('chevronToIntroD').style.backgroundColor = '#f16589';
-  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ef537b';
-  document.getElementById('chevronToDataCoD').style.backgroundColor = '#ed416d';
-  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
-  
   document.getElementById('introD').style.display = "none";
   document.getElementById('planningD').style.display = "none";
   document.getElementById('dataCoD').style.display = "none";
   document.getElementById('dataAlD').style.display = "none";
   document.getElementById('expandingD').style.display = "none";
   document.getElementById('reflectionD').style.display = "none";
-
+  
+  document.getElementById('chevronToDataSynthD').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDataAlD').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToIntroD').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToDataCoD').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
+  
   document.getElementById('introDMob').style.display = "none";
   document.getElementById('planningDMob').style.display = "none";
   document.getElementById('dataCoDMob').style.display = "none";
   document.getElementById('dataAlDMob').style.display = "none";
   document.getElementById('dataSynthDMob').style.display = "none";
-
   document.getElementById('expandingDMob').style.display = "none";
   document.getElementById('reflectionDMob').style.display = "none";
 }
 
 function toExpandingD() {
   document.getElementById('chevvy').scrollIntoView();
+
   document.getElementById('expandingD').style.display = "inline";
+
   document.getElementById('chevronToExpandingD').style.backgroundColor = '#ea1d52';
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('reflectionD').style.display = "none";
 
   document.getElementById('chevronToIntroD').style.backgroundColor = '#f27797';
   document.getElementById('chevronToPlanningD').style.backgroundColor = '#f16589';
@@ -826,13 +829,6 @@ function toExpandingD() {
   document.getElementById('chevronToDataAlD').style.backgroundColor = '#ed416d';
   document.getElementById('chevronToDataSynthD').style.backgroundColor = '#ec2f5f';
   document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
-  
-  document.getElementById('introD').style.display = "none";
-  document.getElementById('planningD').style.display = "none";
-  document.getElementById('dataCoD').style.display = "none";
-  document.getElementById('dataAlD').style.display = "none";
-  document.getElementById('dataSynthD').style.display = "none";
-  document.getElementById('reflectionD').style.display = "none";
 
   document.getElementById('introDMob').style.display = "none";
   document.getElementById('planningDMob').style.display = "none";
@@ -845,7 +841,14 @@ function toExpandingD() {
 
 function toReflectionD() {
   document.getElementById('chevvy').scrollIntoView();
+
   document.getElementById('reflectionD').style.display = "inline";
+  document.getElementById('introD').style.display = "none";
+  document.getElementById('planningD').style.display = "none";
+  document.getElementById('dataCoD').style.display = "none";
+  document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
+  document.getElementById('expandingD').style.display = "none";
 
   document.getElementById('chevronToIntroD').style.backgroundColor = '#f489a4';
   document.getElementById('chevronToPlanningD').style.backgroundColor = '#f27797';
@@ -854,13 +857,6 @@ function toReflectionD() {
   document.getElementById('chevronToDataSynthD').style.backgroundColor = '#ed416d';
   document.getElementById('chevronToExpandingD').style.backgroundColor = '#ec2f5f';
   document.getElementById('chevronToReflectionD').style.backgroundColor = '#ea1d52';
-  
-  document.getElementById('introD').style.display = "none";
-  document.getElementById('planningD').style.display = "none";
-  document.getElementById('dataCoD').style.display = "none";
-  document.getElementById('dataAlD').style.display = "none";
-  document.getElementById('dataSynthD').style.display = "none";
-  document.getElementById('expandingD').style.display = "none";
 
   document.getElementById('introDMob').style.display = "none";
   document.getElementById('planningDMob').style.display = "none";
@@ -870,7 +866,6 @@ function toReflectionD() {
   document.getElementById('expandingDMob').style.display = "none";
   document.getElementById('reflectionDMob').style.display = "none";
 }
-
 
 // DIARY STUDY MUSIC EXPERIENCES MOBILE
 
@@ -884,176 +879,88 @@ function toReflectionD() {
 // #f489a4
 
 
-
-function toIntroD() {
-  document.getElementById('chevvy').scrollIntoView();
-  document.getElementById('introD').style.display = "inline";
-
-  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ea1d52';
-  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
-
-  document.getElementById('planningD').style.display = "none";
-  document.getElementById('dataCoD').style.display = "none";
-  document.getElementById('dataAlD').style.display = "none";
-  document.getElementById('dataSynthD').style.display = "none";
-
-  document.getElementById('expandingD').style.display = "none";
-  document.getElementById('reflectionD').style.display = "none";
-
-  document.getElementById('introDMob').style.display = "none";
-  document.getElementById('dataSynthDMob').display = "none";
-  document.getElementById('planningDMob').style.display = "none";
-  document.getElementById('dividerMobPlanningD').style.display = "none";
-  document.getElementById('dataCoDMob').style.display = "none";
-  document.getElementById('dataAlDMob').style.display = "none";
-  document.getElementById('expandingDMob').style.display = "none";
-  document.getElementById('reflectionDMob').style.display = "none";
-
-
-}
-
 function toIntroDMob() {
   document.getElementById('chevvyMob').scrollIntoView();
 
+  document.getElementById('introDMob').style.display = "inline";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataAlDMob').style.display = "none";  
+  document.getElementById('dataSynthDMob').display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+
   document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ea1d52';
   document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataSynthDMob').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
-
-  document.getElementById('introDMob').style.display = "inline";
-  document.getElementById('dataSynthDMob').display = "none";
-
-  document.getElementById('planningDMob').style.display = "none";
-  document.getElementById('dividerMobPlanningD').style.display = "none";
-  document.getElementById('dataCoDMob').style.display = "none";
-  document.getElementById('dataAlDMob').style.display = "none";
-  document.getElementById('expandingDMob').style.display = "none";
-  document.getElementById('reflectionDMob').style.display = "none";
 
   document.getElementById('introD').style.display = "none";
   document.getElementById('planningD').style.display = "none";
   document.getElementById('dataCoD').style.display = "none";
   document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').display = "none";
   document.getElementById('expandingD').style.display = "none";
   document.getElementById('reflectionD').style.display = "none";
 }
 
 
-function toPlanningD() {
-  document.getElementById('chevvy').scrollIntoView();
+function toPlanningDMob() {
+  document.getElementById('chevvyMob').scrollIntoView();
 
-  document.getElementById('planningD').style.display = "inline";
-
-  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ea1d52';
-  document.getElementById('introD').style.display = "none";
-  document.getElementById('planningDMob').style.display = "none";
-  document.getElementById('dataCoD').style.display = "none";
-  document.getElementById('dataAlD').style.display = "none";
-  document.getElementById('dataSynthD').style.display = "none";
-  document.getElementById('expandingD').style.display = "none";
-  document.getElementById('reflectionD').style.display = "none";
-
-  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ec2f5f';
-  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
-
+  document.getElementById('planningDMob').style.display = "inline";
   document.getElementById('introDMob').style.display = "none";
   document.getElementById('dataCoDMob').style.display = "none";
   document.getElementById('dataAlDMob').style.display = "none";
   document.getElementById('dataSynthDMob').display = "none";
   document.getElementById('expandingDMob').style.display = "none";
   document.getElementById('reflectionDMob').style.display = "none";
-
-
-
-}
-
-function toPlanningDMob() {
-  document.getElementById('chevvyMob').scrollIntoView();
-  document.getElementById('planningDMob').style.display = "inline";
 
   document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ec2f5f';
   document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ea1d52';
   document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataSynthDMob').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
-
-  document.getElementById('introDMob').style.display = "none";
-  document.getElementById('dataCoDMob').style.display = "none";
-  document.getElementById('dataAlDMob').style.display = "none";
-  document.getElementById('dataSynthDMob').display = "none";
-  document.getElementById('expandingDMob').style.display = "none";
-  document.getElementById('reflectionDMob').style.display = "none";
 
   document.getElementById('introD').style.display = "none";
   document.getElementById('planningD').style.display = "none";
   document.getElementById('dataCoD').style.display = "none";
   document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').display = "none";
   document.getElementById('expandingD').style.display = "none";
   document.getElementById('reflectionD').style.display = "none";
 
-}
-
-function toDataCoD() {
-  document.getElementById('chevvy').scrollIntoView();
-  document.getElementById('dataCoD').style.display = "inline";
-
-  document.getElementById('introD').style.display = "none";
-  document.getElementById('planningD').style.display = "none";
-  document.getElementById('dataAlD').style.display = "none";
-  document.getElementById('dataSynthD').style.display = "none";
-  document.getElementById('expandingD').style.display = "none";
-  document.getElementById('reflectionD').style.display = "none";
-
-  document.getElementById('chevronToIntroD').style.backgroundColor = '#ed416d';
-  document.getElementById('chevronToPlanningD').style.backgroundColor = '#ec2f5f';
-  document.getElementById('chevronToDataCoD').style.backgroundColor = '#ea1d52';
-  document.getElementById('chevronToDataAlD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToExpandingD').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToReflectionD').style.backgroundColor = '#1A1A1A';
-
-  document.getElementById('introDMob').style.display = "none";
-  document.getElementById('planningDMob').style.display = "none";
-  document.getElementById('dataCoDMob').style.display = "none";
-  document.getElementById('dataAlDMob').style.display = "none";
-  document.getElementById('dataSynthDMob').display = "none";
-  document.getElementById('expandingDMob').style.display = "none";
-  document.getElementById('reflectionDMob').style.display = "none";
-
- 
 }
 
 function toDataCoDMob() {
   document.getElementById('chevvyMob').scrollIntoView();
 
-  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ed416d';
-  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ec2f5f';
-  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ea1d52';
-  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
-
+  document.getElementById('dataCoDMob').style.display = "inline";
   document.getElementById('introDMob').style.display = "none";
   document.getElementById('planningDMob').style.display = "none";
-  document.getElementById('dataCoDMob').style.display = "inline";
   document.getElementById('dataAlDMob').style.display = "none";
   document.getElementById('dataSynthDMob').display = "none";
   document.getElementById('expandingDMob').style.display = "none";
   document.getElementById('reflectionDMob').style.display = "none";
 
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToDataSynthDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
+
   document.getElementById('introD').style.display = "none";
   document.getElementById('planningD').style.display = "none";
   document.getElementById('dataCoD').style.display = "none";
   document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').display = "none";
   document.getElementById('expandingD').style.display = "none";
   document.getElementById('reflectionD').style.display = "none";
 }
@@ -1061,43 +968,35 @@ function toDataCoDMob() {
 function toDataAlDMob() {
   document.getElementById('chevvyMob').scrollIntoView();
 
+  document.getElementById('dataAlDMob').style.display = "inline";
+  document.getElementById('introDMob').style.display = "none";
+  document.getElementById('planningDMob').style.display = "none";
+  document.getElementById('dataCoDMob').style.display = "none";
+  document.getElementById('dataSynthDMob').display = "none";
+  document.getElementById('expandingDMob').style.display = "none";
+  document.getElementById('reflectionDMob').style.display = "none";
+
   document.getElementById('chevronToIntroDMob').style.backgroundColor = '#ef537b';
   document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ed416d';
   document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ec2f5f';
   document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToDataSynthDMob').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
   document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
-
-  document.getElementById('introDMob').style.display = "none";
-  document.getElementById('planningDMob').style.display = "none";
-  document.getElementById('dataCoDMob').style.display = "none";
-  document.getElementById('dataAlDMob').style.display = "inline";
-  document.getElementById('dataSynthDMob').display = "none";
-  document.getElementById('expandingDMob').style.display = "none";
-  document.getElementById('reflectionDMob').style.display = "none";
 
   document.getElementById('introD').style.display = "none";
   document.getElementById('planningD').style.display = "none";
   document.getElementById('dataCoD').style.display = "none";
   document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').display = "none";
   document.getElementById('expandingD').style.display = "none";
   document.getElementById('reflectionD').style.display = "none";
 }
 
 function toDataSynthDMob() {  
-   document.getElementById('chevvyMob').scrollIntoView();
+  document.getElementById('chevvyMob').scrollIntoView();
 
   document.getElementById('dataSynthDMob').display = "inline";
-
-  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#f16589';
-  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ef537b';
-  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ed416d';
-  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ec2f5f';
-  document.getElementById('chevronToDataSynthDMob').style.backgroundColor = '#ea1d52';
-  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
-  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
-
-
   document.getElementById('introDMob').style.display = "none";
   document.getElementById('planningDMob').style.display = "none";
   document.getElementById('dataCoDMob').style.display = "none";
@@ -1105,10 +1004,18 @@ function toDataSynthDMob() {
   document.getElementById('expandingDMob').style.display = "none";
   document.getElementById('reflectionDMob').style.display = "none";
 
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ec2f5f';  document.getElementById('chevronToDataSynthDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#1A1A1A';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
+
   document.getElementById('introD').style.display = "none";
   document.getElementById('planningD').style.display = "none";
   document.getElementById('dataCoD').style.display = "none";
   document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').style.display = "none";
   document.getElementById('expandingD').style.display = "none";
   document.getElementById('reflectionD').style.display = "none";
 }
@@ -1116,41 +1023,35 @@ function toDataSynthDMob() {
 function toExpandingDMob() {
   document.getElementById('chevvyMob').scrollIntoView();
 
-  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#f16589';
-  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#ef537b';
-  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ed416d';
-  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ec2f5f';
-  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#ea1d52';
-  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
-
+  document.getElementById('expandingDMob').style.display = "inline";
   document.getElementById('dataSynthDMob').display = "none";
-
   document.getElementById('introDMob').style.display = "none";
   document.getElementById('planningDMob').style.display = "none";
   document.getElementById('dataCoDMob').style.display = "none";
   document.getElementById('dataAlDMob').style.display = "none";
-  document.getElementById('expandingDMob').style.display = "inline";
   document.getElementById('reflectionDMob').style.display = "none";
+
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#f27797';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToDataSynthDMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#ea1d52';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#1A1A1A';
 
   document.getElementById('introD').style.display = "none";
   document.getElementById('planningD').style.display = "none";
   document.getElementById('dataCoD').style.display = "none";
   document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').display = "none";
   document.getElementById('expandingD').style.display = "none";
   document.getElementById('reflectionD').style.display = "none";
 }
 
 function toReflectionDMob() {
   document.getElementById('chevvyMob').scrollIntoView();
+
   document.getElementById('reflectionDMob').style.display = "inline";
-
-  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#f27797';
-  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#f16589';
-  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#ef537b';
-  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ed416d';
-  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#ec2f5f';
-  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#ea1d52';
-
   document.getElementById('introDMob').style.display = "none";
   document.getElementById('planningDMob').style.display = "none";
   document.getElementById('dataCoDMob').style.display = "none";
@@ -1158,10 +1059,19 @@ function toReflectionDMob() {
   document.getElementById('dataSynthDMob').display = "none";
   document.getElementById('expandingDMob').style.display = "none";
 
+  document.getElementById('chevronToIntroDMob').style.backgroundColor = '#f489a4';
+  document.getElementById('chevronToPlanningDMob').style.backgroundColor = '#f27797';
+  document.getElementById('chevronToDataCoDMob').style.backgroundColor = '#f16589';
+  document.getElementById('chevronToDataAlDMob').style.backgroundColor = '#ef537b';
+  document.getElementById('chevronToDataSynthDMob').style.backgroundColor = '#ed416d';
+  document.getElementById('chevronToExpandingDMob').style.backgroundColor = '#ec2f5f';
+  document.getElementById('chevronToReflectionDMob').style.backgroundColor = '#ea1d52';
+
   document.getElementById('introD').style.display = "none";
   document.getElementById('planningD').style.display = "none";
   document.getElementById('dataCoD').style.display = "none";
   document.getElementById('dataAlD').style.display = "none";
+  document.getElementById('dataSynthD').display = "none";
   document.getElementById('expandingD').style.display = "none";
   document.getElementById('reflectionD').style.display = "none";
 }
@@ -1174,10 +1084,10 @@ function toReflectionDMob() {
 
 // }
 
-function outie() {
-  document.getElementById('persona1').style.display = 'none';
-  document.getElementById('personaScroll').scrollIntoView();
-}
+// function outie() {
+//   document.getElementById('persona1').style.display = 'none';
+//   document.getElementById('personaScroll').scrollIntoView();
+// }
 
 
 // HAMBURGER MENU ICON
@@ -1843,6 +1753,3 @@ function turnGreen3() {
 //   });
 
 // });
-
-
-
