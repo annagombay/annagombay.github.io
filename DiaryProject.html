@@ -38,360 +38,1004 @@
     </head>
 
     <body style="background-color: black;">
-    
-
+        <!--Go Home -->
         <div class="d-flex flex-row justify-content-end" style="margin-right: 12vw">
             <a href="index.html">
-                <img src="images/bunnay.png" style="width: 11vw; height: 7vw; position: fixed; z-index: 6; margin-top: 1.2vw; margin-left: 1.2vw;">
+                <img src="images/bunnay.png" id="bunnay">
             </a>
         </div>
-    
-        <div style="margin-top: 4vw">
-                <div class="d-flex flex-row justify-content-end">
-                    <img src= "images/audioExperiences.jpeg" style="position: absolute; border: 5vw solid black; z-index: 1; transform: scaleX(-1);">
-                    <div class="diaryInfo">
-                        <div class="d-flex flex-row justify-content-center" style="color: #ef537b; width: 40vw; margin-top: 6vw">
-                            DIARY STUDY
+
+        <!-- Intro Card Desktop -->
+        <div class="megaWrapper" id="cardDeskDS"> 
+            <div class="cardContainer d-flex flex-row justify-content-center"> 
+                <div class="backsplashDS">
+                    </div>
+                    <div class="d-flex flex-row justify-content-end">
+                        <div class="content d-flex flex-row justify-content-center">
+                        DIARY STUDY - AUDIO EXPERIENCES
+                            <div class="supplementary d-flex flex-row justify-content-start">
+                                <br>
+                                <br>
+                                Roles : UX Researcher
+                                <br>
+                                Team : Anna Gombay, Mickey Xiong, Aporva Bhardwaj
+                                <br>
+                            </div> 
                         </div>
-                        
-                        <div class="peeps d-flex flex-row justify-content-end" style=" margin-left: 2vw">
-    
-                                Status : 
-                                <br>
-                                <br>
-                                Role : 
-                                <br>
-                                <br>
-                                Team :
-                                
-                            <div class="column d-flex" style="flex-direction: column; margin-left: 2vw; color: black"> 
-                                Published 
-                                <br>
-                                <br> 
-                                UX Researcher
-                                <br>
-                                <br>
-                                Anna Gombay
-                                <br>
-                                Mickey Xiong
-                                <br>
-                                Aporva Bhardwaj
-                                <br>
-                                <br>
-                                    <span style="margin-left: -2.5vw; max-width: 28vw">
-                                    This one-month diary study was completed as part of an Empathic Research Frameworks course at Humber College. Our goal was to capture the thoughts, behaviours, and emotions of users as they engage in audio experiences.
-                                    <br>
-                                    <br>
-                                    Examples of an audio experience include time spent listening to music, podcasts, or audiobooks. For this particular project, our group chose to focus on the user experience of streaming music on a mobile phone.                             
-                                    </span>
-                            </div>  
+                    </div>
+                    <div class="contentBottom d-flex flex-row justify-content-center"> 
+                        <div>
+                            This one-month diary study was completed as part of an Empathic Research Frameworks course at Humber College. Our goal was to capture the thoughts, behaviours, and emotions of users as they engage in audio experiences. 
+                            <br>
+                            <br>
+                            <strong>Examples of an audio experience include time spent listening to music, podcasts, or audiobooks. </strong>For this project, our group chose to focus on the user experience of streaming music on a mobile phone.
                         </div>
-                        
-                        
-    
-                        <div class="shadowCircleBig d-flex flex-row justify-content-end" style="background-color: #ef537b">
-                                <i class="circleIconsLittle fas fa-headphones" ></i>           
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Intro Card Mobile -->            
+    <div class="megaWrapper" id="cardDSMob"> 
+        <div class="cardContainerMob d-flex flex-row justify-content-center"> 
+            <div class="backsplashDSMob">
+            </div>
+            <div class="d-flex flex-row justify-content-end">
+                <div class="contentMob d-flex flex-row justify-content-center">
+                DIARY STUDY - AUDIO EXPERIENCES
+                    <div class="supplementaryMob d-flex flex-row justify-content-start">
+                        <br>
+                        <br>
+                        Roles : UX Researcher
+                        <br>
+                        Team : Anna Gombay, Mickey Xiong, Aporva Bhardwaj
+                        <br>
+                    </div> 
+                </div>
+                <div class="contentBottomMob d-flex flex-row justify-content-center"> 
+                <div>
+                    This one-month diary study was completed as part of an Empathic Research Frameworks course at Humber College. Our goal was to capture the thoughts, behaviours, and emotions of users as they engage in audio experiences. 
+                    <br>
+                    <br>
+                    <strong>Examples of an audio experience include time spent listening to music, podcasts, or audiobooks. </strong>For this project, our group chose to focus on the user experience of streaming music on a mobile phone.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Chevron Nav Desktop -->
+        <div class="megaWrapper" id="chevvy">
+            <div class="chevNav d-flex flex-row justify-content-start">
+                <div class="chevron" id="chevronToIntroD">
+                    <div class="chevText" onclick="toIntroD()" >
+                        INTRO
+                    </div>
+                </div>
+                <div class="chevron" onclick="toPlanningD()" id="chevronToPlanningD">
+                    <div class="chevText">
+                        PLANNING
+                    </div>
+                </div>
+                <div class="chevron" onclick="toDataCoD()" id="chevronToDataCoD">
+                    <div class="chevText2">
+                        DATA <br>COLLECTION
+                    </div>
+                </div>
+                <div class="chevron" onclick="toDataAlD()" id="chevronToDataAlD">
+                    <div class="chevText2">
+                        DATA <br>ANALYSIS
+                    </div>
+                </div>
+                <div class="chevron" onclick="toDataSynthD()" id="chevronToDataSynthD">
+                    <div class="chevText2">
+                        DATA <br>SYNTHESIS
+                    </div>
+                </div>
+                <div class="chevron" onclick="toExpandingD()" id="chevronToExpandingD">
+                    <div class="chevText2">
+                        EXPANDING<br> ON THEMES
+                    </div>
+                </div>
+                <div class="chevron" onclick="toReflectionD()" id="chevronToReflectionD">
+                    <div class="chevText">
+                        REFLECTION
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Chevron Nav Mobile -->
+        <div class="megaWrapper" id="chevvyMob" onscroll="onScroll()">
+            <div class="chevNavMob d-flex flex-row justify-content-start">
+                <div class="chevronMob" id="chevronToIntroDMob">
+                    <div class="chevTextMob" onclick="toIntroDMob()" >
+                        INTRO
+                    </div>
+                </div>
+                <div class="chevronMob" onclick="toPlanningDMob()" id="chevronToPlanningDMob">
+                    <div class="chevTextMob">
+                        PLANNING
+                    </div>
+                </div>
+                <div class="chevronMob" onclick="toDataCoDMob()" id="chevronToDataCoDMob">
+                    <div class="chevText2Mob">
+                        DATA <br>COLLECTION
+                    </div>
+                </div>
+                <div class="chevronMob" onclick="toDataAlDMob()" id="chevronToDataAlDMob">
+                    <div class="chevText2Mob">
+                        DATA <br>ANALYSIS
+                    </div>
+                </div>
+                <div class="chevronMob" onclick="toDataSynthDMob()" id="chevronToDataSynthDMob">
+                    <div class="chevText2Mob">
+                        DATA <br>SYNTHESIS
+                    </div>
+                </div>
+                <div class="chevronMob" onclick="toExpandingDMob()" id="chevronToExpandingDMob">
+                    <div class="chevText2Mob">
+                        EXPANDING<br> ON THEMES
+                    </div>
+                </div>
+                <div class="chevronMob" onclick="toReflectionDMob()" id="chevronToReflectionDMob">
+                    <div class="chevTextMob">
+                        REFLECTION
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Intro Desktop -->
+        <div class="megaWrapper" id="introD">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBox" >
+                    <div class="runner d-flex flex-row justify-content-center">
+                        Introduction
+                    </div>
+                    <div class="boxText" style="padding-top: 2vw">
+                        Whether experienced as a passive delight or a nostalgic mental excursion, music has the ability to arouse emotion in its listeners. 
+                        <br>
+                        <br>
+                        Some may even say that music serves as an accessible form of emotion regulation, given that its digitization has made it so readily available; all it takes is one tap to become immersed in a new world.
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="flexBox">
+                    <img src="images/touch.png" style="width:100%; height: 100%">
+                </div>
+                <div class="flexBox">                   <div 
+                    class="runnerBottom">
+                    </div>
+                    <div class="boxText">
+                        The creation of a touchpoint linking humans to the world of music has initiated a competition within the market, urging streaming services to develop progressively more unique methods of deliverance. Prevalent companies such as Google, Apple, and Spotify are consistently adjusting their algorithms in an attempt to attract the largest user audiences. 
+                        <br>
+                        <br>
+                    </div>
+                    <div class="divider d-flex flex-row justify-content-center">
+                        <i class="fas fa-chevron-circle-right" id="chevBack" style="color: black"></i>
+                            <div class="navWords" style="color: black">
+                                BACK 
+                            </div>
+                            <div id="stretch">
+                            </div>
+                            <div class="navWords" >
+                                NEXT 
+                            </div>
+                        <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toPlanningD()"></i>
+                    </div>
+                </div>
+            </div>  
+
+
+        <!-- Intro Mobile -->
+        <div class="megaWrapper" id="introDMob">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">
+                    <div class="runnerMob d-flex flex-row justify-content-center">
+                        Introduction
+                    </div>
+                    <div class="boxTextMob" style="padding-top: 2vw">
+                        Whether experienced as a passive delight or a nostalgic mental excursion, music has the ability to arouse emotion in its listeners. 
+                        <br>
+                        <br>
+                        Some may even say that music serves as an accessible form of emotion regulation, given that its digitization has made it so readily available; 
+                        all it takes is one tap to become immersed in a new world.
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">
+                    <img src="images/touch.png" style="width:100%; height: 100%">
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">                   
+                <div class="runnerBottomMob">
+                </div>
+                <div class="boxTextMob">
+                    The creation of a touchpoint linking humans to the world of music has initiated a competition within the market, urging streaming services to develop progressively more unique methods of deliverance. Prevalent companies such as Google, Apple, and Spotify are consistently adjusting their algorithms in an attempt to attract the largest user audiences. 
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="megaWrapper" id="dividerMobIntroD">
+            <div class="divider d-flex flex-row justify-content-center">
+                <i class="fas fa-chevron-circle-right" id="chevBack" style="color: black"></i>
+                    <div class="navWordsMob" id="firstPage">
+                        BACK 
+                    </div>
+                    <div id="stretchMob">
+                    </div> 
+                    <div class="navWordsMob">
+                        NEXT 
+                    </div>
+                <i class="fas fa-chevron-circle-right" onclick= "toPlanningDMob()" id="chevNext"></i>
+            </div>
+        </div>
+    </div>
+    </div> 
+        <!-- Planning Desktop -->
+        <div class="megaWrapper" id="planningD">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBox">
+                    <div class="runner d-flex flex-row justify-content-center">
+                        Planning
+                    </div>
+                    <div class="boxText" style="padding-top: 2vw">
+                        As researchers investigating the UX of music streaming, our goal is to understand both the delightful and the troubling aspects of the current experience. 
+                        <br>
+                        <br>
+                        How does one's chosen music streaming application affect the way they think, feel, or behave? 
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="flexBox">
+                    <img src="images/confetti.png" style="width: 100%; height:100%">
+                </div>
+                <div class="flexBox">
+                    <div class="runnerBottom">
+                    </div>
+                    <div class="boxText">
+                    </div>
+                </div>
+            </div>
+            <div class="divider d-flex flex-row justify-content-center">
+                <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toIntroD()"></i>
+                <div class="navWords">
+                    BACK 
+                </div>
+                <div id="stretch">
+                </div>
+                <div class="navWords">
+                    NEXT 
+                </div>
+                <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toDataCoD()"></i>
+            </div>
+        </div>
+    </div>
+
+        <!-- Planning Mobile -->
+        <div class="megaWrapper" id="planningDMob">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">
+                    <div class="runnerMob d-flex flex-row justify-content-center">
+                        Planning
+                    </div>
+                    <div class="boxTextMob" style="padding-top: 2vw">
+                        As researchers investigating the UX of music streaming, our goal is to understand both the delightful and the troubling aspects of the current experience. 
+                        <br>
+                        <br>
+                        How does one's chosen music streaming application affect the way they think, feel, or behave? 
+                        <br>
+                        <br>
+                        What makes a streaming service highly desirable?     
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">
+                    <img src="images/confetti.png" style="width: 100%; height:100%">
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">
+                    <div class="runnerBottomMob">
+                    </div>
+                    <div class="boxTextMob">
+                    </div>
+                </div>
+            </div>
+            <div class="megaWrapper" id="dividerMobPlanningD">
+                <div class="divider d-flex flex-row justify-content-center">
+                    <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toIntroDMob()"> 
+                    </i>
+                        <div class="navWordsMob">
+                            BACK 
+                        </div>
+                        <div id="stretchMob">
                         </div> 
-    
-                    </div>
+                        <div class="navWordsMob">
+                            NEXT 
+                        </div>
+                    <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toDataCoDMob()">
+                    </i>
                 </div>
             </div>
-            
-            
-            <div class="diaryStudyLanding d-flex flex-row justify-content-center" style="z-index:2; position: block">
-                <div class="subTitle" style="margin-right: 43%">
-                    audio experiences
-                </div>
-            </div>
-                   
-       
-                    </div>
-                    </div>
-                </div>                  
-            </div>
-
-        <div class="d-flex flex-row justify-content-center" style="margin-top: 52vw;">
-            <div class="box" style="background-color: #1A1A1A;">
-
-                <div class="phase"> 00. Introduction</div>
-                
-                <br>
-                <br>
-                <div class="d-flex flex-row justify-content-center">
-                    <img src= "images/noun_touch_2833820.png" style="height: 24vw; width: 24vw;">
-                </div>
-                <br>
-                <br>
-            </div>
-            <div class="box" style="background-color: #ef537b;">
-                
-                Whether experienced as a passive delight or a nostalgic mental excursion, music has the ability to arouse emotion in its listeners. Some may say that it has come to serve as a reliable mood regulator, given that its digitization has made available at our fingertips. 
-    
-                <br>
-                <br>
-                            
-                The creation of this touchpoint linking humans to the world of music has initiated a competition within the market, urging music streaming services to develop progressively more unique methods of deliverance. Prevalent companies such as Google, Apple, and Spotify are consistently adjusting their algorithms in an attempt to attract the largest user audiences.
-            
-            </div>
         </div>
-
-        <div class="d-flex flex-row justify-content-center" style="margin-top: 2vw;">
-            <div class="box" style="background-color: #1A1A1A;">
-                <div class="phase">01. Planning</div>
-                <br>
-                <br>
-                <div class="d-flex flex-row justify-content-center">
-                    <img src="images/noun_strategy_1361950.png" style="height: 40vw; width: 40vw">
-                </div>
-                <br>
-                <br>
-            </div>
-            <div class="box" style="background-color: #ef537b; ">
-                As researchers investigating the UX of music streaming, our goal is to understand both the delightful and the troubling aspects of the current experience. How does one's chosen music streaming application affect the way they think or feel? How does it interact with their behaviour? What makes one streaming service more desirable than another? 
-                <br>
-                <br>
-                After a few collaborative brainstorming sessions, our team decided on the following research questions: 
-                <br>
-                <br>
-                1) What is your favourite and most consistently used feature on your music streaming application?* 
-                <br>
-                <br>   
-                2) When did you find yourself using the feature most frequently today? Morning, afternoon, or evening?
-                <br>
-                <br>
-                3) Has the feature changed your mood today? If yes, was the change positive or negative?
-                <br>
-                <br>
-                4) If you could make changes to your experience with the feature today, what would it be? 
-                <br>
-                <br>
-                <br>
-                <br>
-                * Day one only      
-            </div>
-        </div>
-       
-        <div class="d-flex flex-row justify-content-center" style="margin-top: 2vw;">
-            <div class="box" style="background-color: #1A1A1A;">
-                <div class="phase">02. Data Collection</div>
-                
-                <br>
-                <br>
-
-                <img src= "images/datapoints.png">
-
-            </div>
-            <div class="box" style="background-color: #ef537b;">
-                With the exception of day one, each participant was to answer three questions, once a day, for three days straight. Questions were delivered via Google Forms in early December.           
-                <br>
-                <br>
-                We were fortunate to receive full participation from our three volunteers, providing us with a total of 30 data points to analyze.*  
-                <br>
-                <br>
-                <br>
-                <br>
-                * After cleaning up our data    
-                   
-            </div>
-        </div>
-
-        <div class="d-flex d-flex flex-row justify-content-center" style="margin-top: 2vw;">
-            <div class="box" style="background-color: #1A1A1A;">
-                <div class="phase">03. Data Analysis</div>
-                <br>
-                <br>
-                <img src="images/analyze.png">
-            </div>
-            <div class="box" style="background-color: #ef537b;">
-                As a group, we reviewed our participants’ responses in order to determine whether or not any data should be excluded. While our participants appeared to understand each question and respond appropriately, we realized that an error had been made on our part-- our initial research prompt (question one), had been sent out every day. This meant that instead of receiving three responses for question one, we received nine. 
-                <br> 
-                <br>
-                To remedy the issue, we focused on these nine responses and grouped them in terms of similarity. Ideally, we would have been able to create a 3x3 matrix, but we were happy to see that for the most part, participants remained consistent with their reporting:
-                <br>
-                <br>     
-            </div>
-        </div>
-
+        
+    <!-- Data Collection Desktop -->
+    <div class="megaWrapper" id="dataCoD">
         <div class="d-flex flex-row justify-content-center">
-            <div class="affinityMap d-flex flex-row justify-content-center" style="text-align: center">
-                <table onmouseover="crossMe()" onmouseout="dontCrossMe()" style="text-align: center;  margin: 1vw;" id="crossMe">
-                    <tr>
-                        <td colspan="3">
-                            User Responses to Initial Research Prompt
-                            <br>
-                            <br>
-                            “What is your favourite and most consistently used feature on your music streaming application?”
-                        </td>
-                    </tr>
-                    <tr>   
-                        <td id="keep1"> Being able to identify music from around my surroundings.
-                        </td>
-                        <td id="keep2">The ability to find similar artists to the ones that I listen to.
-                        </td>
-                        <td id="keep3">It provides the lyrics to the songs.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td id="lineThrough1">Shazam
-                        </td>
-                        <td id="lineThrough2">Recommend similar artists.
-                        </td>
-                        <td>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td id="lineThrough3">I used Shazam
-                        </td>
-                        <td id="lineThrough4">Recommended artists. Spotify.
-                        </td>
-                        <td>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td id="lineThrough5">Shazam
-                        </td>
-                        <td id="lineThrough6">Daily music suggestions.
-                        </td>
-                        <td>
-                        </td>
-                    </tr>     
-                </table> 
+            <div class="flexBox">
+                <div class="runner d-flex flex-row justify-content-center">
+                    Data Collection
+                </div>
+                <div class="boxText">
+                    Except for day one, each participant was to answer three questions, once a day, for three days straight. We collected our data through Google Forms, asking the following questions:
+                    <br>
+                    <br>
+                    <strong>
+                        1) What is your favourite and most consistently used feature on your music streaming application?
+                    </strong>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            <div class="flexBox">
+                <div class="boxText">
+                    <strong>
+                        2) When did you find yourself using the feature most frequently today? Morning, afternoon, or evening?
+                    </strong>
+                    <br>
+                    <br>
+                    <strong>
+                        3) Has the feature changed your mood today? If yes, was the change positive or negative?
+                    </strong>
+                    <br>
+                    <br>
+                    <strong>
+                        4) If you could make changes to your experience with the feature today, what would it be? 
+                    </strong> 
+                </div>
+            </div>
+            <div class="flexBoxT">
+                <div class="runnerBottom">
+                </div>
+                <img src='images/googleForm.png' style="height: 100%; width: 100%">
+            </div>
+        </div>
+            <div class="divider d-flex flex-row justify-content-center">
+                <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toPlanningD()"></i>
+                <div class="navWords">
+                    BACK 
+                </div>
+                <div id="stretch">
+                </div>
+                <div class="navWords">
+                    NEXT 
+                </div>
+                <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toDataAlD()"></i>
+            </div>
+        </div>
+    </div>
+    
+    
+
+        <!-- Data Collection Mobile -->
+        <div class="megaWrapper" id="dataCoDMob">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">
+                    <div class="runnerMob d-flex flex-row justify-content-center">
+                        Data Collection
+                    </div>
+                    <div class="boxTextMob">
+                        Except for day one, each participant was to answer three questions, once a day, for three days straight. We collected our data through Google Forms, asking the following questions:
+                        <br>
+                        <br>
+                        <strong>
+                            1) What is your favourite and most consistently used feature on your music streaming application?
+                        </strong>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">
+                    <div class="boxTextMob">
+                        <strong>
+                            2) When did you find yourself using the feature most frequently today? Morning, afternoon, or evening?
+                        </strong>
+                        <br>
+                        <br>
+                        <strong>
+                            3) Has the feature changed your mood today? If yes, was the change positive or negative?
+                        </strong>
+                        <br>
+                        <br>
+                        <strong>
+                            4) If you could make changes to your experience with the feature today, what would it be? 
+                        </strong> 
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxTMob">
+                    <div class="runnerBottomMob">
+                    </div>
+                    <img src='images/googleForm.png' style="height: 100%; width: 100%">
+                </div>            
+            </div>
+            <div class="divider d-flex flex-row justify-content-center">
+                <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toPlanningDMob()"></i>
+                <div class="navWordsMob">
+                    BACK 
+                </div>
+                <div id="stretchMob">
+                </div>
+                <div class="navWordsMob">
+                    NEXT 
+                </div>
+                <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toDataAlDMob()"></i>
             </div>
         </div>
 
-        <div class=" d-flex flex-row justify-content-center" style="margin-top: 2vw;">
-            <div class="box" style="background-color: #1A1A1A;">             
+        <!-- Data Analysis Desktop -->
+        <div class="megaWrapper" id="dataAlD">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBox">
+                    <div class="runner d-flex flex-row justify-content-center">
+                        Data Analysis
+                    </div>
+                    <div class="boxText" style="padding-top: 2vw">                    
+                        As a group, we reviewed our participants’ responses to determine whether any data should be excluded. 
+
+                        While our participants did properly follow their given instructions, we discovered that an error had been made on our part-- instead of sending a single prompt per-person for question one as intended, we sent three.         
+                    </div>
+                </div>
+                <div class="flexBox">
+                    <img src="images/tuileries.png" width="100%" height="100%">
+                </div>
+                <div class="flexBox">
+                    <div class="runnerBottom">
+                    </div>
+                    <div class="boxText">
+                        This error meant that instead of reporting on a single feature, our respondents were able to choose up to three. 
+                        
+                        To remedy the issue, we focused on the nine responses below and grouped them in terms of similarity. 
+                        <br>
+                        <br>
+                        Ideally, we would have been able to create a 3x3 matrix, but we were happy to see that for the most part, participants remained consistent with their reporting:  
+                    </div>    
+                </div>
             </div>
-            <div class="box" style="background-color: #ef537b;">
-                We agreed that there were three distinct data-points that captured the users’ responses, and excluded six erroneous variables, thus resulting in a total of 3--instead of 9--data points.  
-                <br>
-                <br>     
+
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="affinityMap d-flex flex-row justify-content-center" onmouseover="crossMe()" onmouseout="dontCrossMe()" style="text-align: center" >
+                        <table  class="tableD" style="text-align: center;  margin: 1vw;" id="crossMe">
+                            <tr>
+                                <td class="tdD" colspan="3">
+                                    User Responses to Initial Research Prompt
+                                    <br>
+                                    <br>
+                                    “What is your favourite and most consistently used feature on your music streaming application?”
+                                </td>
+                            </tr>
+                            <tr>   
+                                <td class="tdD" id="keep1"> Being able to identify music from around my surroundings.
+                                </td>
+                                <td class="tdD" id="keep2">The ability to find similar artists to the ones that I listen to.
+                                </td>
+                                <td class="tdD" id="keep3">It provides the lyrics to the songs.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdD" id="lineThrough1">Shazam
+                                </td>
+                                <td class="tdD" id="lineThrough2">Recommend similar artists.
+                                </td>
+                                <td class="tdD">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdD" id="lineThrough3">I used Shazam
+                                </td>
+                                <td class="tdD" id="lineThrough4">Recommended artists. Spotify.
+                                </td>
+                                <td class="tdD">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tdD" id="lineThrough5">Shazam
+                                </td>
+                                <td class="tdD" id="lineThrough6">Daily music suggestions.
+                                </td>
+                                <td class="tdD">
+                                </td>
+                            </tr>     
+                        </table> 
+                    </div>
+                </div> 
+
+            <div class="divider d-flex flex-row justify-content-center" id="twoVw">
+                <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDataCoD()"></i>
+                <div class="navWords">
+                    BACK 
+                </div>
+                <div id="stretch">
+                </div>
+
+                <div class="navWords">
+                    NEXT 
+                </div>
+                <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toDataSynthD()"></i>
+            </div>
+        </div>
+    
+
+        <!-- Data Analysis Mobile -->
+        <div class="megaWrapper" id="dataAlDMob">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">
+                    <div class="runnerMob d-flex flex-row justify-content-center">
+                        Data Analysis
+                    </div>
+                    <div class="boxTextMob" style="padding-top: 2vw">                    
+                        As a group, we reviewed our participants’ responses to determine whether any data should be excluded. 
+                        <br>
+                        <br>
+                        While our participants did properly follow their given instructions, we discovered that an error had been made on our part-- instead of sending a single prompt per-person for question one as intended, we sent three.          
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">
+                    <img src="images/tuileries.png" width="100%" height="100%">
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="flexBoxMob">
+                    <div class="runnerBottomMob">
+                    </div>
+                    <div class="boxTextMob">
+                    This error meant that instead of reporting on a single feature, our respondents were able to choose up to three. 
+                    
+                    To remedy the issue, we focused on the nine responses below and grouped them in terms of similarity. 
+                    <br>
+                    <br>
+                    Ideally, we would have been able to create a 3x3 matrix, but we were happy to see that for the most part, participants remained consistent with their reporting:  
+                    </div> 
+                </div>
+            </div>
+    
+            <div class="d-flex flex-row justify-content-center">
+                <div class="affinityMapMob d-flex flex-row justify-content-center">
+                    <table class="tableDMob">
+                        <tr>
+                            <td class="tdDMob" colspan="3">
+                                User Responses to Initial Research Prompt
+                                <br>
+                                <br>
+                                “What is your favourite and most consistently used feature on your music streaming application?”
+                            </td>
+                        </tr>
+                        <tr>   
+                            <td class="tdDMob" id="keep1Mob"> Being able to identify music from around my surroundings.
+                            </td>
+                            <td class="tdDMob" id="keep2Mob">The ability to find similar artists to the ones that I listen to.
+                            </td>
+                            <td class="tdDMob" id="keep3Mob">It provides the lyrics to the songs.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdDMob" id="lineThrough1Mob">Shazam
+                            </td>
+                            <td class="tdDMob" id="lineThrough2Mob">Recommend similar artists.
+                            </td>
+                            <td class="tdDMob">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdDMob" id="lineThrough3Mob">I used Shazam
+                            </td>
+                            <td class="tdDMob" id="lineThrough4Mob">Recommended artists. Spotify.
+                            </td>
+                            <td class="tdDMob">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tdDMob" id="lineThrough5Mob">Shazam
+                            </td>
+                            <td class="tdDMob" id="lineThrough6Mob">Daily music suggestions.
+                            </td>
+                            <td class="tdDMob">
+                            </td>
+                        </tr>     
+                    </table> 
+                </div>
+            </div>     
+
+            <div class="divider d-flex flex-row justify-content-center" id="twoVw">
+                <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDataCoDMob()"></i>
+                <div class="navWordsMob">
+                    BACK 
+                </div>
+                <div id="stretchMob">
+                </div>
+
+                <div class="navWordsMob">
+                    NEXT 
+                </div>
+                <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toDataSynthDMob()"></i>
             </div>
         </div>
 
-        <div class="d-flex flex-row justify-content-center" style="margin-top: 2vw;">
-            <div class="box" style="background-color: #1A1A1A">
-                <div class="phase">04. Data Synthesis</div>
-                <br>
-                <br>
-                <img src="images/venn.png">
-            </div>
-                
-            <div class="box" style="background-color: #ef537b">        
-                Now that our team had a clean dataset, we were ready to begin sorting through our users’ responses and synthesizing the information. For this diary study, we organized our data using an affinity mapping technique.
-                <br>
-                <br>
-                To begin, we individually composed insights and common themes that arose from our analyses. Then, using sticky notes, we pasted our findings on a board and chose one sticky at random for a starting point.
+        <!-- Data Synthesis Desktop -->
+        <div class="megaWrapper" id="dataSynthD">
+            <div class="d-flex flex-row justify-content-center" style="padding-top: 2vw">
+                <div class="flexBox">
+                    <div class="runner d-flex flex-row justify-content-center">
+                        Data Synthesis
+                    </div>
+                    <div class="boxText" style="padding-top: 2vw">
+                        After agreeing that there were three distinct data-points that captured our users’ responses, our team excluded six erroneous entries.
+                    
+                        With a clean dataset, we were now ready to begin sorting through our users’ responses to synthesize the information. For this diary study, we organized our data using an affinity mapping technique.
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="flexBox">
+                    <img src="images/aMap.png" style="width:100%; height: 100%">
+                </div>
+                <div class="flexBox">                   
+                    <div class="boxText">
+                        To begin, we each composed insights and common themes that arose from our analyses. Then, using sticky notes, we pasted our findings on a board and collectively reviewed them. 
+                        <br>
+                        <br>
+                        One note at a time, we shared whether we had recorded similar insights until we were left with a cluster of four themes, and two outliers:
+                    </div>
+                </div>
+            </div> 
+            <div class="d-flex flex-row justify-content-center">
+                <div class="affinityMap">
+                    <table style="text-align: center">
+                        <tr>
+                            <td class="tdD"> Users desire custom music recommendations</td>
+                            <td class="tdD"> Users are frustrated that they can't access music offline</td>
+                            <td class="tdD"> Users access their music apps day and night</td>
+                            <td class="tdD"> Listening to music generally improves mood </td>
+                            <td class="tdD"> Outliers</td>
+                        </tr>
+                    </table>              
+                    <img src="images/AffinityMap2.jpg">
+                </div>
+            </div> 
+            <div class="divider d-flex flex-row justify-content-center" id="twoVw">
+                <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDataAlD()"></i>
+                <div class="navWords">
+                    BACK 
+                </div>
+                <div id="stretch">
+                </div>
+                <div class="navWords">
+                    NEXT 
+                </div>
+                <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toExpandingD()"></i>
             </div>
         </div>
+  
 
+    <!-- Data Synthesis Mobile -->
+    <div class="megaWrapper" id="dataSynthDMob">
         <div class="d-flex flex-row justify-content-center">
-            <div class="affinityMap">
-                <table style="text-align: center; width: 100%;">
-                    <tr>
-                        <td>Our collective insights
-                        </td>
-                    </tr>
-                </table>
-                <img src="images/AffinityMap1.jpg">
+            <div class="flexBoxMob">
+                <div class="runnerMob d-flex flex-row justify-content-center">
+                    DATA SYNTHESIS
+                </div>
+                <div class="boxTextMob" style="padding-top: 2vw">
+                    After agreeing that there were three distinct data-points that captured our users’ responses, our team excluded six erroneous entries.
+                
+                    With a clean dataset, we were now ready to begin sorting through our users’ responses to synthesize the information. For this diary study, we organized our data using an affinity mapping technique.
+                    <br>
+                    <br>
+                </div>
             </div>
-        </div>                 
-
-        <div class=" d-flex flex-row justify-content-center" style="margin-top: 2vw;">
-            <div class="box" style="background-color: #1A1A1A;">
-            </div>
-
-            <div class="box" style="background-color: #ef537b;">
-                One note at a time, we shared whether we had recorded similar insights until we were left with a cluster of four themes, and two outliers: 
+        </div>           
+        <div class="d-flex flex-row justify-content-center">
+            <div class="flexBoxMob">
+                <img src="images/aMap.png" style="width:100%; height: 100%">
             </div>
         </div>
-
+        <div class="d-flex flex-row justify-content-center">
+            <div class="flexBoxMob">                   
+                <div class="boxTextMob">
+                    To begin, we each composed insights and common themes that arose from our analyses. Then, using sticky notes, we pasted our findings on a board and collectively reviewed them. 
+                    <br>
+                    <br>
+                    One note at a time, we shared whether we had recorded similar insights until we were left with a cluster of four themes, and two outliers:
+                </div>
+            </div>        
+        </div>
+        
         <div class="d-flex flex-row justify-content-center">
             <div class="affinityMap">
                 <table style="text-align: center">
                     <tr>
-                        <td> Users desire custom music recommendations</td>
-                        <td> Users are frustrated that they can't access music offline</td>
-                        <td> Users access their music apps day and night</td>
-                        <td> Listening to music generally improves mood </td>
-                        <td> Outliers</td>
+                        <td class="tdD"> Users desire custom music recommendations</td>
+                        <td class="tdD"> Users are frustrated that they can't access music offline</td>
+                        <td class="tdD"> Users access their music apps day and night</td>
+                        <td class="tdD"> Listening to music generally improves mood </td>
+                        <td class="tdD"> Outliers</td>
                     </tr>
-                </table>
-                                
+                </table>              
                 <img src="images/AffinityMap2.jpg">
             </div>
-        </div>
-                      
-        <div class="d-flex flex-row justify-content-center" style="margin-top: 2vw;">
-            <div class="box" style="background-color: #1A1A1A;">
-                <div class="phase">05. Expanding on Themes</div>
+        </div> 
+        <div class="divider d-flex flex-row justify-content-center" id="twoVw">
+            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDataAlDMob()"></i>
+            <div class="navWordsMob">
+                BACK 
             </div>
-            <div class="box" style="background-color: #ef537b">   
-                Click below to explore our insights and learn more about our users' needs and frustrations.
+            <div id="stretchMob">
             </div>
-        </div>
 
+            <div class="navWordsMob">
+                NEXT 
+            </div>
+            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toExpandingDMob()"></i>
+        </div>
+    </div>
+            
+    <!-- Expanding Desktop -->
+    <div class="megaWrapper" id="expandingD">
         <div class="d-flex flex-row justify-content-center">
-            <div class="affinityMap">
-                <table style="text-align: center">
+            <div class="flexBox">
+                <div class="runner d-flex flex-row justify-content-center">
+                    Expanding on Themes
+                </div>
+                <div class="boxText" style="padding-top: 2vw">
+                    As a final step in the diary study process, I spent time expanding on the themes we had previously identified as a group. 
+                    <br>
+                    <br>
+                    Below, I explore our respondents' feedback in greater detail, reporting on implications of the desires, frustrations, behaviours, and emotions involved in the music streaming experience.
+                </div>
+            </div>
+            <div class="flexBox">
+                <img src="images/puzzle.jpeg" style="width:100%; height: 100%">
+            </div>
+            <div class="flexBox">                   
+                <div class="runnerBottom">
+                </div>
+                <img src="images/resolve.png" style="width:100%; height: 100%">
+            </div>
+        </div>  
+        <div class="d-flex flex-row justify-content-center">
+            <div class="affinityMap" id="feedbackTable">
+                <table class="feedbackTable">
                     <tr>
-                        <td id="col1" onclick="turnPink1()" style="background-color: #ef537b;"> Users desire custom music recommendations</td>
-                        <td  id="col2" onclick="turnPink2()"> Users are frustrated that they can't access music offline</td>
-                        <td id="col3" onclick="turnPink3()"> Users access their music apps day and night</td>
-                        <td id="col4" onclick="turnPink4()"> Listening to music generally improves mood </td>
-                        <td id="col5" onclick="turnPink5()"> Outliers </td>
+                        <td class="tdD" id="col1" onclick="turnPink1()" style="background-color: #ef537b;"> Users desire custom music recommendations</td>
+                        <td class="tdD"  id="col2" onclick="turnPink2()"> Users are frustrated that they can't access music offline</td>
+                        <td class="tdD" id="col3" onclick="turnPink3()"> Users access their music apps day and night</td>
+                        <td class="tdD" id="col4" onclick="turnPink4()"> Listening to music generally improves mood </td>
+                        <td class="tdD" id="col5" onclick="turnPink5()"> Outliers </td>
                     </tr>
-                </table>
-                                    
+                </table>               
                 <div id="paragraph">
                     <br>
                     Many of our participants voiced a predilection for applications that compute music suggestions based on existing libraries. Such a feature could save time for users wanting to access familiar music without mental exertion. Companies thus may benefit from strengthening the scope and validity of their suggestive algorithms.
                 </div>
             </div>
         </div>
-                                
-        <div class="d-flex flex-row justify-content-center" style="margin-top: 2vw;">
-            <div class="box" style="background-color: #1A1A1A;">
-                <div class="phase">06. Reflection</div>
-                <br>
-                <br>
-                <img src= "images/lol.png" style="width: 25vw; height: 28vw;">
-
+        <div class="divider d-flex flex-row justify-content-center" style="padding-top: 2vw">
+            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDataSynthD()"></i>
+            <div class="navWords">
+                BACK 
             </div>
-                            
-            <div class="box" style="background-color: #ef537b;">                           
-                This project taught our team that even on a small scale, user data can provide meaningful feedback and inspire avenues for future research. We also learned (the hard way) the importance of planning-- it was only post data-collection that we realized there had been an error in our output. This obstacle presented our team with an opportunity for collaborative problem solving to protect the validity of our study
-                <br>
-                <br>
-                If given the opportunity to start again from the beginning, our team would likely craft our research questions more carefully. It may have been helpful to spend more time reflecting on how we, ourselves,would answer the questions, and what kind of insight these answers could provide. For instance, we asked users what time of day they use their favourite feature most frequently without considering why we were asking this question. Focusing too much on high level concepts included in the research prompt (i.e. explore the “user behaviour”) may have foiled our ability to truly take the user into account during the preparation process.
+            <div id="stretch">
             </div>
+            <div class="navWords">
+                NEXT 
+            </div>
+            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toReflectionD()"></i>
         </div>
+    </div>
 
-        <div class="thankYou d-flex flex-row justify-content-center"></div>
-                                        
-    
-        <!-- Footer -->
-        <footer class="footer" id="footer">
-            <div class="copyRight d-flex flex-row justify-content-start">
-                        © 2020 Anna Gombay
-                <div class="socialButtons">
-                    <div class="icon" style="margin-top: -1.2vw">
-                        <i class="fab fa-linkedin" onclick="newWindowLinked()"></i>
-                    </div>
-                    <div class="icon" style="margin-top: -1.2vw">
-                        <i class="fab fa-github-square" onclick="newWindowGit()"></i>
-                    </div>
-                    <div class="icon" style="margin-top: -1.2vw">
-                        <i class="fab fa-instagram" onclick="newWindowInsta()"></i>      
-                    </div>
-                    <a href="mailto:annaphoenixg@gmail.com" class="icon" style="margin-top: -1.2vw">
-                        <i class="fas fa-envelope-square" target="_blank"></i>
-                    </a>
+    <!-- Expanding Mobile -->
+    <div class="megaWrapper" id="expandingDMob">
+        <div class="d-flex flex-row justify-content-center">
+            <div class="flexBoxMob">
+                <div class="runnerMob d-flex flex-row justify-content-center">
+                    Expanding on Themes
+                </div>
+                <div class="boxTextMob" style="padding-top: 2vw">
+                    As a final step in the diary study process, I spent time expanding on the themes we had previously identified as a group. 
+                    <br>
+                    <br>
+                    Below, I explore our respondents' feedback in greater detail, reporting on implications of the desires, frustrations, behaviours, and emotions involved in the music streaming experience.
                 </div>
             </div>
-        </footer>
-        <!-- /Footer -->
-    
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="flexBoxMob">
+                <img src="images/puzzle.jpeg" style="width:100%; height: 100%">
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="flexBoxMob">                   
+                <div class="runnerBottomMob">
+                </div>
+                <img src="images/resolve.png" style="width:100%; height: 100%">
+            </div>
+        </div>  
+        <div class="d-flex flex-row justify-content-center">
+            <div class="affinityMap">
+                <table id="wantsMob">
+                    <tr>
+                        <td class="tdDMob" id="col1Mob" onclick="turnPink1Mob()" style="background-color: #ef537b;"> Users desire custom music recommendations</td>
+                        <td class="tdDMob"  id="col2Mob" onclick="turnPink2Mob()"> Users are frustrated that they can't access music offline</td>
+                    </tr>
+                    <tr>
+                        <td class="tdDMob" id="col3Mob" onclick="turnPink3Mob()"> Users access their music apps day and night</td>
+                        <td class="tdDMob" id="col4Mob" onclick="turnPink4Mob()"> Listening to music generally improves mood </td>
+                    </tr>
+                    <tr>
+                        <td class="tdDMob" colspan="3" id="col5Mob" onclick="turnPink5Mob()"> Outliers </td>
+                    </tr>
+                </table> 
+                <div class="d-flex flex-row justify-content-center" id="parMob">
+                    <div id="paragraphMob">
+                        <br>
+                        Many of our participants voiced a predilection for applications that compute music suggestions based on existing libraries. Such a feature could save time for users wanting to access familiar music without mental exertion. Companies thus may benefit from strengthening the scope and validity of their suggestive algorithms.
+                    </div>
+                </div>                 
+                
+            </div>
+        </div>
+        <div class="divider d-flex flex-row justify-content-center" style="padding-top: 2vw">
+            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDataSynthDMob()"></i>
+            <div class="navWordsMob">
+                BACK 
+            </div>
+            <div id="stretchMob">
+            </div>
 
-        </body>
+            <div class="navWordsMob">
+                NEXT 
+            </div>
+            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toReflectionDMob()"></i>
+        </div>
+    </div>
+    
+    <!-- Reflection Desktop -->
+    <div class="megaWrapper" id="reflectionD">
+        <div class="d-flex flex-row justify-content-center">
+            <div class="flexBox">
+                <div class="runner d-flex flex-row justify-content-center">
+                    Reflection
+                </div>
+                <div class="boxText" style="padding-top: 1vw">
+                    This project taught our team that even on a small scale, user data can provide meaningful feedback and inspire avenues for novel future design. 
+                    <br>
+                    <br>
+                    We learned (the hard way) the importance of planning and this obstacle presented our team with an opportunity for collaborative problem solving to protect the validity of our study.
+                </div>
+            </div>
+            <div class="flexBox">
+                <div class="boxText">
+                    If given the opportunity to start over from the beginning, our team would likely craft our research questions more carefully. 
+                    <br>
+                    <br>
+                    It may have been helpful to spend more time reflecting first on how we, ourselves, would have answered the questions, and what kind of insight these answers could provide. 
+                </div>
+            </div>
+            <div class="flexBox">                   
+                    <div class="runnerBottom">
+                    </div>
+                <div class="boxText">
+                    For instance, we asked users what time of day they use their favourite feature most frequently without considering why we were asking this question. 
+                    <br>
+                    <br>
+                    Focusing too much on high level concepts included in the research prompt (i.e. explore the “user behaviour”) may have foiled our ability to truly take the user into account during the preparation process.
+                </div>
+            </div>
+        </div> 
+        <div class="divider d-flex flex-row justify-content-center">
+            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toExpandingD()"></i>
+            <div class="navWords">
+                BACK 
+            </div>
+            <div id="stretch">
+            </div>
+
+            <div class="navWords" style="color: black">
+                NEXT 
+            </div>
+            <i class="fas fa-chevron-circle-right" id="chevNext" style="color: black"></i>
+        </div>
+    </div>
+    <br>
+
+    <!-- Reflection Mobile -->
+    <div class="megaWrapper" id="reflectionDMob">
+        <div class="d-flex flex-row justify-content-center">
+            <div class="flexBoxMob">
+                <div class="runnerMob d-flex flex-row justify-content-center">
+                    Reflection
+                </div>
+                <div class="boxTextMob" style="padding-top: 1vw">
+                    This project taught our team that even on a small scale, user data can provide meaningful feedback and inspire avenues for novel future design. 
+                    <br>
+                    <br>
+                    We learned (the hard way) the importance of planning and this obstacle presented our team with an opportunity for collaborative problem solving to protect the validity of our study.
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="flexBoxMob">
+                <div class="boxTextMob">
+                    If given the opportunity to start over from the beginning, our team would likely craft our research questions more carefully. 
+                    <br>
+                    <br>
+                    It may have been helpful to spend more time reflecting first on how we, ourselves, would have answered the questions, and what kind of insight these answers could provide. 
+                </div>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <div class="flexBoxMob">                   
+                <div class="runnerBottomMob">
+                </div>
+                <div class="boxTextMob">
+                    For instance, we asked users what time of day they use their favourite feature most frequently without considering why we were asking this question. 
+                    <br>
+                    <br>
+                    Focusing too much on high level concepts included in the research prompt (i.e. explore the “user behaviour”) may have foiled our ability to truly take the user into account during the preparation process.
+                </div>
+            </div>
+        </div>
+        <div class="divider d-flex flex-row justify-content-center">
+            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toExpandingDMob()"></i>
+            <div class="navWordsMob">
+                BACK 
+            </div>
+            <div id="stretchMob">
+            </div>
+
+            <div class="navWordsMob" style="color: black">
+                NEXT 
+            </div>
+            <i class="fas fa-chevron-circle-right" id="chevNext" style="color: black"></i>
+        </div>
+    </div>  
+
+    <!-- Footer -->
+    <footer onclick="footer()" id="theFOOT">
+        <div class="copyRight d-flex flex-row justify-content-start" id="copyRight">
+            <span id="ag2020">
+                © 2020 Anna Gombay
+            </span>  
+            <div class="socialButtons d-flex flex-row justify-content-center">
+            <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
+                <i class="fab fa-linkedin" onclick="newWindowLinked()"></i>
+            </div>
+            <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
+                <i class="fab fa-github-square" onclick="newWindowGit()"></i>
+            </div>
+            <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
+                <i class="fab fa-instagram" onclick="newWindowInsta()"></i>      
+            </div>
+            <a href="mailto:annaphoenixg@gmail.com" id="iconMobile" class="icon" style="margin-top: -1.2vw">
+                <i  class="fas fa-envelope-square" target="_blank"></i>
+            </a>
+            </div> 
+        </div>
+    </footer>    
+    </body>
 </html>
