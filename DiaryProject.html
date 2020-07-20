@@ -76,33 +76,33 @@
         </div>
 
         <!-- Intro Card Mobile -->            
-    <div class="megaWrapper" id="cardDSMob"> 
-        <div class="cardContainerMob d-flex flex-row justify-content-center"> 
-            <div class="backsplashDSMob">
-            </div>
-            <div class="d-flex flex-row justify-content-end">
-                <div class="contentMob d-flex flex-row justify-content-center">
-                DIARY STUDY - AUDIO EXPERIENCES
-                    <div class="supplementaryMob d-flex flex-row justify-content-start">
-                        <br>
-                        <br>
-                        Roles : UX Researcher
-                        <br>
-                        Team : Anna Gombay, Mickey Xiong, Aporva Bhardwaj
-                        <br>
-                    </div> 
+        <div class="megaWrapper" id="cardDSMob"> 
+            <div class="cardContainerMob d-flex flex-row justify-content-center"> 
+                <div class="backsplashDSMob">
                 </div>
-                <div class="contentBottomMob d-flex flex-row justify-content-center"> 
-                <div>
-                    This one-month diary study was completed as part of an Empathic Research Frameworks course at Humber College. Our goal was to capture the thoughts, behaviours, and emotions of users as they engage in audio experiences. 
-                    <br>
-                    <br>
-                    <strong>Examples of an audio experience include time spent listening to music, podcasts, or audiobooks. </strong>For this project, our group chose to focus on the user experience of streaming music on a mobile phone.
+                <div class="d-flex flex-row justify-content-end">
+                    <div class="contentMob d-flex flex-row justify-content-center">
+                    DIARY STUDY - AUDIO EXPERIENCES
+                        <div class="supplementaryMob d-flex flex-row justify-content-start">
+                            <br>
+                            <br>
+                            Roles : UX Researcher
+                            <br>
+                            Team : Anna Gombay, Mickey Xiong, Aporva Bhardwaj
+                            <br>
+                        </div> 
+                    </div>
+                    <div class="contentBottomMob d-flex flex-row justify-content-center"> 
+                        <div>
+                        This one-month diary study was completed as part of an Empathic Research Frameworks course at Humber College. Our goal was to capture the thoughts, behaviours, and emotions of users as they engage in audio experiences. 
+                        <br>
+                        <br>
+                        <strong>Examples of an audio experience include time spent listening to music, podcasts, or audiobooks. </strong>For this project, our group chose to focus on the user experience of streaming music on a mobile phone.
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
         <!-- Chevron Nav Desktop -->
         <div class="megaWrapper" id="chevvy">
@@ -146,7 +146,7 @@
         </div>
 
         <!-- Chevron Nav Mobile -->
-        <div class="megaWrapper" id="chevvyMob" onscroll="onScroll()">
+        <div class="megaWrapper" id="chevvyMob">
             <div class="chevNavMob d-flex flex-row justify-content-start">
                 <div class="chevronMob" id="chevronToIntroDMob">
                     <div class="chevTextMob" onclick="toIntroDMob()" >
@@ -205,7 +205,8 @@
                 <div class="flexBox">
                     <img src="images/touch.png" style="width:100%; height: 100%">
                 </div>
-                <div class="flexBox">                   <div 
+                <div class="flexBox">                   
+                    <div 
                     class="runnerBottom">
                     </div>
                     <div class="boxText">
@@ -213,20 +214,23 @@
                         <br>
                         <br>
                     </div>
-                    <div class="divider d-flex flex-row justify-content-center">
+                    
+                    <div class="divider d-flex flex-row justify-content-center" style="margin-top: 2vw">
                         <i class="fas fa-chevron-circle-right" id="chevBack" style="color: black"></i>
                             <div class="navWords" style="color: black">
                                 BACK 
                             </div>
                             <div id="stretch">
                             </div>
-                            <div class="navWords" >
+                            <div class="navWords">
                                 NEXT 
                             </div>
                         <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toPlanningD()"></i>
-                    </div>
+                    </div>               
                 </div>
             </div>  
+        </div>
+    </div>
 
 
         <!-- Intro Mobile -->
@@ -303,6 +307,7 @@
                     <div class="runnerBottom">
                     </div>
                     <div class="boxText">
+                        
                     </div>
                 </div>
             </div>
@@ -662,7 +667,7 @@
                 </div>
             </div>     
 
-            <div class="divider d-flex flex-row justify-content-center" id="twoVw">
+            <div class="divider d-flex flex-row justify-content-center">
                 <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDataCoDMob()"></i>
                 <div class="navWordsMob">
                     BACK 
@@ -748,12 +753,14 @@
                     <br>
                 </div>
             </div>
-        </div>           
+        </div> 
+
         <div class="d-flex flex-row justify-content-center">
             <div class="flexBoxMob">
                 <img src="images/aMap.png" style="width:100%; height: 100%">
             </div>
         </div>
+
         <div class="d-flex flex-row justify-content-center">
             <div class="flexBoxMob">                   
                 <div class="boxTextMob">
@@ -766,33 +773,33 @@
         </div>
         
         <div class="d-flex flex-row justify-content-center">
-            <div class="affinityMap">
-                <table style="text-align: center">
-                    <tr>
-                        <td class="tdD"> Users desire custom music recommendations</td>
-                        <td class="tdD"> Users are frustrated that they can't access music offline</td>
-                        <td class="tdD"> Users access their music apps day and night</td>
-                        <td class="tdD"> Listening to music generally improves mood </td>
-                        <td class="tdD"> Outliers</td>
-                    </tr>
-                </table>              
-                <img src="images/AffinityMap2.jpg">
-            </div>
+            <table id="tableSynthMob">
+                <tr>
+                    <td class="tdDMob"> Users desire custom music recommend-<br>ations</td>
+                    <td class="tdDMob"> Users are frustrated that they can't access music offline</td>
+                    <td class="tdDMob"> Users access their music apps day and night</td>
+                    <td class="tdDMob"> Listening to music generally improves mood </td>
+                    <td class="tdDMob"> Outliers</td>
+                </tr>
+            </table>  
         </div> 
-        <div class="divider d-flex flex-row justify-content-center" id="twoVw">
+        <div class="d-flex flex-row justify-content-center">
+            <img src="images/AffinityMap2.jpg" style="width: 90%">
+        </div>
+        <div class="divider d-flex flex-row justify-content-center">
             <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDataAlDMob()"></i>
             <div class="navWordsMob">
                 BACK 
             </div>
             <div id="stretchMob">
             </div>
-
             <div class="navWordsMob">
                 NEXT 
             </div>
             <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toExpandingDMob()"></i>
         </div>
     </div>
+
             
     <!-- Expanding Desktop -->
     <div class="megaWrapper" id="expandingD">
@@ -900,7 +907,7 @@
             </div>
         </div>
         <div class="divider d-flex flex-row justify-content-center" style="padding-top: 2vw">
-            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDataSynthDMob()"></i>
+            <i onclick="toDataSynthDMob()" class="fas fa-chevron-circle-right" id="chevBack" ></i>
             <div class="navWordsMob">
                 BACK 
             </div>
@@ -1015,27 +1022,29 @@
         </div>
     </div>  
 
+
     <!-- Footer -->
-    <footer onclick="footer()" id="theFOOT">
-        <div class="copyRight d-flex flex-row justify-content-start" id="copyRight">
-            <span id="ag2020">
-                © 2020 Anna Gombay
-            </span>  
-            <div class="socialButtons d-flex flex-row justify-content-center">
-            <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
-                <i class="fab fa-linkedin" onclick="newWindowLinked()"></i>
+        <footer onclick="footer()" id="theFOOT">
+            <div class="copyRight d-flex flex-row justify-content-start" id="copyRight">
+                <span id="ag2020">
+                    © 2020 Anna Gombay
+                </span>  
+                <div class="socialButtons d-flex flex-row justify-content-center">
+                
+                    <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
+                        <i class="fab fa-linkedin" onclick="newWindowLinked()"></i>
+                    </div>
+                    <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
+                        <i class="fab fa-github-square" onclick="newWindowGit()"></i>
+                    </div>
+                    <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
+                        <i class="fab fa-instagram" onclick="newWindowInsta()"></i>      
+                    </div>
+                    <a href="mailto:annaphoenixg@gmail.com" id="iconMobile" class="icon" style="margin-top: -1.2vw">
+                    <i  class="fas fa-envelope-square" target="_blank"></i>
+                    </a>
+                </div> 
             </div>
-            <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
-                <i class="fab fa-github-square" onclick="newWindowGit()"></i>
-            </div>
-            <div id="iconMobile" class="icon" style="margin-top: -1.2vw">
-                <i class="fab fa-instagram" onclick="newWindowInsta()"></i>      
-            </div>
-            <a href="mailto:annaphoenixg@gmail.com" id="iconMobile" class="icon" style="margin-top: -1.2vw">
-                <i  class="fas fa-envelope-square" target="_blank"></i>
-            </a>
-            </div> 
-        </div>
-    </footer>    
+        </footer>    
     </body>
 </html>
