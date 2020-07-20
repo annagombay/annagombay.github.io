@@ -811,7 +811,21 @@ height: 20vw;
   display: none;
 }
 
+/* Case Study - Mind Map */
 
+#largeCardImg {
+  position: inline-block; 
+  border: 5vw solid black; 
+  z-index: 1; 
+  transform: scaleX(-1);
+}
+
+.banner {
+  background-color: rgba(255,255,255, .8);
+  height: 20vw;
+  width: 80%;
+
+}
 
 
 
@@ -832,14 +846,167 @@ height: 20vw;
                       }
 
                      /* iPhone 6/7/8 */
-                      @media (max-width: 375px) { 
+                      @media (max-width: 375px){
+                        .affinityMapMob {
+                          display: inline;
+                        }
+                        .megaWrapper#dataAlDMob {
+                          display: none;
+                        }
+                        .megaWrapper#dataAlD {
+                          display: none;
+                        }
+                        #chevronNavigationDSMob {
+                          display: inline;
+                        }
+                        .megaWrapper#introDMob {
+                          display: inline;
+                        }
+                        #chevronNavigationDS {
+                          display: none;
+                        }
+                        #leftNudge {
+                          margin-left: 2.2vw;
+                        }
+                        img#bunnay {
+                            width: 22vw; 
+                            height: 14vw; 
+                            position: fixed; 
+                            z-index: 6; 
+                            margin-top: 6vw; 
+                            margin-left: -80vw;
+                        }
+                        .megaWrapper#cardMob {
+                          display: flex;
+                          justify-content: center;
+                        }
+                        .megaWrapper#chevronNavigationMobile {
+                          display: inline;
+                        }
+                        .megaWrapper#chevronNavigation {
+                          display: none;
+                        }
+                        .megaWrapper#dividerMobDefine {
+                          display: none;
+                        }
+                        .megaWrapper#introMob {
+                          display: inline;
+                        }
+                        .megaWrapper#research2Mob {
+                          display: none;
+                        }
+                        .megaWrapper#objectiveMob {
+                          display: none;
+                        }
+                        .megaWrapper#userQsMob {
+                          display: none;
+                        }
+                        .megaWrapper#stringMob {
+                          display: none;
+                        }
+                        .megaWrapper#dividerMobResearch3 {
+                          display: none;
+                        }
+                        .megaWrapper#userIntMob {
+                          display: none;
+                        }
+                        .megaWrapper#objectiveMob {
+                          display: none;
+                        }
+                        .megaWrapper#researchMob {
+                          display: none;
+                        }
+                        .megaWrapper#affinityMob {
+                          display: none;
+                        }
+                        .megaWrapper#dividerDefine {
+                          display: none;
+                        }
+                        .megaWrapper#ideateMob {
+                          display: none;
+                        }
+                        .megaWrapper#testMob {
+                          display: none;
+                        } 
+                        .megaWrapper#finaleMob {
+                          display: none;
+                        }
+                        .megaWrapper#define {
+                          display: none;
+                        }
+                        .megaWrapper#research2 {
+                          display: none;
+                        }
+                        .megaWrapper#research {
+                          display: none;
+                        }
+                        .megaWrapper#blurbsMob {
+                          display: none;
+                        }
+                        .megaWrapper#navMob3 {
+                          display: none;
+                        }
+                        .divider#navMob2 {
+                          display: none;
+                        }
+                        .megaWrapper#likesMob {
+                          display: none;
+                        }
+                        .megaWrapper#critsMob {
+                          display: none;
+                        }
+                        .megaWrapper#ideasMob {
+                          display: none;
+                        }
+                        .megaWrapper#qsMob {
+                          display: none;
+                        }
+                        .megaWrapper#compMob {
+                          display: none;
+                        }
+                        .megaWrapper#prototypeMob {
+                          display: none;
+                        }
+                        i#chevBack {
+                          transform: scale(2) scaleX(-1);
+                          margin-top: 2vw;
+                          margin-bottom: 4vw;
+                        }
+                        i#chevNext {
+                          transform: scale(2);
+                          margin-top: 2vw;
+                          margin-bottom: 4vw;
+                          color: white;
+                        }
+                        .megaWrapper#logoTableMob {
+                          display: none;
+                        }
+                        .flexBoxMob#likesMobile, .flexBoxMob#critsMobile, .flexBoxMob#qsMobile, .flexBoxMob#ideasMobile {
+                          height: 92.1vw; 
+                          width: 92.1vw;  
+                          display: inline;
+                        }
+                        #blurbsMob {
+                          display: inline;
+                        }
+                        .megaWrapper#compAl {
+                          display: inline;
+                        }
+                        .megaWrapper#shouldersMob {
+                          display: none;
+                        }
+                        .megaWrapper#dividerMobIntro, .megaWrapper#dividerMobIntroD {
+                          display: inline;
+                        } 
+                        .megaWrapper#intro {
+                          display: none;
+                        }
+
                         #parallax {
                           display: none;
                         }
                         #landing_mobile {
-                          padding: none;
-                          margin: none;
-                          display: flex;
+                          display: inline;
                         }
                         #alice {
                           height: 126vw;
@@ -1015,7 +1182,6 @@ height: 20vw;
                         }
                         #aboutBubble {
                           padding-left: 1.5vw;
-
                         }
                         #projectsBubble {
                           padding-left: .5vw;
@@ -1037,11 +1203,9 @@ height: 20vw;
                       i::before {
                         font-size: 7vw;
                       }
-
                       i {
                         padding: 3vw 2vw 2vw 2vw;
                         align-items: center;
-
                       }
                       #copyRight {
                         height: fit-content;
@@ -1056,6 +1220,48 @@ height: 20vw;
                         letter-spacing: .12vw;
                         position: absolute;
                       }
+                      .megaWrapper#planningDMob, .megaWrapper#dataCoDMob, .megaWrapper#dataADMob, .megaWrapper#dataSynthDMob,.megaWrapper#expandingDMob, .megaWrapper#reflectionDMob {
+                        display: none;
+                      }
+                      #dataSynthD {
+                        display: inline;
+                      }
+                      .megaWrapper#planningD {
+                        display: none;
+                      }
+                      .megaWrapper#introDMob {
+                        display: inline;
+                      }
+                      .megaWrapper#chevvyMob {
+                        display: inline;
+                      }
+                      #chevvy {
+                        display: none;
+                      }
+                      .megaWrapper#defineMob {
+                        display: none;
+                      }
+                      .megaWrapper#ideateMob {
+                        display: none;
+                      }
+                      .megaWrapper#prototypeMob {
+                        display: none;
+                      }
+                      .megaWrapper#testMob {
+                        display: none;
+                      }
+                      .megaWrapper#finaleMob {
+                        display: none;
+                      }
+                      .megaWrapper#cardDSMob {
+                        display: inline;
+                      }
+                      .megaWrapper#cardDeskDS {
+                        display: none;
+                      }
+                      .megaWrapper#cardDesk {
+                        display: none;
+                      }
                     }
 
                   /* iPhone 6/7/8 PLUS */
@@ -1064,8 +1270,6 @@ height: 20vw;
                       display: none;
                     }
                     #landing_mobile {
-                      padding: none;
-                      margin: none;
                       display: flex;
                     } 
                     #alice {
@@ -1208,8 +1412,8 @@ height: 20vw;
                       height: 80vw;
                       margin-left: -25vw;
                     }
-                    #webRedesign {
-                      background: url(images/yogaMainMini.png); 
+                    #alexaDiary {
+                      background: url(images/alexa.png); 
                       background-position: center;
                       background-repeat: no-repeat;
                       background-size: cover; 
@@ -1266,7 +1470,6 @@ height: 20vw;
                   i {
                     padding: 2.3vw 1.6vw 2vw 2vw;
                     align-items: center;
-
                   }
                   #copyRight {
                     height: fit-content;
@@ -1715,12 +1918,6 @@ img {
     width: 100%;
 }
 
-
-html {
-  scroll-behavior: smooth;
-}
-
-
 .neon {
     color: #f1f1f1;
     text-align: center;
@@ -1787,6 +1984,12 @@ html {
     font-size: 1.5vw;
     padding: 5vw;
     max-width: 35vw;
+}
+
+#paragraphMob {
+  font-size: 3vw;
+  width: 85%;
+  margin: 1vw;
 }
 
 .paragraphIntro {
@@ -2108,7 +2311,7 @@ html {
 
 .projectDescription {
   color: white;
-  font-family: 'Muli', sans serif;
+  font-family: 'Muli', sans-serif;
   font-size: 1.2vw;
   margin-left: 3vw;
   margin-top: -20vw;
@@ -2270,7 +2473,7 @@ html {
   display: flex;
   flex-direction: row;
   width: 40vw;
-  height: 58.5vw;
+  height: 59.45vw;
   background-color: rgba(255,255,255,.8);
   letter-spacing: .4vw;
   z-index: 5;
@@ -2340,7 +2543,7 @@ html {
 
 .boxFont {
   color: white;
-  font-family: 'Muli', sans serif;
+  font-family: 'Muli', sans-serif;
   font-size: 1.2vw;
   text-align: left;
   margin: 1vw;
@@ -2356,7 +2559,7 @@ html {
 
 .indent {
   color: white;
-  font-family: 'Muli', sans serif;
+  font-family: 'Muli', sans-serif;
   font-size: 1.2vw;
   text-align: left;
   margin: 1vw;
@@ -2382,14 +2585,7 @@ html {
   background-color:  rgba(255,255,255,.7);
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  font-family: 'Muli', "sans-serif"; 
-  color: white;
-}
+
 
 .shadowCircleLittle {
   height: 12vw; 
@@ -2463,35 +2659,41 @@ html {
   margin-left: 60%;
 }
 
-.peeps {
-  color: black;
-  font-family: 'Muli', sans serif;
-  font-size: 1.2vw;
-  text-align: left;
-  margin-left: 2vw;
-  position: absolute;
-  z-index: 4;
-  letter-spacing: .2vw;
-  margin-top: 15vw;
-  
+
+.table {
+  font-family: 'Muli', sans-serif;
+  color: white;
+  z-index: 5;
+  width: fit-content;
 }
 
-table {
-  font-family: 'Muli', sans serif;
+.tableD {
+  font-family: 'Muli', sans-serif;
   color: white;
   display: absolute;
   z-index: 5;
   table-layout: fixed;
 }
 
+.tableDMob {
+  font-family: 'Muli', sans-serif;
+  color: white;
+  display: absolute;
+  z-index: 5;
+  table-layout: fixed;
+  text-align: center; 
+  margin: 1vw;
+  width: 100%;
+}
 
-td {
+
+/* td {
   border: .1vw solid white;
   font-family: 'Muli', sans serif;
   color: white;
   padding: 2vw;
   width: 14vw;
-}
+} */
 
 
 /* Create two equal columns that floats next to each other */
@@ -2540,6 +2742,30 @@ td {
   color: white;
 }
 
+.affinityMapMob {
+  width: 90vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background-color: #1A1A1A;
+  font-family: 'Muli', sans-serif;
+  font-size: 1.2vw;
+  text-align: left;
+  letter-spacing: .2vw;
+  margin-top: 2vw;
+  color: white;
+  text-align: center;
+  display: none;
+}
+
+#wantsMob {
+  text-align: center; 
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
 /* Clear floats after the columns */
 .box:after {
   content: "";
@@ -2548,19 +2774,63 @@ td {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .box {
-  
-  }
-}
-
 
 .thankYou {
   font-family: "Muli", sans-serif;
   font-size: 1.5vw;
-  display: flex;
+  letter-spacing: .15vw;
+  display: inline-block;
   color: white;
+  padding: 2vw;
+  border: .1vw solid #ef537b;
+  background-color: #ef537b;
+  margin-bottom: 2vw;
   margin-top: 2vw;
+  width: 90%;
+}
+
+
+.thankYouMob {
+  font-family: "Muli", sans-serif;
+  font-size: 4vw;
+  letter-spacing: .15vw;
+  color: white;
+  padding: 6vw;
+  border: .1vw solid #ef537b;
+  background-color: #ef537b;
+  margin-bottom: 6vw;
+  margin-top: 6vw;
+  width: 90%;
+}
+
+.thankBox {
+  text-align: center;
+}
+
+.thankBoxMob {
+  text-align: center;
+  width: 100%;
+}
+
+.thankYou:hover {
+  text-decoration: none;
+  color: #f1f1f1;
+
+-webkit-animation: mover .7s infinite  alternate;
+  animation: mover .7s infinite  alternate;
+}
+.pulse {
+  -webkit-animation: mover .7s infinite  alternate;
+  animation: mover .7s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+
 }
 
 .elevatorPitch {
@@ -2577,8 +2847,7 @@ td {
   position: absolute;
 }
 
-.wrapperTable
-{
+.wrapperTable {
     width: 100%;
 }
 
@@ -2631,17 +2900,6 @@ td {
   z-index: 1;
 }
 
-.dataDotsLabel {
-  height: 5vw; 
-  width: 7.5vw; 
-  border: .1vw solid white; 
-  font-size: 1vw;
-  padding: .2vw;
-  text-align: center;
-  margin-left: 1.4vw;
-  margin-top: .2vw;
-  padding: 1vw 0vw;
-}
 
 .dataDotsContainer {
   height: auto;
@@ -2710,3 +2968,1366 @@ td {
   font-family: 'Muli', sans-serif; 
   font-size: 3vw;
 }
+
+.cardContainer {
+  position: relative;
+  width: 90vw;
+  margin: 2vw;
+}
+
+.cardContainerMob {
+  position: relative;
+  width: 93vw;
+  margin: 6vw;
+}
+
+.cardCcontainer img {
+  vertical-align: middle;
+}
+
+.cardContainer .content {
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 50%;
+  height: 11vw;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  font-size: 1.5vw;
+  vertical-align: middle;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+.contentMob {
+  position: absolute;
+  top: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 70%;
+  height: 33vw;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  font-size: 3vw;
+  vertical-align: middle;
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+}
+
+.cardContainer .contentBottom {
+  position: absolute;
+  bottom: 0vw;
+  right: 0vw;
+  background: rgba(255, 255, 255, 0.8); /* Black background with 0.5 opacity */
+  color: black;
+  width: 50%;
+  height: 76%;
+  margin-left: 50%;
+  padding: 5vw;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  font-size: 1.2vw;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: solid;
+}
+
+.contentBottomMob {
+  position: absolute;
+  bottom: 0vw;
+  right: 0vw;
+  background: rgba(255, 255, 255, 0.8); /* Black background with 0.5 opacity */
+  color: black;
+  width: 70%;
+  height: 76%;
+  margin-left: 50%;
+  padding: 5vw;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  font-size: 2.4vw;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: solid;
+}
+
+
+.summary {
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  font-size: 1.2vw;
+  color: black;
+  margin-left: 4vw;
+}
+
+.boxText {
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  font-size: 1.2vw;
+  /* color: #f1f1f1; */
+  padding: 3vw;
+}
+
+.boxTextMob {
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  font-size: 4.5vw;
+  /* color: #f1f1f1; */
+  padding: 4vw;
+}
+
+.flexBox {
+  height: 28.5vw; 
+  width: 28.5vw; 
+  background: #10ac84; 
+  margin: 1.1vw;
+  color: #f1f1f1;
+  position: relative;
+}
+
+.flexBoxMob {
+  height: 92.1vw; 
+  width: 92.1vw; 
+  background: #10ac84; 
+  margin: 1.1vw;
+  color: #f1f1f1;
+  position: relative;
+}
+
+
+.flexBoxT {
+  height: 28.5vw; 
+  width: 28.5vw; 
+  background: transparent; 
+  margin: 1.1vw;
+  color: #f1f1f1;
+  position: relative;
+}
+
+.flexBoxTMob {
+  height: 92.1vw; 
+  width: 92.1vw; 
+  background: transparent; 
+  margin: 1.1vw;
+  color: #f1f1f1;
+  position: relative;
+}
+
+.runner {
+  height: 3vw;
+  width: 100%;
+  background:  rgba(0,0,0,.5);
+  top: 0;
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  padding: .6vw;
+  font-size: 1.2vw;
+  letter-spacing: .12vw;
+}
+
+
+.runnerMob {
+  height: 9vw;
+  width: 100%;
+  background:  rgba(0,0,0,.5);
+  top: 0;
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  padding: .6vw;
+  font-size: 5vw;
+  letter-spacing: .12vw;
+}
+
+.runnerBottom {
+  height: 1vw;
+  width: 100%;
+  background: rgba(0,0,0, 0.5);
+  bottom: 0vw;
+  position: absolute;
+  color: #f1f1f1;
+}
+
+.runnerBottomMob {
+  height: 3vw;
+  width: 100%;
+  background: rgba(0,0,0, 0.5);
+  bottom: 0vw;
+  position: absolute;
+  color: #f1f1f1;
+}
+
+.largeCardTitle {
+  position: absolute;
+  top: 0;
+  color: black;
+  font-weight: 900;
+  width: 100%;
+  height: 30vw;
+  padding-bottom: 3.57vw;
+  padding-top: 3.57vw;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  font-size: 1.7vw;
+  display: flex;
+  text-align: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  font-family: 'Muli', "sans-serif"; 
+  color: black;
+  margin-left: 4vw;
+}
+
+.projectDescription {
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  font-size: 1.2vw;
+  color: black;
+  margin-left: 4vw;
+  max-width: 25vw
+}
+
+.supplementary {
+  font-family: 'Muli', sans-serif;
+  color: #f1f1f1;
+  font-size: 1.2vw;
+  letter-spacing: .12vw;
+  position: absolute;
+}
+
+.supplementaryMob {
+  font-family: 'Muli', sans-serif;
+  color: #f1f1f1;
+  font-size: 2vw;
+  letter-spacing: .12vw;
+  position: absolute;
+}
+
+.backsplashMM {
+  height: 45.9vw;
+  width: 90vw;
+  background-image: url(images/depressed.jpg);
+  background-position: center;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.backsplashMMMob {
+  height: 92.1vw;
+  width: 92.1vw;
+  background-image: url(images/depressed.jpg);
+  background-position: center;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.backsplashDS {
+  height: 45.9vw;
+  width: 90vw;
+  background-image: url(images/audioExperiences.jpeg);
+  background-position: center;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.backsplashDSMob {
+  height: 92.1vw;
+  width: 92.1vw;
+  background-image: url(images/audioExperiences.jpeg);
+  background-position: center;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.backsplashAD {
+  height: 45.9vw;
+  width: 90vw;
+  background-image: url(images/alexa.png);
+  background-position: center;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+
+.divider {
+  width: 100%;
+  color: #f1f1f1;
+  font-size: 4vw;
+  font-family: 'Muli', sans-serif;
+  margin-bottom: 1vw;
+}
+
+
+
+.dividerIntroMob {
+  width: 100%;
+  color: #f1f1f1;
+  font-size: 4vw;
+  font-family: 'Muli', sans-serif;
+  display: none;
+}
+
+.homeScreen {
+  background-image: url(images/mediSafe_.png); 
+  background-position: center; 
+  background-size: cover;
+  height: 28.5vw; 
+  width: 28.5vw; 
+  margin: 1.1vw;
+  color: #f1f1f1;
+  position: relative;
+}
+
+/* Medisafe */
+#mediSafeBlurb {
+  background-image: url(images/mediSafe_.png); 
+  background-position: center; 
+  background-size: cover;
+  height: 28.5vw; 
+  width: 28.5vw; 
+  margin: 1.1vw;
+  color: #f1f1f1;
+  position: relative;
+  display: block;
+} 
+
+#mediSafeBlurbMob {
+  background-image: url(images/mediSafe_.png); 
+  background-position: center; 
+  background-size: cover;
+  height: 92.1vw; 
+  width: 92.1vw;  
+  margin: 1.1vw;
+  color: #f1f1f1;
+  position: relative;
+  display: block;
+}
+
+
+
+#mediSafe {
+  background: black; 
+  background-image: url(images/medisafeLogo.png); 
+  background-position: center; 
+  background-size: cover;
+  margin: 1vw;
+  margin-top: 0vw;
+  -webkit-animation: mover .7s infinite  alternate;
+  animation: mover .7s infinite  alternate;
+}
+
+
+
+/* Daylio */
+#daylioBlurb {
+  background-image: url(images/daylioBlurb.png); 
+  background-position: center; 
+  background-size: cover;
+  height: 28.5vw; 
+  width: 28.5vw; 
+  margin: 1.1vw;
+  color: #f1f1f1;
+  visibility: hidden;
+} 
+
+#daylio {
+  background: black; 
+  background-image: url(images/daylioLogo.png); 
+  background-position: center; 
+  background-size: cover;
+  margin: 1vw;
+  margin-top: 0vw;
+  -webkit-animation: mover .75s infinite  alternate;
+  animation: mover .75s infinite  alternate;
+}
+
+/* Round */
+#roundBlurb {
+  background: black; 
+  background-image: url(images/roundBlurb.png); 
+  background-position: center; 
+  background-size: cover;
+}
+
+#round {
+  background: black; 
+  background-image: url(images/roundLogo.jpg); 
+  background-position: center; 
+  background-size: cover;
+  margin: 1vw;
+  margin-top: 0vw;
+  -webkit-animation: mover .8s infinite  alternate;
+  animation: mover .8s infinite  alternate;
+}
+
+/* Reflectly */
+#reflectlyBlurb {
+  background: black; 
+  background-image: url(images/roundBlurb.png); 
+  background-position: center; 
+  background-size: cover;
+}
+
+#reflectly {
+  background: black; 
+  background-image: url(images/reflectlyLogo.png); 
+  background-position: center; 
+  background-size: cover;
+  margin: 1vw;
+  margin-top: 0vw;
+  -webkit-animation: mover .85s infinite  alternate;
+  animation: mover .85s infinite  alternate;
+}
+
+/* MedHelper */
+#medHelper {
+  background: black; 
+  background-image: url(images/medHelperLogo.png); 
+  background-position: center; 
+  background-size: cover;
+  margin: 1vw;
+  margin-top: 0vw;
+  -webkit-animation: mover .9s infinite  alternate;
+  animation: mover .9s infinite  alternate;
+}
+
+#medHelperBlurb {
+  background: black; 
+  background-image: url(images/medHelperBlurb.png); 
+  background-position: center; 
+  background-size: cover;
+}
+/* eMoods */
+#eMoods {
+  background: black; 
+  background-image: url(images/eMoodsLogo.png); 
+  background-position: center; 
+  background-size: cover;
+  margin: 1vw;
+  margin-top: 0vw;
+  -webkit-animation: mover .95s infinite  alternate;
+  animation: mover .95s infinite  alternate;
+}
+
+#eMoodsBlurb {
+  background: black; 
+  background-image: url(images/eMoodsBlurb.png); 
+  background-position: center; 
+  background-size: cover;
+}
+
+#likes {
+  background: black; 
+  background-image: url(images/LIKES.png); 
+  background-position: center; 
+  background-size: cover;
+  height: 28.5vw; 
+  width: 28.5vw; 
+  margin: 1.1vw;
+}
+
+#likesMobile {
+  background: black; 
+  background-image: url(images/LIKES.png); 
+  background-position: center; 
+  background-size: cover;
+  height: 92.1vw; 
+  width: 92.1vw; 
+  margin: 1.1vw;
+}
+
+
+#crits {
+  background: black; 
+  background-image: url(images/CRITS.png); 
+  background-position: center; 
+  background-size: cover;
+}
+
+#critsMobile {
+  background: black; 
+  background-image: url(images/CRITS.png); 
+  background-position: center; 
+  background-size: cover;
+  height: 92.1vw; 
+  width: 92.1vw; 
+  margin: 1.1vw;
+}
+
+#qs {
+  background: black; 
+  background-image: url(images/QS.png); 
+  background-position: center; 
+  background-size: cover;
+}
+
+#qsMobile {
+  background: black; 
+  background-image: url(images/QS.png); 
+  background-position: center; 
+  background-size: cover;
+  height: 92.1vw; 
+  width: 92.1vw; 
+  margin: 1.1vw;
+}
+
+#ideas {
+  background: black; 
+  background-image: url(images/IDEAS.png); 
+  background-position: center; 
+  background-size: cover;
+}
+
+#ideasMobile {
+  background: black; 
+  background-image: url(images/IDEAS.png); 
+  background-position: center; 
+  background-size: cover;
+  height: 92.1vw; 
+  width: 92.1vw; 
+  margin: 1.1vw;
+}
+
+.homeLogo {
+  height: 8vw;
+  width: 8vw;
+  border-radius: 50%;
+  background: pink;
+  border: none;
+  -webkit-animation: mover .7s infinite  alternate;
+  animation: mover .7s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+
+}
+
+
+.homeLogoMobile {
+  height: 24vw;
+  width: 24vw;
+  border-radius: 50%;
+  background: pink;
+  border: none;
+  -webkit-animation: mover .7s infinite  alternate;
+  animation: mover .7s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+
+}
+
+.logoTable {
+  height: 28.5vw; 
+  width: 28.5vw; 
+  background: transparent; 
+  margin: 1.1vw;
+  font: 'Muli', sans-serif; 
+  letter-spacing: .12vw;
+  font-size: 1.2vw;
+  color: white;
+  table-layout: fixed;
+}
+
+.logoTableMobile {
+  height: 92.1vw; 
+  width: 92.1vw;
+  background: transparent; 
+  margin: 1.1vw;
+  font: 'Muli', sans-serif; 
+  letter-spacing: .12vw;
+  font-size: 1.2vw;
+  color: white;
+  table-layout: fixed;
+}
+
+.logoTdMobile {
+  height: 40vw;
+  width: 40vw;
+  border: none;
+  padding: 0vw;
+  cursor: pointer;
+}
+
+/* table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} */
+
+.logoTd {
+  height: 8vw;
+  width: 8vw;
+  border: none;
+  padding: 0vw;
+  cursor: pointer;
+}
+
+.logoTitle {
+  height: 6vw;
+  width: 9.5vw;
+  margin-left: 1vw;
+  margin-right: 3vw;
+  margin-top: none;
+  border: none;
+  font: 'Muli', sans-serif; 
+  letter-spacing: .12vw;
+  font-size: 1.2vw;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.logoTitleMobile {
+  height: 18vw;
+  width: 28.5vw;
+  margin-left: 3vw;
+  margin-right: 9vw;
+  margin-top: none;
+  border: none;
+  font: 'Muli', sans-serif; 
+  letter-spacing: .12vw;
+  font-size: 3.6vw;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+
+.logoRow {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1vw;
+  height: 6vw;
+  width: 28.5vw;
+}
+
+.logoRowMob {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 1vw;
+  height: 18vw;
+  width: 92.1vw;
+}
+
+.graphz {
+  width: fit-content;
+  height: 50%;
+  margin-top: 5.2vw;
+}
+
+.graphzMob {
+  width: fit-content;
+  height: 50%;
+  margin-top: 15.6vw;
+}
+
+.principles {
+  width: fit-content;
+  height: 50%;
+}
+
+.dataDotsLabel {
+  height: 5vw; 
+  width: 7.125vw; 
+  border: .1vw solid white; 
+  font-size: 1vw;
+  letter-spacing: .10vw;
+  padding: .2vw;
+  text-align: center;
+  padding: 1vw 0vw;
+  vertical-align: middle;
+  margin-top: 4vw;
+
+}
+
+.dataDotsLabelMob {
+  height: 15vw; 
+  width: 23vw; 
+  border: .3vw solid white; 
+  font-size: 3vw;
+  letter-spacing: .30vw;
+  padding: .6vw;
+  text-align: center;
+  padding: 3vw 0vw;
+  vertical-align: middle;
+  margin-top: 13vw;
+}
+  
+
+
+.tdD {
+  border: .1vw solid white;
+  font-family: 'Muli', sans-serif;
+  color: white;
+  padding: 2vw;
+  width: 14vw;
+}
+
+.tdDMob {
+  border: .1vw solid white;
+  font-family: 'Muli', sans-serif;
+  color: white;
+  padding: 1vw;
+  width: 30vw;
+  height: 30vw;
+  font-size: 3vw;
+}
+
+.dataDotsLabel:hover {
+  cursor: pointer;
+  background-color: #10ac84;
+}
+
+
+
+#alexaDiary {
+  background: url(images/alexa.png); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  width: 80vw;
+  height: 80vw;
+  margin-left: -25vw;
+}
+
+.chevron {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  height: 4vw;
+  width: 12.8vw;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+}
+
+.chevronMob {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  height: 4vw;
+  width: 15vw;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+  margin-top: -2vw;
+}
+
+.chevronD {
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  height: 4vw;
+  width: 15vw;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: center;
+}
+
+
+.chevron:hover {
+  background: #ea1d52;
+  cursor: pointer;
+}
+
+
+.chevText {
+  font: 'Muli', sans-serif; 
+  letter-spacing: .10vw;
+  font-size: 1vw;
+  color: #f1f1f1;
+  text-align: middle;
+  margin-top: 1.2vw;
+  margin-left: 1.7vw;
+}
+
+.chevTextMob {
+  font: 'Muli', sans-serif; 
+  letter-spacing: .10vw;
+  font-size: 1.2vw;
+  color: #f1f1f1;
+  text-align: middle;
+  margin-top: 1.3vw;
+  margin-left: 1.7vw;
+}
+
+.chevText2 {
+  font: 'Muli', sans-serif; 
+  letter-spacing: .10vw;
+  font-size: 1vw;
+  color: #f1f1f1;
+  text-align: middle;
+  margin-top: 0.4vw;
+  margin-left: 1.7vw;
+}
+
+.chevText2Mob {
+  font: 'Muli', sans-serif; 
+  letter-spacing: .10vw;
+  font-size: 1vw;
+  color: #f1f1f1;
+  text-align: middle;
+  margin-top: 0.4vw;
+  margin-left: 1.4vw;
+}
+
+
+.chevNav {
+  width: 90%;
+  height: 4vw;
+  background: transparent;  
+  margin-left: 5%;
+  margin-bottom: 1vw;
+
+}
+
+.chevNavMob {
+  width: 90%;
+  height: 4vw;
+  background: transparent;  
+  margin-left: 5%;
+  margin-bottom: 1vw;
+}
+
+#chevronToIntro, #chevronToIntroD, #chevronToIntroDMob {
+  background-color: #ea1d52;
+}
+
+
+.megaWrapper {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+
+#intro {
+  display: inline;
+}
+
+#research, #research2, #define, #ideate, #prototype, #test, #finale {
+  display: none;
+}
+
+
+#laterStuff {
+  display: none;
+}
+
+#planningD, #dataCoD, #dataAD, #dataSynthD, #expandingD, #reflectionD {
+  display: none;
+}
+
+#planningDMob, #dataCoDMob, #dataADMob, #expandingDMob, #reflectionDMob {
+  display: none;
+}
+
+#chevNext {
+  cursor: pointer;
+}
+
+#chevBack {
+  cursor: pointer;
+  transform: scaleX(-1);
+}
+
+#chevNext:hover {
+  cursor: pointer;
+}
+
+#chevBack:hover, #chevNext:hover {
+  color: #ef537b;
+}
+
+.navWords {
+  color: #f1f1f1;
+  font-size: 1.2vw;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+
+.navWordsMob {
+  color: #f1f1f1;
+  font-size: 3.6vw;
+  font-family: 'Muli', sans-serif;
+  letter-spacing: .12vw;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+}
+
+#navMob2 {
+  display: none;
+}
+
+#navMob3 {
+  display: none;
+}
+
+#stretch {
+height: 4vw;
+width: 65vw;
+}
+
+#stretchMob {
+  height: 4vw;
+  width: 24vw;
+  }
+
+#firstPage, #noChev {
+  color: black;
+}
+
+.personaButton {
+  width: 12vw; 
+  height: 3vw; 
+  background: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  margin-left: 16vw;
+  border-radius: .2vw;
+  cursor: pointer;
+}
+
+.personaButtonMob {
+  width: 36vw; 
+  height: 9vw; 
+  background: rgba(255, 255, 255, 0.75);
+  position: absolute;
+  margin-bottom: 20vw;
+  margin-left: 48vw;
+  border-radius: .6vw;
+  cursor: pointer;
+}
+
+.personaButton:hover {
+  background: rgba(16, 172, 132, .75);
+}
+
+.personaText {
+  font-family: 'Muli', sans-serif;
+  text-transform: capitalize;
+  color: black;
+  font-size: 1.2vw;
+  padding: .75vw;
+  letter-spacing: .12;
+}
+
+.personaTextMob {
+  font-family: 'Muli', sans-serif;
+  text-transform: capitalize;
+  color: black;
+  font-size: 3.6vw;
+  padding: .75vw;
+  letter-spacing: .12;
+  margin-top: 1vw;
+}
+
+.personaText:hover { 
+  color: #F1F1F1;
+}
+
+#personaPic {
+  display: none;
+}
+
+#persona2 {
+  margin-top: 13vw;
+}
+
+#persona1 {
+  margin-top: 3vw;
+}
+
+#persona1Mob {
+  margin-top: 12vw;
+}
+
+#persona2 {
+  margin-top: 13vw;
+}
+
+#persona2Mob {
+  margin-top: 39vw;
+}
+
+#persona3 {
+  margin-top: 23vw;
+}
+
+#persona3Mob {
+  margin-top: 69vw;
+}
+
+.fuzzBox {
+  width: 90.5%;
+  height: 59.385vw;
+  background: rgba(255,255,255, .75); 
+  position: absolute;
+  z-index: 2;
+  margin-top: 1vw;
+}
+
+.personaBox {
+  width: 76.505vw;
+  height: 59.385vw;
+  position: absolute;
+  background-image: url(images/keeganPersona.png);
+  z-index: 4;
+  background-position: center;
+  background-size: cover;
+  margin-top: 1vw; 
+}
+
+.personaBoxMob {
+  width: 229.5vw;
+  height: 178.2vw;
+  position: absolute;
+  background-image: url(images/keeganPersona.png);
+  z-index: 4;
+  background-position: center;
+  background-size: cover;
+  margin-top: 3vw; 
+}
+
+#outie {
+  color: black;
+  margin-top: 2vw;
+  position: absolute;
+  z-index: 6;
+  font-size: 3vw;
+  margin-left: 6.5vw;
+  cursor: pointer;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+#twoVw {
+  margin-top: 2vw;
+}
+
+#introMob, #compMob, #shouldersMob, #blurbsMob, #logoTableMob, #likesMob, #critsMob, #ideasMob, #qsMob {
+  display: none;
+}
+
+#dividerMob {
+  display: none;
+}
+
+#dividerMobIntroD {
+  display: none;
+}
+
+#dividerMobIntro {
+  display: none;
+}
+#giants {
+  width:100%; 
+  height: 100%; 
+  margin-top: -3vw; 
+  position: relative; 
+  z-index: 0;
+}
+
+#giantsMob {
+  height: 92.1vw; 
+  width: 92.1vw; 
+  margin-top: -9vw; 
+  position: relative; 
+  z-index: 0;
+}
+
+#shoulders {
+  display: none;
+}
+
+#researchMob, #defineMob, #ideateMob, #prototypeMob, #testMob, #finaleMob {
+  display: none;
+}
+
+
+#blurbsMob {
+  display: none;
+}
+
+#compAl {
+  display: none;
+}
+
+#logoTableMobile {
+  display: none;
+}
+
+#likesMobile, #critsMobile, #qsMobile, #ideasMobile {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#businessTime {
+  width: 100%; 
+  height: 100%; 
+  margin-top: -9vw; 
+  position: relative; 
+  z-index: 0;
+}
+
+.megaWrapper#research2Mob {
+  display: none;
+}
+.megaWrapper#objectiveMob {
+  display: none;
+}
+.megaWrapper#userQsMob {
+  display: none;
+}
+.megaWrapper#stringMob {
+  display: none;
+}
+.megaWrapper#dividerMobResearch3 {
+  display: none;
+}
+.megaWrapper#userIntMob {
+  display: none;
+}
+.megaWrapper#objectiveMob {
+  display: none;
+}
+
+.megaWrapper#affinityMob {
+  display: none;
+}
+
+#dividerMobDefine {
+  display: none;
+}
+
+#dividerDefine {
+  display: none;
+}
+
+.pusher {
+  width: 2vw; 
+  height: 30vw; 
+  background: black;
+}
+
+#chevronNavigationMobile {
+  display: none;
+}
+
+#chevronNavigation {
+  display: inline;
+}
+
+#chevvyMob {
+  display: none;
+}
+
+#chevvy {
+  display: inline;
+}
+
+
+#cardMob{
+  display: none;
+}
+
+#bunnay {
+  width: 11vw; 
+  height: 7vw; 
+  position: fixed; 
+  z-index: 6; 
+  margin-top: 1.2vw; 
+  margin-left: 1.2vw;
+}
+
+
+#chevronNavigationDSMob {
+  display: none;
+}
+
+#chevronNavigationDS {
+  display: inline;
+}
+
+
+#introDMob {
+  display: none;
+}
+
+.megaWrapper#planningD {
+  display: none;
+}
+
+#dataCoDMob {
+  display: none;
+}
+
+#dataAlD {
+  display: none;
+}
+
+.megaWrapper#dataAlDMob {
+  display: none;
+}
+
+.feedbackTable {
+  text-align: center; 
+  cursor: pointer;
+  display: inline;
+}
+
+#cardDSMob {
+  display: none;
+}
+
+#cardDeskDS {
+  display: flex;
+  justify-content: center;
+}
+
+#cardDesk {
+  display: flex;
+  justify-content: center;
+}
+
+
+#dataSynthDMob {
+  display: none;
+}
+
+#introD {
+  display: inline;
+}
+
+#introDS {
+  display: inline;
+}
+/* .affinityMap#feedbackTable {
+  display: none;
+} */
+
+/* <!-- Ideate Desktop -->
+<div class="megaWrapper" id="ideate">
+    <div class="thankBox d-flex flex-row justify-content-center">
+        <div class="thankYou">
+            COMING SOON.
+        </div>
+    </div>
+    <div class="megaWrapper">
+        <div class="divider d-flex flex-row justify-content-center">
+            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDefine()"></i>
+                <div class="navWords">
+                    BACK 
+                </div>
+                <div id="stretch">
+                </div> 
+                <div class="navWords">
+                    NEXT 
+                </div>
+            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toPrototype()"></i>
+        </div>
+    </div>
+</div>
+
+<!-- Ideate Mobile -->
+
+
+<!-- Prototype Desktop -->
+<div class="megaWrapper" id="prototype">
+    <div class="thankBox d-flex flex-row justify-content-center">
+        <div class="thankYou">
+            COMING SOON.
+        </div>
+    </div>
+    <div class="megaWrapper">
+        <div class="divider d-flex flex-row justify-content-center">
+            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toIdeate()"></i>
+                <div class="navWords">
+                    BACK 
+                </div>
+                <div id="stretch">
+                </div> 
+                <div class="navWords">
+                    NEXT 
+                </div>
+            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toTest()"></i>
+        </div>
+    </div>
+</div>
+
+<!-- Prototype Mobile -->
+
+
+<!-- Test Desktop -->
+<div class="megaWrapper" id="test">
+    <div class="thankBox d-flex flex-row justify-content-center">
+        <div class="thankYou">
+            COMING SOON.
+        </div>
+    </div>
+    <div class="megaWrapper">
+        <div class="divider d-flex flex-row justify-content-center">
+            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toPrototype()"></i>
+                <div class="navWords">
+                    BACK 
+                </div>
+                <div id="stretch">
+                </div> 
+                <div class="navWords">
+                    NEXT 
+                </div>
+            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toFinale()"></i>
+        </div>
+    </div>
+</div>
+
+
+<!-- Test Mobile -->
+
+<!-- Finale Desktop -->
+<div class="megaWrapper" id="finale">
+    <div class="thankBox d-flex flex-row justify-content-center">
+        <div class="thankYou">
+            COMING SOON.
+        </div>
+    </div>
+    <div class="megaWrapper">
+        <div class="divider d-flex flex-row justify-content-center">
+            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toPrototype()"></i>
+                <div class="navWords">
+                    BACK 
+                </div>
+                <div id="stretch">
+                </div> 
+                <div class="navWords">
+                    NEXT 
+                </div>
+            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toDefineMob()"></i>
+        </div>
+    </div>
+</div>
+       
+<!-- Finale Mobile -->
+</div> */
