@@ -847,6 +847,12 @@ height: 20vw;
 
                      /* iPhone 6/7/8 */
                       @media (max-width: 375px){
+                        #tableSynthMob {
+                          text-align: center; 
+                          width: 90%; 
+                          margin-top: 2vw;
+                          margin-bottom: 2vw;
+                        }
                         .affinityMapMob {
                           display: inline;
                         }
@@ -1220,11 +1226,8 @@ height: 20vw;
                         letter-spacing: .12vw;
                         position: absolute;
                       }
-                      .megaWrapper#planningDMob, .megaWrapper#dataCoDMob, .megaWrapper#dataADMob, .megaWrapper#dataSynthDMob,.megaWrapper#expandingDMob, .megaWrapper#reflectionDMob {
+                      .megaWrapper#planningDMob, .megaWrapper#dataCoDMob, .megaWrapper#dataAlDMob, .megaWrapper#dataSynthDMob, .megaWrapper#expandingDMob, .megaWrapper#reflectionDMob {
                         display: none;
-                      }
-                      #dataSynthD {
-                        display: inline;
                       }
                       .megaWrapper#planningD {
                         display: none;
@@ -1235,7 +1238,10 @@ height: 20vw;
                       .megaWrapper#chevvyMob {
                         display: inline;
                       }
-                      #chevvy {
+                      .megaWrapper#chevvy {
+                        display: none;
+                      }
+                      .megaWrapper#introD {
                         display: none;
                       }
                       .megaWrapper#defineMob {
@@ -1254,7 +1260,8 @@ height: 20vw;
                         display: none;
                       }
                       .megaWrapper#cardDSMob {
-                        display: inline;
+                        display: flex;
+                        justify-content: center;
                       }
                       .megaWrapper#cardDeskDS {
                         display: none;
@@ -1262,10 +1269,223 @@ height: 20vw;
                       .megaWrapper#cardDesk {
                         display: none;
                       }
+                      .megaWrapper#dataSynthDMob {
+                        display: none;
+                      }
                     }
 
                   /* iPhone 6/7/8 PLUS */
                   @media (min-width: 376px) and (max-width: 414px) { 
+                    div.navWordsMob {
+                      margin-top: 5vw;
+                      margin-bottom: 0vw;
+                    }
+                    .megaWrapper#planningDMob, .megaWrapper#dataCoDMob, .megaWrapper#dataAlDMob, .megaWrapper#dataSynthDMob, .megaWrapper#expandingDMob, .megaWrapper#reflectionDMob {
+                      display: none;
+                    }
+                    .megaWrapper#planningD {
+                      display: none;
+                    }
+                    .megaWrapper#introDMob {
+                      display: inline;
+                    }
+                    .megaWrapper#chevvyMob {
+                      display: inline;
+                    }
+                    .megaWrapper#chevvy {
+                      display: none;
+                    }
+                    .megaWrapper#introD {
+                      display: none;
+                    }
+                    .megaWrapper#defineMob {
+                      display: none;
+                    }
+                    .megaWrapper#ideateMob {
+                      display: none;
+                    }
+                    .megaWrapper#prototypeMob {
+                      display: none;
+                    }
+                    .megaWrapper#testMob {
+                      display: none;
+                    }
+                    .megaWrapper#finaleMob {
+                      display: none;
+                    }
+                    .megaWrapper#cardDSMob {
+                      display: flex;
+                      justify-content: center;
+                    }
+                    .megaWrapper#cardDeskDS {
+                      display: none;
+                    }
+                    .megaWrapper#cardDesk {
+                      display: none;
+                    }
+                    .megaWrapper#dataSynthDMob {
+                      display: none;
+                    }
+                    #tableSynthMob {
+                      text-align: center; 
+                      width: 90%; 
+                      margin-top: 2vw;
+                      margin-bottom: 2vw;
+                    }
+                    .affinityMapMob {
+                      display: inline;
+                    }
+                    .megaWrapper#dataAlDMob {
+                      display: none;
+                    }
+                    .megaWrapper#dataAlD {
+                      display: none;
+                    }
+                    #chevronNavigationDSMob {
+                      display: inline;
+                    }
+                    .megaWrapper#introDMob {
+                      display: inline;
+                    }
+                    #chevronNavigationDS {
+                      display: none;
+                    }
+                    #leftNudge {
+                      margin-left: 2.2vw;
+                    }
+                    img#bunnay {
+                        width: 22vw; 
+                        height: 14vw; 
+                        position: fixed; 
+                        z-index: 6; 
+                        margin-top: 6vw; 
+                        margin-left: -80vw;
+                    }
+                    .megaWrapper#cardMob {
+                      display: flex;
+                      justify-content: center;
+                    }
+                    .megaWrapper#chevronNavigationMobile {
+                      display: inline;
+                    }
+                    .megaWrapper#chevronNavigation {
+                      display: none;
+                    }
+                    .megaWrapper#dividerMobDefine {
+                      display: none;
+                    }
+                    .megaWrapper#introMob {
+                      display: inline;
+                    }
+                    .megaWrapper#research2Mob {
+                      display: none;
+                    }
+                    .megaWrapper#objectiveMob {
+                      display: none;
+                    }
+                    .megaWrapper#userQsMob {
+                      display: none;
+                    }
+                    .megaWrapper#stringMob {
+                      display: none;
+                    }
+                    .megaWrapper#dividerMobResearch3 {
+                      display: none;
+                    }
+                    .megaWrapper#userIntMob {
+                      display: none;
+                    }
+                    .megaWrapper#objectiveMob {
+                      display: none;
+                    }
+                    .megaWrapper#researchMob {
+                      display: none;
+                    }
+                    .megaWrapper#affinityMob {
+                      display: none;
+                    }
+                    .megaWrapper#dividerDefine {
+                      display: none;
+                    }
+                    .megaWrapper#ideateMob {
+                      display: none;
+                    }
+                    .megaWrapper#testMob {
+                      display: none;
+                    } 
+                    .megaWrapper#finaleMob {
+                      display: none;
+                    }
+                    .megaWrapper#define {
+                      display: none;
+                    }
+                    .megaWrapper#research2 {
+                      display: none;
+                    }
+                    .megaWrapper#research {
+                      display: none;
+                    }
+                    .megaWrapper#blurbsMob {
+                      display: none;
+                    }
+                    .megaWrapper#navMob3 {
+                      display: none;
+                    }
+                    .divider#navMob2 {
+                      display: none;
+                    }
+                    .megaWrapper#likesMob {
+                      display: none;
+                    }
+                    .megaWrapper#critsMob {
+                      display: none;
+                    }
+                    .megaWrapper#ideasMob {
+                      display: none;
+                    }
+                    .megaWrapper#qsMob {
+                      display: none;
+                    }
+                    .megaWrapper#compMob {
+                      display: none;
+                    }
+                    .megaWrapper#prototypeMob {
+                      display: none;
+                    }
+                    i#chevBack {
+                      transform: scale(2) scaleX(-1);
+                      margin-top: 2vw;
+                      margin-bottom: 4vw;
+                    }
+                    i#chevNext {
+                      transform: scale(2);
+                      margin-top: 2vw;
+                      margin-bottom: 4vw;
+                      color: white;
+                    }
+                    .megaWrapper#logoTableMob {
+                      display: none;
+                    }
+                    .flexBoxMob#likesMobile, .flexBoxMob#critsMobile, .flexBoxMob#qsMobile, .flexBoxMob#ideasMobile {
+                      height: 92.1vw; 
+                      width: 92.1vw;  
+                      display: inline;
+                    }
+                    #blurbsMob {
+                      display: inline;
+                    }
+                    .megaWrapper#compAl {
+                      display: inline;
+                    }
+                    .megaWrapper#shouldersMob {
+                      display: none;
+                    }
+                    .megaWrapper#dividerMobIntro, .megaWrapper#dividerMobIntroD {
+                      display: inline;
+                    } 
+                    .megaWrapper#intro {
+                      display: none;
+                    }
                     #parallax {
                       display: none;
                     }
@@ -1487,6 +1707,8 @@ height: 20vw;
                   .contactBubble.clicked {
                     display: none;
                   }
+
+
                   }
 
                                                             /* Galaxy S5/ Moto G4 */
@@ -3370,7 +3592,7 @@ img {
 /* Reflectly */
 #reflectlyBlurb {
   background: black; 
-  background-image: url(images/roundBlurb.png); 
+  background-image: url(images/reflectlyBlurb.png); 
   background-position: center; 
   background-size: cover;
 }
@@ -3826,11 +4048,11 @@ img {
   display: none;
 }
 
-#planningD, #dataCoD, #dataAD, #dataSynthD, #expandingD, #reflectionD {
+#planningD, #dataCoD, #dataAlD, #dataSynthD, #expandingD, #reflectionD {
   display: none;
 }
 
-#planningDMob, #dataCoDMob, #dataADMob, #expandingDMob, #reflectionDMob {
+#planningDMob, #dataCoDMob, #dataAlDMob, #expandingDMob, #dataSynthDMob, #reflectionDMob {
   display: none;
 }
 
@@ -3975,16 +4197,16 @@ width: 65vw;
   margin-top: 69vw;
 }
 
-.fuzzBox {
+/* .fuzzBox {
   width: 90.5%;
   height: 59.385vw;
   background: rgba(255,255,255, .75); 
   position: absolute;
   z-index: 2;
   margin-top: 1vw;
-}
+} */
 
-.personaBox {
+/* .personaBox {
   width: 76.505vw;
   height: 59.385vw;
   position: absolute;
@@ -3993,9 +4215,9 @@ width: 65vw;
   background-position: center;
   background-size: cover;
   margin-top: 1vw; 
-}
+} */
 
-.personaBoxMob {
+/* .personaBoxMob {
   width: 229.5vw;
   height: 178.2vw;
   position: absolute;
@@ -4004,8 +4226,8 @@ width: 65vw;
   background-position: center;
   background-size: cover;
   margin-top: 3vw; 
-}
-
+} */
+/* 
 #outie {
   color: black;
   margin-top: 2vw;
@@ -4014,7 +4236,7 @@ width: 65vw;
   font-size: 3vw;
   margin-left: 6.5vw;
   cursor: pointer;
-}
+} */
 
 body {
   scroll-behavior: smooth;
@@ -4059,7 +4281,11 @@ body {
   display: none;
 }
 
-#researchMob, #defineMob, #ideateMob, #prototypeMob, #testMob, #finaleMob {
+#researchMob, #ideateMob, #prototypeMob, #testMob, #finaleMob {
+  display: none;
+}
+
+#defineMob {
   display: none;
 }
 
@@ -4149,7 +4375,7 @@ html {
 }
 
 
-#cardMob{
+#cardMob {
   display: none;
 }
 
@@ -4213,10 +4439,6 @@ html {
 }
 
 
-#dataSynthDMob {
-  display: none;
-}
-
 #introD {
   display: inline;
 }
@@ -4224,6 +4446,15 @@ html {
 #introDS {
   display: inline;
 }
+
+#theFOOT {
+  bottom: 0;
+  width: 100%;
+  height:auto;
+  margin-top: 5vw;
+}
+
+
 /* .affinityMap#feedbackTable {
   display: none;
 } */
