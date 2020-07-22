@@ -847,6 +847,13 @@ height: 20vw;
 
                      /* iPhone 6/7/8 */
                       @media (max-width: 375px){
+                        .boxTextMob {
+                          font-family: 'Muli', sans-serif;
+                          letter-spacing: .12vw;
+                          font-size: 4.5vw;
+                          /* color: #f1f1f1; */
+                          padding: 4vw;
+                        }
                         #tableSynthMob {
                           text-align: center; 
                           width: 90%; 
@@ -1276,6 +1283,13 @@ height: 20vw;
 
                   /* iPhone 6/7/8 PLUS */
                   @media (min-width: 376px) and (max-width: 414px) { 
+                    .boxTextMob {
+                      font-family: 'Muli', sans-serif;
+                      letter-spacing: .12vw;
+                      font-size: 4.5vw;
+                      /* color: #f1f1f1; */
+                      padding: 4vw;
+                    }
                     div.navWordsMob {
                       margin-top: 5vw;
                       margin-bottom: 0vw;
@@ -4454,111 +4468,3 @@ html {
   margin-top: 5vw;
 }
 
-
-/* .affinityMap#feedbackTable {
-  display: none;
-} */
-
-/* <!-- Ideate Desktop -->
-<div class="megaWrapper" id="ideate">
-    <div class="thankBox d-flex flex-row justify-content-center">
-        <div class="thankYou">
-            COMING SOON.
-        </div>
-    </div>
-    <div class="megaWrapper">
-        <div class="divider d-flex flex-row justify-content-center">
-            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toDefine()"></i>
-                <div class="navWords">
-                    BACK 
-                </div>
-                <div id="stretch">
-                </div> 
-                <div class="navWords">
-                    NEXT 
-                </div>
-            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toPrototype()"></i>
-        </div>
-    </div>
-</div>
-
-<!-- Ideate Mobile -->
-
-
-<!-- Prototype Desktop -->
-<div class="megaWrapper" id="prototype">
-    <div class="thankBox d-flex flex-row justify-content-center">
-        <div class="thankYou">
-            COMING SOON.
-        </div>
-    </div>
-    <div class="megaWrapper">
-        <div class="divider d-flex flex-row justify-content-center">
-            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toIdeate()"></i>
-                <div class="navWords">
-                    BACK 
-                </div>
-                <div id="stretch">
-                </div> 
-                <div class="navWords">
-                    NEXT 
-                </div>
-            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toTest()"></i>
-        </div>
-    </div>
-</div>
-
-<!-- Prototype Mobile -->
-
-
-<!-- Test Desktop -->
-<div class="megaWrapper" id="test">
-    <div class="thankBox d-flex flex-row justify-content-center">
-        <div class="thankYou">
-            COMING SOON.
-        </div>
-    </div>
-    <div class="megaWrapper">
-        <div class="divider d-flex flex-row justify-content-center">
-            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toPrototype()"></i>
-                <div class="navWords">
-                    BACK 
-                </div>
-                <div id="stretch">
-                </div> 
-                <div class="navWords">
-                    NEXT 
-                </div>
-            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toFinale()"></i>
-        </div>
-    </div>
-</div>
-
-
-<!-- Test Mobile -->
-
-<!-- Finale Desktop -->
-<div class="megaWrapper" id="finale">
-    <div class="thankBox d-flex flex-row justify-content-center">
-        <div class="thankYou">
-            COMING SOON.
-        </div>
-    </div>
-    <div class="megaWrapper">
-        <div class="divider d-flex flex-row justify-content-center">
-            <i class="fas fa-chevron-circle-right" id="chevBack" onclick="toPrototype()"></i>
-                <div class="navWords">
-                    BACK 
-                </div>
-                <div id="stretch">
-                </div> 
-                <div class="navWords">
-                    NEXT 
-                </div>
-            <i class="fas fa-chevron-circle-right" id="chevNext" onclick="toDefineMob()"></i>
-        </div>
-    </div>
-</div>
-       
-<!-- Finale Mobile -->
-</div> */
